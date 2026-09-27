@@ -89,8 +89,20 @@ def validate_corpus():
 
 
 def validate_duplicates():
+    """Exact text reuse across distinct canonical IDs is reported, not fatal.
+
+    CBETA and other historical corpora can legitimately repeat the same editorial
+    notice or work in multiple collections/volumes. Duplicate *book IDs* are still
+    rejected by validate_metadata(); exact-content groups remain recorded in
+    metadata/duplicate-groups.json for review.
+    """
     data = json.loads((ROOT / "metadata/duplicate-groups.json").read_text(encoding="utf-8"))
-    return [f"exact duplicate group: {group['books']}" for group in data["exact_groups"]]
+    malformed = []
+    for group in data.get("exact_groups", []):
+        ids = group.get("books", [])
+        if len(ids) != len(set(ids)):
+            malformed.append(f"duplicate ID inside exact group: {ids}")
+    return malformed
 
 
 def validate_indexes():
