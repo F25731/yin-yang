@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Kanripo 七个指定仓库 | ATTRIBUTION_REQUIRED | [Kanripo 组织授权说明](https://github.com/kanripo)（CC BY-SA 4.0）；各仓库无独立 LICENSE | 保留出处、commit、版本与改动说明后导入 |
 | kr5-corpus | ATTRIBUTION_REQUIRED | [README](https://github.com/tokushige-koyasan/kr5-corpus)、LICENSE、NOTICE_KANRIPO.md：CC BY-SA 4.0 | 导入，保留双重署名和公告 |
-| CBETA xml-p5 | NONCOMMERCIAL_OR_RESTRICTED | [CBETA 版权宣告](https://cbeta.org/copyright)：通用 CC BY-NC-SA 4.0，底本例外；[项目 README](https://github.com/cbeta-org/xml-p5) 指向该条款 | 暂只登记来源；逐册筛查后方可选取可再分发文本 |
+| CBETA xml-p5 | NONCOMMERCIAL_OR_RESTRICTED | [CBETA 版权宣告](https://cbeta.org/copyright)：通用 CC BY-NC-SA 4.0，底本例外；T01 各 XML 的 `<availability>` 明示仅限非商业并要求保留原 header | 仅导入 T01 的 98 部；逐文件检查 `<availability>`，并在 `sources/provenance/cbeta/` 保存每部原始 `teiHeader`。其他部类待逐册审计 |
 | yaya | UNCLEAR | [仓库](https://github.com/dreamsxin/yaya)无 LICENSE，README 未声明全文再分发权，且多为读书笔记 | 不提交正文 |
 | xuanxue | UNCLEAR | [仓库](https://github.com/youngzs/xuanxue)无 LICENSE，README 无全文再分发声明 | 不提交正文 |
 
