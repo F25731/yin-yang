@@ -6749,6 +6749,28 @@
 
 - [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 
+## wikisource-zhiguai-bulk
+
+- [冥報記](<../corpus/01-志怪神异/冥報記/README.md>) — `wikisource-zhiguai-849902c8bfc8`
+- [剪燈新話](<../corpus/01-志怪神异/剪燈新話/README.md>) — `wikisource-zhiguai-de347e01199c`
+- [剪燈餘話](<../corpus/01-志怪神异/剪燈餘話/README.md>) — `wikisource-zhiguai-3e67a497d191`
+- [夜譚隨錄](<../corpus/01-志怪神异/夜譚隨錄/README.md>) — `wikisource-zhiguai-73d99a732221`
+- [夷堅志](<../corpus/01-志怪神异/夷堅志/README.md>) — `wikisource-zhiguai-0a4cb4f58d35`
+- [子不語](<../corpus/01-志怪神异/子不語/README.md>) — `wikisource-zhiguai-74674d06d0e0`
+- [宣室志](<../corpus/01-志怪神异/宣室志/README.md>) — `wikisource-zhiguai-5c8b73d16ac9`
+- [幽明錄](<../corpus/01-志怪神异/幽明錄/README.md>) — `wikisource-zhiguai-923c7f67eed1`
+- [廣異記](<../corpus/01-志怪神异/廣異記/README.md>) — `wikisource-zhiguai-0b3f5c43aa96`
+- [拾遺記](<../corpus/01-志怪神异/拾遺記/README.md>) — `wikisource-zhiguai-b248dfcb477b`
+- [朝野僉載](<../corpus/01-志怪神异/朝野僉載/README.md>) — `wikisource-zhiguai-af5d1903fa41`
+- [獨異志](<../corpus/01-志怪神异/獨異志/README.md>) — `wikisource-zhiguai-f200de737082`
+- [玄怪錄](<../corpus/01-志怪神异/玄怪錄/README.md>) — `wikisource-zhiguai-f15188111a49`
+- [異苑](<../corpus/01-志怪神异/異苑/README.md>) — `wikisource-zhiguai-c80ba6ec8eea`
+- [神異經](<../corpus/01-志怪神异/神異經/README.md>) — `wikisource-zhiguai-f74be8feb1dc`
+- [耳食錄](<../corpus/01-志怪神异/耳食錄/README.md>) — `wikisource-zhiguai-cf702d4c9cb0`
+- [螢窗異草](<../corpus/01-志怪神异/螢窗異草/README.md>) — `wikisource-zhiguai-9b7230438665`
+- [酉陽雜俎](<../corpus/01-志怪神异/酉陽雜俎/README.md>) — `wikisource-zhiguai-c612fa8dc466`
+- [集異記](<../corpus/01-志怪神异/集異記/README.md>) — `wikisource-zhiguai-df50dcf25349`
+
 ## xuanxue
 
 - [五行大义](<../corpus/04-阴阳术数/02-八字四柱/五行大义/README.md>) — `xuanxue-a7b22154f673`

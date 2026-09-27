@@ -257,6 +257,11 @@
 - [黃籙九幽醮無礙夜齋次第儀](<../corpus/02-道藏/洞玄部/黃籙九幽醮無礙夜齋次第儀/README.md>) — `KR5b0217`
 - [黃籙救苦十齋轉經儀](<../corpus/02-道藏/洞玄部/黃籙救苦十齋轉經儀/README.md>) — `KR5b0212`
 
+## 南朝宋
+
+- [幽明錄](<../corpus/01-志怪神异/幽明錄/README.md>) — `wikisource-zhiguai-923c7f67eed1`
+- [異苑](<../corpus/01-志怪神异/異苑/README.md>) — `wikisource-zhiguai-c80ba6ec8eea`
+
 ## 周
 
 - [文子](<../corpus/02-道藏/洞神部/文子/README.md>) — `KR5c0118`
@@ -317,6 +322,7 @@
 - [元始洞真慈善孝子報恩成道經](<../corpus/02-道藏/洞真部/元始洞真慈善孝子報恩成道經/README.md>) — `KR5a0066`
 - [元始高上玉檢大錄](<../corpus/02-道藏/洞真部/元始高上玉檢大錄/README.md>) — `KR5a0169`
 - [先天玄妙玉女太上聖母資傳仙道](<../corpus/02-道藏/洞神部/先天玄妙玉女太上聖母資傳仙道/README.md>) — `KR5c0265`
+- [冥報記](<../corpus/01-志怪神异/冥報記/README.md>) — `wikisource-zhiguai-849902c8bfc8`
 - [北斗九皇隱諱經](<../corpus/02-道藏/续道藏/北斗九皇隱諱經/README.md>) — `KR5h0025`
 - [周易參同契(一)](<../corpus/02-道藏/太玄部/周易參同契(一)/README.md>) — `KR5d0016`
 - [唐玄宗御製道德真經疏(一)](<../corpus/02-道藏/洞神部/唐玄宗御製道德真經疏(一)/README.md>) — `KR5c0060`
@@ -409,6 +415,8 @@
 - [太清調氣經](<../corpus/02-道藏/洞神部/太清調氣經/README.md>) — `KR5c0217`
 - [太清道林攝生論](<../corpus/02-道藏/正一部/太清道林攝生論/README.md>) — `KR5g0236`
 - [太玄八景籙](<../corpus/02-道藏/洞真部/太玄八景籙/README.md>) — `KR5a0259`
+- [宣室志](<../corpus/01-志怪神异/宣室志/README.md>) — `wikisource-zhiguai-5c8b73d16ac9`
+- [廣異記](<../corpus/01-志怪神异/廣異記/README.md>) — `wikisource-zhiguai-0b3f5c43aa96`
 - [彭祖攝生養性論](<../corpus/02-道藏/洞神部/彭祖攝生養性論/README.md>) — `KR5c0237`
 - [思印氣訣法](<../corpus/02-道藏/洞神部/思印氣訣法/README.md>) — `KR5c0266`
 - [抱朴子別旨](<../corpus/02-道藏/太清部/抱朴子別旨/README.md>) — `KR5f0020`
@@ -416,6 +424,7 @@
 - [撼龍經](<../corpus/04-阴阳术数/09-风水堪舆/撼龍經/README.md>) — `kanripo-KR3g0021`
 - [攝生纂錄](<../corpus/02-道藏/洞玄部/攝生纂錄/README.md>) — `KR5b0283`
 - [新雕洞靈眞經](<../corpus/02-道藏/洞神部/新雕洞靈眞經/README.md>) — `KR5c0142`
+- [朝野僉載](<../corpus/01-志怪神异/朝野僉載/README.md>) — `wikisource-zhiguai-af5d1903fa41`
 - [枕中經](<../corpus/02-道藏/正一部/枕中經/README.md>) — `KR5g0231`
 - [枕中記](<../corpus/02-道藏/洞神部/枕中記/README.md>) — `KR5c0234`
 - [正一修真略儀](<../corpus/02-道藏/正一部/正一修真略儀/README.md>) — `KR5g0048`
@@ -452,7 +461,9 @@
 - [洞真高上玉帝大洞雌一玉檢五老寶經](<../corpus/02-道藏/正一部/洞真高上玉帝大洞雌一玉檢五老寶經/README.md>) — `KR5g0122`
 - [無上三天法師說廕育眾生妙經](<../corpus/02-道藏/正一部/無上三天法師說廕育眾生妙經/README.md>) — `KR5g0006`
 - [無上大乘要訣妙經](<../corpus/02-道藏/洞真部/無上大乘要訣妙經/README.md>) — `KR5a0058`
+- [獨異志](<../corpus/01-志怪神异/獨異志/README.md>) — `wikisource-zhiguai-f200de737082`
 - [玄圃山靈\[匚@金\]祕錄](<../corpus/02-道藏/洞玄部/玄圃山靈[匚@金]祕錄/README.md>) — `KR5b0285`
+- [玄怪錄](<../corpus/01-志怪神异/玄怪錄/README.md>) — `wikisource-zhiguai-f15188111a49`
 - [玄珠心鏡註](<../corpus/02-道藏/洞玄部/玄珠心鏡註（KR5b0280）/README.md>) — `KR5b0280`
 - [玄門十事威儀](<../corpus/02-道藏/洞神部/玄門十事威儀/README.md>) — `KR5c0189`
 - [玄霜掌上錄](<../corpus/02-道藏/洞神部/玄霜掌上錄/README.md>) — `KR5c0345`
@@ -480,10 +491,12 @@
 - [道典論](<../corpus/02-道藏/太平部/道典論/README.md>) — `KR5e0032`
 - [道德真經疏義(二)](<../corpus/02-道藏/洞神部/道德真經疏義(二)/README.md>) — `KR5c0108`
 - [道德篇章玄頌](<../corpus/02-道藏/洞神部/道德篇章玄頌/README.md>) — `KR5c0377`
+- [酉陽雜俎](<../corpus/01-志怪神异/酉陽雜俎/README.md>) — `wikisource-zhiguai-c612fa8dc466`
 - [金木萬靈論](<../corpus/02-道藏/洞神部/金木萬靈論/README.md>) — `KR5c0340`
 - [金闕帝君三元真一經](<../corpus/02-道藏/洞真部/金闕帝君三元真一經/README.md>) — `KR5a0254`
 - [鉛汞甲庚至寶集成](<../corpus/02-道藏/洞神部/鉛汞甲庚至寶集成/README.md>) — `KR5c0319`
 - [長生胎元神用經](<../corpus/02-道藏/正一部/長生胎元神用經/README.md>) — `KR5g0214`
+- [集異記](<../corpus/01-志怪神异/集異記/README.md>) — `wikisource-zhiguai-df50dcf25349`
 - [雲笈七籤](<../corpus/02-道藏/太玄部/雲笈七籤/README.md>) — `KR5d0055`
 - [靈寶九幽長夜起尸度亡玄章](<../corpus/02-道藏/洞玄部/靈寶九幽長夜起尸度亡玄章/README.md>) — `KR5b0315`
 - [靈寶半景齋儀](<../corpus/02-道藏/洞玄部/靈寶半景齋儀/README.md>) — `KR5b0220`
@@ -566,6 +579,7 @@
 - [太上靈寶芝草品](<../corpus/02-道藏/正一部/太上靈寶芝草品/README.md>) — `KR5g0215`
 - [太平廣記](<../corpus/01-志怪神异/太平廣記/README.md>) — `kanripo-KR3l0118`
 - [太玄寶典](<../corpus/02-道藏/太玄部/太玄寶典/README.md>) — `KR5d0057`
+- [夷堅志](<../corpus/01-志怪神异/夷堅志/README.md>) — `wikisource-zhiguai-0a4cb4f58d35`
 - [夷堅志甲](<../corpus/01-志怪神异/夷堅志甲/README.md>) — `kanripo-KR3l0122`
 - [宋徽宗御解道德真經](<../corpus/02-道藏/洞神部/宋徽宗御解道德真經/README.md>) — `KR5c0063`
 - [宋真宗御製玉京集](<../corpus/02-道藏/洞真部/宋真宗御製玉京集/README.md>) — `KR5a0327`
@@ -623,6 +637,8 @@
 - [三命通會](<../corpus/04-阴阳术数/02-八字四柱/三命通會/README.md>) — `kanripo-KR3g0042`
 - [伏魔經壇謝恩醮儀](<../corpus/02-道藏/正一部/伏魔經壇謝恩醮儀/README.md>) — `KR5g0223`
 - [元始天尊說北方真武妙經](<../corpus/02-道藏/洞真部/元始天尊說北方真武妙經/README.md>) — `KR5a0027`
+- [剪燈新話](<../corpus/01-志怪神异/剪燈新話/README.md>) — `wikisource-zhiguai-de347e01199c`
+- [剪燈餘話](<../corpus/01-志怪神异/剪燈餘話/README.md>) — `wikisource-zhiguai-3e67a497d191`
 - [北帝伏魔經法建壇儀](<../corpus/02-道藏/正一部/北帝伏魔經法建壇儀/README.md>) — `KR5g0222`
 - [北帝說豁落七元經](<../corpus/02-道藏/正一部/北帝說豁落七元經/README.md>) — `KR5g0224`
 - [北極真武佑聖真君禮文](<../corpus/02-道藏/洞神部/北極真武佑聖真君禮文/README.md>) — `KR5c0213`
@@ -682,6 +698,7 @@
 
 ## 晉
 
+- [拾遺記](<../corpus/01-志怪神异/拾遺記/README.md>) — `wikisource-zhiguai-b248dfcb477b`
 - [玉照定眞經](<../corpus/04-阴阳术数/02-八字四柱/玉照定眞經/README.md>) — `kanripo-KR3g0034`
 - [神仙傳](<../corpus/02-道藏/洞神部/神仙傳/README.md>) — `KR5c0317`
 - [莊子注](<../corpus/02-道藏/洞神部/莊子注/README.md>) — `KR5c0138`
@@ -6773,10 +6790,14 @@
 
 - [六壬大全](<../corpus/04-阴阳术数/07-大六壬/六壬大全/README.md>) — `kanripo-KR3g0031`
 - [卜法詳考](<../corpus/04-阴阳术数/12-卜筮/卜法詳考/README.md>) — `kanripo-KR3g0032`
+- [夜譚隨錄](<../corpus/01-志怪神异/夜譚隨錄/README.md>) — `wikisource-zhiguai-73d99a732221`
+- [子不語](<../corpus/01-志怪神异/子不語/README.md>) — `wikisource-zhiguai-74674d06d0e0`
 - [御定道德經註](<../corpus/02-道藏/洞神部/御定道德經註/README.md>) — `KR5c0384`
 - [欽定協紀辨方書](<../corpus/04-阴阳术数/10-择日/欽定協紀辨方書/README.md>) — `kanripo-KR3g0051`
 - [老子說畧](<../corpus/02-道藏/洞神部/老子說畧/README.md>) — `KR5c0385`
+- [耳食錄](<../corpus/01-志怪神异/耳食錄/README.md>) — `wikisource-zhiguai-cf702d4c9cb0`
 - [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
+- [螢窗異草](<../corpus/01-志怪神异/螢窗異草/README.md>) — `wikisource-zhiguai-9b7230438665`
 - [道德經註](<../corpus/02-道藏/洞神部/道德經註/README.md>) — `KR5c0077`
 - [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
 
@@ -6784,6 +6805,7 @@
 
 - [京氏易傳](<../corpus/04-阴阳术数/12-卜筮/京氏易傳/README.md>) — `kanripo-KR3g0030`
 - [焦氏易林](<../corpus/04-阴阳术数/12-卜筮/焦氏易林/README.md>) — `kanripo-KR3g0029`
+- [神異經](<../corpus/01-志怪神异/神異經/README.md>) — `wikisource-zhiguai-f74be8feb1dc`
 - [靈棋經](<../corpus/04-阴阳术数/12-卜筮/靈棋經/README.md>) — `kanripo-KR3g0028`
 - [黃帝龍首經](<../corpus/02-道藏/洞真部/黃帝龍首經/README.md>) — `KR5a0295`
 

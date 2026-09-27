@@ -1,9 +1,9 @@
 {
-  "books": 6682,
-  "chapters": 26135,
-  "characters": 325570230,
+  "books": 6701,
+  "chapters": 26521,
+  "characters": 328476747,
   "major_categories": {
-    "志怪神异": 9,
+    "志怪神异": 28,
     "道藏": 1650,
     "佛藏": 4917,
     "阴阳术数": 106,
@@ -28,7 +28,7 @@
     "宝积": 51,
     "密教": 614,
     "律部": 87,
-    "志怪神异": 9,
+    "志怪神异": 28,
     "择日": 1,
     "本缘": 72,
     "梅花易数": 3,
@@ -99,11 +99,12 @@
     "wikisource-qimenbaojian": 1,
     "wikisource-yuewei": 1,
     "wikisource-zengshan": 1,
+    "wikisource-zhiguai-bulk": 19,
     "xuanxue": 71
   },
   "quality_grades": {
     "B": 4954,
-    "C": 5,
+    "C": 24,
     "D": 1723
   },
   "exact_duplicate_groups": 5,

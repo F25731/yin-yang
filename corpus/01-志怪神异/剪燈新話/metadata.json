@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-zhiguai-de347e01199c",
+  "title": "剪燈新話",
+  "aliases": [],
+  "author": "瞿佑",
+  "author_dynasty": null,
+  "work_dynasty": "明",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [
+    "傳奇",
+    "志怪",
+    "鬼怪",
+    "志怪神异"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "中文維基文庫渲染文本",
+    "base_text": null,
+    "volume_count": 16,
+    "snapshot": "40ac363feb197173ea907e4bd127bf9846bdc885"
+  },
+  "source": {
+    "source_id": "wikisource-zhiguai-bulk",
+    "repository": "https://zh.wikisource.org/",
+    "commit": "40ac363feb197173ea907e4bd127bf9846bdc885",
+    "original_path": [
+      "剪燈新話/0",
+      "剪燈新話/1",
+      "剪燈新話/2",
+      "剪燈新話/3",
+      "剪燈新話/4",
+      "剪燈新話/5",
+      "剪燈新話/序",
+      "剪燈新話/附錄"
+    ],
+    "upstream_url": "https://zh.wikisource.org/"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed navigation/edit controls; converted headings to Markdown; preserved rendered wording"
+  },
+  "statistics": {
+    "characters": 52993,
+    "chapters": 8
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Wikisource transcription not independently collated by this project",
+      "Rendered-page cleanup may omit navigation/editorial apparatus"
+    ]
+  },
+  "original_format": "MediaWiki rendered HTML",
+  "current_format": "text/markdown; charset=utf-8"
+}

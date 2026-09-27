@@ -1,0 +1,1975 @@
+{
+  "snapshot": "40ac363feb197173ea907e4bd127bf9846bdc885",
+  "pages": [
+    {
+      "title": "神異經",
+      "revid": 2329253,
+      "sha1": "bbe9c6997f49455986775ad6896a585b78c63f59"
+    },
+    {
+      "title": "拾遺記/卷一",
+      "revid": 2354171,
+      "sha1": "3b3df55f29ad2c41772d34ae48772a36969a8e20"
+    },
+    {
+      "title": "拾遺記/卷七",
+      "revid": 513850,
+      "sha1": "82c7e9917c9adc80d8b62addd0bb5abd2cf71b02"
+    },
+    {
+      "title": "拾遺記/卷三",
+      "revid": 2063662,
+      "sha1": "282c80729616e9b405fd8eefe27c578ea25fc33f"
+    },
+    {
+      "title": "拾遺記/卷九",
+      "revid": 2004599,
+      "sha1": "d2b8b2b75d27b143d0f279a57fd41f7b368565c5"
+    },
+    {
+      "title": "拾遺記/卷二",
+      "revid": 7904586,
+      "sha1": "c7b273a45451f0f099c0c6c6e5eee6fc8bfedd6e"
+    },
+    {
+      "title": "拾遺記/卷五",
+      "revid": 1965966,
+      "sha1": "cb49fbc080f740fda074ee796e21b1306ba0b397"
+    },
+    {
+      "title": "拾遺記/卷八",
+      "revid": 2115431,
+      "sha1": "4f89d9c673d9592c3d991130edd04ffe8c7a31a3"
+    },
+    {
+      "title": "拾遺記/卷六",
+      "revid": 7904645,
+      "sha1": "65a7b48da436e5966b960dfc585eb9f77b601376"
+    },
+    {
+      "title": "拾遺記/卷十",
+      "revid": 1964083,
+      "sha1": "ac5472ba12fe031349e11a4e3432dbb1e7f16460"
+    },
+    {
+      "title": "拾遺記/卷四",
+      "revid": 513848,
+      "sha1": "da72adbe40593051bb70b1145c67c7d1de32e8d5"
+    },
+    {
+      "title": "酉陽雜俎/卷一",
+      "revid": 2086696,
+      "sha1": "74a48f79c65eec92c8a9503ce853fde3bb9214ac"
+    },
+    {
+      "title": "酉陽雜俎/卷七",
+      "revid": 1484296,
+      "sha1": "1477a7201dde7c12dcf09a5d2644a32a7015f1bb"
+    },
+    {
+      "title": "酉陽雜俎/卷三",
+      "revid": 2618721,
+      "sha1": "31ef8e76b74f050c56bf75ce7ea27dbf0b7f72ab"
+    },
+    {
+      "title": "酉陽雜俎/卷九",
+      "revid": 2621868,
+      "sha1": "069ad9fd5b6c67b9a804af2e00ccada4212d4a98"
+    },
+    {
+      "title": "酉陽雜俎/卷二",
+      "revid": 2634249,
+      "sha1": "20b8c1d04581b57cd2b746b3c0d89dad56422e23"
+    },
+    {
+      "title": "酉陽雜俎/卷二十",
+      "revid": 1483939,
+      "sha1": "85ff13f9e0379a1ad836e59e00378bde24469ce5"
+    },
+    {
+      "title": "酉陽雜俎/卷五",
+      "revid": 1749749,
+      "sha1": "d9b81a3b91267f77e50f0c93a73b00dba1fcf6e3"
+    },
+    {
+      "title": "酉陽雜俎/卷八",
+      "revid": 2606191,
+      "sha1": "f7d038ca1572f7feb7f88e3c4af1894d06e3952c"
+    },
+    {
+      "title": "酉陽雜俎/卷六",
+      "revid": 1568756,
+      "sha1": "10442dea8e0b1c6aaa3a173fa2a785c774e61d60"
+    },
+    {
+      "title": "酉陽雜俎/卷十",
+      "revid": 2618706,
+      "sha1": "2f3ab8d259fcc8916696bb003ed1f8066f85fca8"
+    },
+    {
+      "title": "酉陽雜俎/卷十一",
+      "revid": 2399633,
+      "sha1": "6d0514960c757b32bcd7f4d5f010391c99bbf5f8"
+    },
+    {
+      "title": "酉陽雜俎/卷十七",
+      "revid": 2618538,
+      "sha1": "da2f9785079b1d33af0d39d3c0f7ab8333093ee4"
+    },
+    {
+      "title": "酉陽雜俎/卷十三",
+      "revid": 2601935,
+      "sha1": "6d387f4f622514681caec1c1e61ec1f9e8287a4f"
+    },
+    {
+      "title": "酉陽雜俎/卷十九",
+      "revid": 1511048,
+      "sha1": "1a7ddca599dfeb84b4d5134d4e4e193df0359721"
+    },
+    {
+      "title": "酉陽雜俎/卷十二",
+      "revid": 2109683,
+      "sha1": "24c638b579a6cf4e1c4112a0c4f4cb93ca19638e"
+    },
+    {
+      "title": "酉陽雜俎/卷十五",
+      "revid": 2609279,
+      "sha1": "6465f7810f030d31abc1e7eaf40a9db33fac1982"
+    },
+    {
+      "title": "酉陽雜俎/卷十八",
+      "revid": 2030073,
+      "sha1": "0f189df4e8dd0f43c5d06637e9e59e1d99575690"
+    },
+    {
+      "title": "酉陽雜俎/卷十六",
+      "revid": 1458290,
+      "sha1": "bf8a1cf856362bd0942df9037cc5a2d0dab8d3f4"
+    },
+    {
+      "title": "酉陽雜俎/卷十四",
+      "revid": 2605992,
+      "sha1": "e525d0d335fd2959f20d23f833f57a769492abf6"
+    },
+    {
+      "title": "酉陽雜俎/卷四",
+      "revid": 1375110,
+      "sha1": "649d7163765a91c7df7dad90fa9e11cc958ba31c"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷一",
+      "revid": 2621908,
+      "sha1": "b4b479f62d1ed44c2dcfe11bdd204d5017708c69"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷七",
+      "revid": 2630358,
+      "sha1": "27f234104d09be5b509e887f8cbebf17a384f9c0"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷三",
+      "revid": 1546129,
+      "sha1": "db716d5343c0ea239ba435f59e2b86f326104f1d"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷九",
+      "revid": 2618571,
+      "sha1": "cdfac25a02a38206de3b270b02cd90148541c40b"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷二",
+      "revid": 2675347,
+      "sha1": "a69c3772059125b2058beccb85926ccaaf5b3c6f"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷五",
+      "revid": 2600677,
+      "sha1": "e31f7363151abd40580f5e90c69fd515b715288f"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷八",
+      "revid": 2631911,
+      "sha1": "00bfa0e0c6c2389d9bad01aca2379bd493f6135c"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷六",
+      "revid": 2605296,
+      "sha1": "d64dac672c193dfce71269f4f9f08e80aa9ea863"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷十",
+      "revid": 1754685,
+      "sha1": "3572c03217c2b7d4dbbcf3392d45ab36496eca3e"
+    },
+    {
+      "title": "酉陽雜俎/續集/卷四",
+      "revid": 2602152,
+      "sha1": "6d3c0420b5b9998cfa231cffd97ba4b6d0515e13"
+    },
+    {
+      "title": "酉陽雜俎/酉陽雜俎序",
+      "revid": 394865,
+      "sha1": "60da7d3c264a35a424fe57c34c62013d6b7f762f"
+    },
+    {
+      "title": "夷堅志/丁卷01",
+      "revid": 2142525,
+      "sha1": "87f52038758d5f049fcbd84c1657b3938d2a9a00"
+    },
+    {
+      "title": "夷堅志/丁卷02",
+      "revid": 2142528,
+      "sha1": "9a3fb4f412d30533400e6c4b2545e6a1ea3e93dc"
+    },
+    {
+      "title": "夷堅志/丁卷03",
+      "revid": 2142529,
+      "sha1": "5e5d3bad4a86127ff63dacd8c9ee76c08e2582d0"
+    },
+    {
+      "title": "夷堅志/丁卷04",
+      "revid": 2650543,
+      "sha1": "81860ab25299b853a569c831ec95f3f3f418016f"
+    },
+    {
+      "title": "夷堅志/丁卷05",
+      "revid": 2142531,
+      "sha1": "ba47b9efb2819c52dd3770ee62823dfe49f31023"
+    },
+    {
+      "title": "夷堅志/丁卷06",
+      "revid": 2142533,
+      "sha1": "28e5d512b74f4331d7a0bb9a37c8b44cc5150c7c"
+    },
+    {
+      "title": "夷堅志/丁卷07",
+      "revid": 2142534,
+      "sha1": "e9e3d8c239037f6f8df36bbd031ff1863440883e"
+    },
+    {
+      "title": "夷堅志/丁卷08",
+      "revid": 2142738,
+      "sha1": "5469a0a1149c19969e7b60a0b15c5add07a18f21"
+    },
+    {
+      "title": "夷堅志/丁卷09",
+      "revid": 1477496,
+      "sha1": "634e03fd97b487a257deb21c7a6975c1a3b7a7a4"
+    },
+    {
+      "title": "夷堅志/丁卷10",
+      "revid": 2143566,
+      "sha1": "31e447d22a9febcde0efabf3e7651cba50a90e76"
+    },
+    {
+      "title": "夷堅志/丁卷11",
+      "revid": 2143570,
+      "sha1": "4347570b87082e9853aacb85bba4c5dabd026623"
+    },
+    {
+      "title": "夷堅志/丁卷12",
+      "revid": 2143581,
+      "sha1": "a794d02644981d5aedca7f4c6af4a4d6693f434b"
+    },
+    {
+      "title": "夷堅志/丁卷13",
+      "revid": 2401800,
+      "sha1": "e0deac45475740b065f7edac751fda8ff62c8c32"
+    },
+    {
+      "title": "夷堅志/丁卷14",
+      "revid": 2143605,
+      "sha1": "696fa508d1fb74971df4eeb8dd99bf6cbf311960"
+    },
+    {
+      "title": "夷堅志/丁卷15",
+      "revid": 2143612,
+      "sha1": "7eb9d94c59f50381e6fa7b411d0fa364a4c3565e"
+    },
+    {
+      "title": "夷堅志/丁卷16",
+      "revid": 2143625,
+      "sha1": "9aee985d0a4a42460de8146119d39f76d99e168d"
+    },
+    {
+      "title": "夷堅志/丁卷17",
+      "revid": 2143627,
+      "sha1": "2b0c60ec933a3d020495483bedb9ff9d0a20ce54"
+    },
+    {
+      "title": "夷堅志/丁卷18",
+      "revid": 2150285,
+      "sha1": "53672c29eba01f55e203e806a1cfb4e01043cce0"
+    },
+    {
+      "title": "夷堅志/丁卷19",
+      "revid": 2601874,
+      "sha1": "6eaaf0a954b3b7dc0203f09b915cd8da0bd5dec1"
+    },
+    {
+      "title": "夷堅志/丁卷20",
+      "revid": 2150289,
+      "sha1": "f6ec259259935a025a83cbab6c1b16f91de490f9"
+    },
+    {
+      "title": "夷堅志/三志壬01",
+      "revid": 2259858,
+      "sha1": "a6c34d91dca4dd2a397bd2327582a0dfda15789f"
+    },
+    {
+      "title": "夷堅志/三志壬02",
+      "revid": 2259969,
+      "sha1": "f3f5fc14cb9fda71459f5e82262aa7a3b620611c"
+    },
+    {
+      "title": "夷堅志/三志壬03",
+      "revid": 2259970,
+      "sha1": "d5f395ad03dc96a6e5fcece453045ff25c9044b0"
+    },
+    {
+      "title": "夷堅志/三志壬04",
+      "revid": 2259971,
+      "sha1": "5c3075e063f8f2e720ca2c3b78e209786832fc0a"
+    },
+    {
+      "title": "夷堅志/三志壬05",
+      "revid": 2259972,
+      "sha1": "bddfc8454eeb081d2d0f71c5c4f71e79f2818436"
+    },
+    {
+      "title": "夷堅志/三志壬06",
+      "revid": 1477654,
+      "sha1": "aad2ad2a9e19a0d97f7fadc84a168b9f42d5da25"
+    },
+    {
+      "title": "夷堅志/三志壬07",
+      "revid": 2259973,
+      "sha1": "3693b34ef2ab61aeea59a76272f7db3eff5293d7"
+    },
+    {
+      "title": "夷堅志/三志壬08",
+      "revid": 2259974,
+      "sha1": "4b9c411b41bc3bf315c56e97b0996ffa519350aa"
+    },
+    {
+      "title": "夷堅志/三志壬09",
+      "revid": 2259975,
+      "sha1": "4bf565a31fbd56746f75d4c9eb1d77ce15931743"
+    },
+    {
+      "title": "夷堅志/三志壬10",
+      "revid": 2259976,
+      "sha1": "5b18e7019a7439a64701b6f15768e4aa8fa29926"
+    },
+    {
+      "title": "夷堅志/三志己01",
+      "revid": 2258782,
+      "sha1": "68c60e5bffa1c20390548577796f9126101018ce"
+    },
+    {
+      "title": "夷堅志/三志己02",
+      "revid": 2259454,
+      "sha1": "165c56df5f0c583977a882ba5c6d92888c624b58"
+    },
+    {
+      "title": "夷堅志/三志己03",
+      "revid": 2259456,
+      "sha1": "531e1cf1b56d641e2a3053784023ec5455c2d61f"
+    },
+    {
+      "title": "夷堅志/三志己04",
+      "revid": 2259457,
+      "sha1": "1307842d139f212e106194ab255d9dba1e40c077"
+    },
+    {
+      "title": "夷堅志/三志己05",
+      "revid": 2259458,
+      "sha1": "51011b13db603be893d81cedebe506ba9aaf361c"
+    },
+    {
+      "title": "夷堅志/三志己06",
+      "revid": 2259459,
+      "sha1": "33bd7aa709a013e407d373ab6c7159045623f123"
+    },
+    {
+      "title": "夷堅志/三志己07",
+      "revid": 2259654,
+      "sha1": "c9bf512640ddbe5c50ff930635f5ae5e54c711c6"
+    },
+    {
+      "title": "夷堅志/三志己08",
+      "revid": 2259655,
+      "sha1": "7a9120d78a04fd1c00093ddb2e9370ade43b8765"
+    },
+    {
+      "title": "夷堅志/三志己09",
+      "revid": 2259656,
+      "sha1": "13053321b9ee45443c22c970bb2084a785fc59d9"
+    },
+    {
+      "title": "夷堅志/三志己10",
+      "revid": 2259659,
+      "sha1": "b8a0a57c793433ab519b0a348e22e5703c5ffe17"
+    },
+    {
+      "title": "夷堅志/三志辛01",
+      "revid": 2259845,
+      "sha1": "5192693f25cff5607891b45b519a8b4d1bd80564"
+    },
+    {
+      "title": "夷堅志/三志辛02",
+      "revid": 2259846,
+      "sha1": "8af231d976adaab7ec7ddd070fbef653b9d6b3d9"
+    },
+    {
+      "title": "夷堅志/三志辛03",
+      "revid": 1503161,
+      "sha1": "aafce83363cc7d9e58dd237a7e5aa2c01d83b98b"
+    },
+    {
+      "title": "夷堅志/三志辛04",
+      "revid": 2259847,
+      "sha1": "a706ab8d9e52783c8cc7fa3d5982fd0a36d63ce8"
+    },
+    {
+      "title": "夷堅志/三志辛05",
+      "revid": 2259849,
+      "sha1": "db120d6e68bbe4d34d22642277299db24da89750"
+    },
+    {
+      "title": "夷堅志/三志辛06",
+      "revid": 2259850,
+      "sha1": "67bb4a85c940759fbdd1e56377691a31bf1671d1"
+    },
+    {
+      "title": "夷堅志/三志辛07",
+      "revid": 2259851,
+      "sha1": "ac08d757fcb1b5a07ca02d276ef272249d20e423"
+    },
+    {
+      "title": "夷堅志/三志辛08",
+      "revid": 2259852,
+      "sha1": "db119528161f56da7d028deb4d00aefa0bc18b99"
+    },
+    {
+      "title": "夷堅志/三志辛09",
+      "revid": 2259853,
+      "sha1": "671bf5e4bcbb17fb45da5707459804df5c69e3d4"
+    },
+    {
+      "title": "夷堅志/三志辛10",
+      "revid": 2259854,
+      "sha1": "7f7107b1632cadcca96e6d20d49dab324a5d3419"
+    },
+    {
+      "title": "夷堅志/丙卷01",
+      "revid": 2610261,
+      "sha1": "80dde1ac6af40cb89b88dc6747e0225ea3d45040"
+    },
+    {
+      "title": "夷堅志/丙卷02",
+      "revid": 1490212,
+      "sha1": "ce074b1c2d5749a5da9236bd35587048e39da7f7"
+    },
+    {
+      "title": "夷堅志/丙卷03",
+      "revid": 1490213,
+      "sha1": "3907ade75e7688bd8b527f6b71275f4f9d33faf5"
+    },
+    {
+      "title": "夷堅志/丙卷04",
+      "revid": 1490215,
+      "sha1": "5e42c8d126a7bec14ecbd69ee140ce121dfe1b88"
+    },
+    {
+      "title": "夷堅志/丙卷05",
+      "revid": 2142323,
+      "sha1": "1609227db0388980ba995f083501b16d1a0edd3e"
+    },
+    {
+      "title": "夷堅志/丙卷06",
+      "revid": 2142324,
+      "sha1": "cb819d2ad92bec480da34865d95c4d6215604cd9"
+    },
+    {
+      "title": "夷堅志/丙卷07",
+      "revid": 1335885,
+      "sha1": "9d1412ea97152b870566b5300e0019b915729889"
+    },
+    {
+      "title": "夷堅志/丙卷08",
+      "revid": 2142325,
+      "sha1": "c3b8eac8bc6fbc1fbf9e2cc7e83c155af6f4d183"
+    },
+    {
+      "title": "夷堅志/丙卷09",
+      "revid": 2142326,
+      "sha1": "35d2ef397e03268ed1d9d35fe953661b411cf085"
+    },
+    {
+      "title": "夷堅志/丙卷10",
+      "revid": 2142329,
+      "sha1": "3a74ac299f4137aafe943a129d4a6cd36da189ef"
+    },
+    {
+      "title": "夷堅志/丙卷11",
+      "revid": 2142342,
+      "sha1": "238e67e1542dfb2cb6d955c859e6dcab84e84930"
+    },
+    {
+      "title": "夷堅志/丙卷12",
+      "revid": 2142515,
+      "sha1": "ca1b980b9e02e7b8f71d98b16ba16273140a12b5"
+    },
+    {
+      "title": "夷堅志/丙卷13",
+      "revid": 2142516,
+      "sha1": "3e3a5bdefab9c92d08edb53d7e719adffeed0477"
+    },
+    {
+      "title": "夷堅志/丙卷14",
+      "revid": 2142517,
+      "sha1": "47ce2acac8e933ccc8cc5a2b315883700b3e6f38"
+    },
+    {
+      "title": "夷堅志/丙卷15",
+      "revid": 2142518,
+      "sha1": "de7600252a3426907c7749a1efb3d402e5844f18"
+    },
+    {
+      "title": "夷堅志/丙卷16",
+      "revid": 2142519,
+      "sha1": "37a4382629446851246604fbeb0ba3e8db62bb21"
+    },
+    {
+      "title": "夷堅志/丙卷17",
+      "revid": 2142520,
+      "sha1": "15c7d0ea50da038dd5607315af9b756840375f26"
+    },
+    {
+      "title": "夷堅志/丙卷18",
+      "revid": 2142522,
+      "sha1": "93526a28546f960538cf5590a18167daa37af8f8"
+    },
+    {
+      "title": "夷堅志/丙卷19",
+      "revid": 2142523,
+      "sha1": "2c01462860017b2de8f1e16f48aa1a8859a7ecf6"
+    },
+    {
+      "title": "夷堅志/丙卷20",
+      "revid": 2142524,
+      "sha1": "d3ccfcdff5d2cdb648c1440dc933b6249818dc67"
+    },
+    {
+      "title": "夷堅志/乙卷01",
+      "revid": 2610262,
+      "sha1": "b713a5da1258f404c0779f1e06308829a78a0a94"
+    },
+    {
+      "title": "夷堅志/乙卷02",
+      "revid": 2610263,
+      "sha1": "490d19016372b704734e412add22561bc59125e4"
+    },
+    {
+      "title": "夷堅志/乙卷03",
+      "revid": 2610264,
+      "sha1": "ff73467da1971cca8315eb847ea6ba3e302a709f"
+    },
+    {
+      "title": "夷堅志/乙卷04",
+      "revid": 2610265,
+      "sha1": "2fe3d7230e9d391bbd28884392522276ceb0bcaa"
+    },
+    {
+      "title": "夷堅志/乙卷05",
+      "revid": 2610266,
+      "sha1": "8675667aea8775e9bffe1dc0f10e2fe0bfb5d533"
+    },
+    {
+      "title": "夷堅志/乙卷06",
+      "revid": 1332383,
+      "sha1": "d5be6d206e9fb7e06bce4aed710a95463816c1df"
+    },
+    {
+      "title": "夷堅志/乙卷07",
+      "revid": 2610267,
+      "sha1": "afedf1ded0020817c49cfa980db2b9516dda3893"
+    },
+    {
+      "title": "夷堅志/乙卷08",
+      "revid": 2610268,
+      "sha1": "2d0b3ad63fc426611b8804af090e8bbf011b6bb6"
+    },
+    {
+      "title": "夷堅志/乙卷09",
+      "revid": 1332696,
+      "sha1": "f806237b8cc7363593079e797f06bdc508e501f3"
+    },
+    {
+      "title": "夷堅志/乙卷10",
+      "revid": 1332772,
+      "sha1": "de85cf2f1822b4afad78ce73545ca72c0fa894c2"
+    },
+    {
+      "title": "夷堅志/乙卷11",
+      "revid": 2610269,
+      "sha1": "070ef82a27272eee7a0974902bf50709a7808c5e"
+    },
+    {
+      "title": "夷堅志/乙卷12",
+      "revid": 2610270,
+      "sha1": "9a00cc339af0edc7b2590f5e7c06b1ff730a72d6"
+    },
+    {
+      "title": "夷堅志/乙卷13",
+      "revid": 2610271,
+      "sha1": "7d74175b192a52a896a5c9984e731eef13c853bb"
+    },
+    {
+      "title": "夷堅志/乙卷14",
+      "revid": 2610272,
+      "sha1": "cad542f07ad02f99ed6bee3f13b74db843791106"
+    },
+    {
+      "title": "夷堅志/乙卷15",
+      "revid": 2610273,
+      "sha1": "86e971bab79aebd5d5363ee87e1847615844c1f7"
+    },
+    {
+      "title": "夷堅志/乙卷16",
+      "revid": 2610274,
+      "sha1": "d892ab7ec7d1c16c37376d6212f77ecf0c56355b"
+    },
+    {
+      "title": "夷堅志/乙卷17",
+      "revid": 2610275,
+      "sha1": "7eb4fd552a3b2b469106c8acaebaae85f97e10f7"
+    },
+    {
+      "title": "夷堅志/乙卷18",
+      "revid": 2610276,
+      "sha1": "951106b76bfbd53563bf1d2797d6e1499582eeac"
+    },
+    {
+      "title": "夷堅志/乙卷19",
+      "revid": 2610277,
+      "sha1": "0e855034ce041e79d48f0d26cb00004c71812dd4"
+    },
+    {
+      "title": "夷堅志/乙卷20",
+      "revid": 2610278,
+      "sha1": "962dc0117dc767a983d7c183e28f5ae90b2108cf"
+    },
+    {
+      "title": "夷堅志/夷堅丁志",
+      "revid": 2609520,
+      "sha1": "977fded1ed16715b5dbd14df7beca202704df91a"
+    },
+    {
+      "title": "夷堅志/夷堅丁志序",
+      "revid": 1477509,
+      "sha1": "880958f8d6c45241aa55dea2ae06cc80d2c520a8"
+    },
+    {
+      "title": "夷堅志/夷堅三志壬卷",
+      "revid": 1477650,
+      "sha1": "e4381224ecdb67af6546695dcc4e7f7a7f06572f"
+    },
+    {
+      "title": "夷堅志/夷堅三志壬序",
+      "revid": 1477652,
+      "sha1": "20d626cd7221ec8f57e94cc46a0334a057b41e11"
+    },
+    {
+      "title": "夷堅志/夷堅三志己卷",
+      "revid": 1477627,
+      "sha1": "a9a2f11071816d4a787834cce20c7bbb3ea5e586"
+    },
+    {
+      "title": "夷堅志/夷堅三志己序",
+      "revid": 1477618,
+      "sha1": "24125c03a0b9a8b9b2f2571eb6e54fbda59e7810"
+    },
+    {
+      "title": "夷堅志/夷堅三志辛卷",
+      "revid": 1477639,
+      "sha1": "62e3e16dcb2d360e48067ce16b343ee31c75f5cf"
+    },
+    {
+      "title": "夷堅志/夷堅三志辛序",
+      "revid": 1477645,
+      "sha1": "f923216a9146d4e74e5487dd0fee4cd0c5e41358"
+    },
+    {
+      "title": "夷堅志/夷堅丙志",
+      "revid": 2646280,
+      "sha1": "faf0cf009375967043f4a23293b58b811898d6ad"
+    },
+    {
+      "title": "夷堅志/夷堅丙志序",
+      "revid": 1477484,
+      "sha1": "66ff90be00b2a45f1ed805f666fc5fdbf21632dc"
+    },
+    {
+      "title": "夷堅志/夷堅乙志",
+      "revid": 1379924,
+      "sha1": "cd529c30cff1cc95f8998164afdd1a8f37ceebb7"
+    },
+    {
+      "title": "夷堅志/夷堅乙志序",
+      "revid": 1477486,
+      "sha1": "dd5059f93c7f323bda829b642a8455e1f957d78e"
+    },
+    {
+      "title": "夷堅志/夷堅志三補",
+      "revid": 1477735,
+      "sha1": "8b4c292fba406bce203fe34cc32b1b25cd0e9977"
+    },
+    {
+      "title": "夷堅志/夷堅志再補",
+      "revid": 1477734,
+      "sha1": "c3df1ad36dab9feea19ca9bd588d0e726c89a132"
+    },
+    {
+      "title": "夷堅志/夷堅志補卷",
+      "revid": 1477676,
+      "sha1": "f960f15fad1e0861cca3b35c1a02bb4f55432f84"
+    },
+    {
+      "title": "夷堅志/夷堅支丁卷",
+      "revid": 1477575,
+      "sha1": "47f364f8943ffd6eb7048a8591f0dd9356ec24ef"
+    },
+    {
+      "title": "夷堅志/夷堅支丁序",
+      "revid": 1375030,
+      "sha1": "5e2c94dd748ce27abd0825f7761b506875739ca8"
+    },
+    {
+      "title": "夷堅志/夷堅支乙卷",
+      "revid": 1477571,
+      "sha1": "1458dc03c1f661922f3c862e197fc9f5a7561784"
+    },
+    {
+      "title": "夷堅志/夷堅支乙序",
+      "revid": 1477539,
+      "sha1": "1ff479917489429248fb218d77e5ac1b5cf66980"
+    },
+    {
+      "title": "夷堅志/夷堅支庚卷",
+      "revid": 1477597,
+      "sha1": "22238ade56e3da6ad70fbdbbec0b1a7341c8aee4"
+    },
+    {
+      "title": "夷堅志/夷堅支庚序",
+      "revid": 1477607,
+      "sha1": "cc10b396932e66b13b81b6b25e23cb7e1c049495"
+    },
+    {
+      "title": "夷堅志/夷堅支戊卷",
+      "revid": 1477577,
+      "sha1": "e2ca623da95e1173ac26e4819bb0316b417d1006"
+    },
+    {
+      "title": "夷堅志/夷堅支戊序",
+      "revid": 1477588,
+      "sha1": "6c33f2406a9ff0c86a5046df8ca968bd8f4c973e"
+    },
+    {
+      "title": "夷堅志/夷堅支景卷",
+      "revid": 1477572,
+      "sha1": "3208f3314c6acebf51325151e1c54ca8062c2143"
+    },
+    {
+      "title": "夷堅志/夷堅支景序",
+      "revid": 1477569,
+      "sha1": "4464f084432b00c3ebeefbbd64bbd576d821e5d2"
+    },
+    {
+      "title": "夷堅志/夷堅支甲卷",
+      "revid": 1477573,
+      "sha1": "12c0eddf84ea7a7c8dca4e86a0150c2550a75628"
+    },
+    {
+      "title": "夷堅志/夷堅支甲序",
+      "revid": 1477526,
+      "sha1": "008b2da1df816238e5bb7009be8a242b23e0e64b"
+    },
+    {
+      "title": "夷堅志/夷堅支癸卷",
+      "revid": 1477616,
+      "sha1": "593fd5dffd20f4ee94fada69d7037c5ef8ee236b"
+    },
+    {
+      "title": "夷堅志/夷堅支癸序",
+      "revid": 1477617,
+      "sha1": "2f5fd272f07c396805abb65a0252211acf6d54cc"
+    },
+    {
+      "title": "夷堅志/夷堅甲志",
+      "revid": 2646410,
+      "sha1": "b2c8acdf569af1a4601ac62dd2586e9a6845f550"
+    },
+    {
+      "title": "夷堅志/夷堅甲志序",
+      "revid": 2610280,
+      "sha1": "2f2c4e48e9e27101d280ff4c3b7d0689a5f4d375"
+    },
+    {
+      "title": "夷堅志/志補01",
+      "revid": 2259977,
+      "sha1": "a8a23e73f8c63a33a0546cc0a8492e98d493a7a5"
+    },
+    {
+      "title": "夷堅志/志補02",
+      "revid": 2259978,
+      "sha1": "fb8e20e9d9583a6be5ed3eec3d90d98f6a248678"
+    },
+    {
+      "title": "夷堅志/志補03",
+      "revid": 2259979,
+      "sha1": "8057a0a38ab62dc35e2b3e1be1984704c73d8367"
+    },
+    {
+      "title": "夷堅志/志補04",
+      "revid": 2259980,
+      "sha1": "f0110e4082ed0cfb67e6be045a95c23b47a93e45"
+    },
+    {
+      "title": "夷堅志/志補05",
+      "revid": 2259981,
+      "sha1": "60e30186715a02bbfb5ac15da575841baef89487"
+    },
+    {
+      "title": "夷堅志/志補06",
+      "revid": 2259982,
+      "sha1": "77e2070fdae29dc6213da101dfc3c23e63e8734a"
+    },
+    {
+      "title": "夷堅志/志補07",
+      "revid": 2261581,
+      "sha1": "6e328f441504e7b8e67c3b2a0fa7437b5172ae18"
+    },
+    {
+      "title": "夷堅志/志補08",
+      "revid": 2261592,
+      "sha1": "3ecdb19dd14a1b670a98950615908e97e71d22b4"
+    },
+    {
+      "title": "夷堅志/志補09",
+      "revid": 2261597,
+      "sha1": "eae4eb27de69afff27def8f218bd7a3d87e37fb8"
+    },
+    {
+      "title": "夷堅志/志補10",
+      "revid": 2261598,
+      "sha1": "fccae05bd0918dc9f6b0b0b5b6d980a2e5020ea7"
+    },
+    {
+      "title": "夷堅志/志補11",
+      "revid": 2263628,
+      "sha1": "8b0398d9c13f8e58bcda3e8f873b98571d673e1f"
+    },
+    {
+      "title": "夷堅志/志補12",
+      "revid": 2263632,
+      "sha1": "883e1f31ea92dc49f03a0fb9284e6311bfb8e2aa"
+    },
+    {
+      "title": "夷堅志/志補13",
+      "revid": 2263635,
+      "sha1": "76eb54694c2335b4874fdfa9b941492716f27242"
+    },
+    {
+      "title": "夷堅志/志補14",
+      "revid": 2263636,
+      "sha1": "678ceaf41d9f4ae7cd1f807d22f3a93ecd40fad9"
+    },
+    {
+      "title": "夷堅志/志補15",
+      "revid": 2263637,
+      "sha1": "1d529f137fde3de99cf6ba5ba4e74a896b105bd6"
+    },
+    {
+      "title": "夷堅志/志補16",
+      "revid": 2263638,
+      "sha1": "f528f1a716bdf2f93f06ffdad450b34ac423701c"
+    },
+    {
+      "title": "夷堅志/志補17",
+      "revid": 2263639,
+      "sha1": "1f7cd6ae5296324a573b28fc563e9c239d2023e5"
+    },
+    {
+      "title": "夷堅志/志補18",
+      "revid": 2263642,
+      "sha1": "cfed0a270ae73a7600c55a4ee1d54802f1027336"
+    },
+    {
+      "title": "夷堅志/志補19",
+      "revid": 2263644,
+      "sha1": "ae35df2df92baa3fcb609e1c897b9ecf3e3b971c"
+    },
+    {
+      "title": "夷堅志/志補20",
+      "revid": 2263973,
+      "sha1": "42c3d1cd9d87ea97be9796ae7d9927e64ab83420"
+    },
+    {
+      "title": "夷堅志/志補21",
+      "revid": 2263974,
+      "sha1": "d1be75dbcb7948abb249a15e5c7ce0a7fa908cfe"
+    },
+    {
+      "title": "夷堅志/志補22",
+      "revid": 2263976,
+      "sha1": "ade39ba73d66bd7b4f440269077df45a52c1e528"
+    },
+    {
+      "title": "夷堅志/志補23",
+      "revid": 2264927,
+      "sha1": "3f6ee211045d4db0a2fc05c3f5b1f5f72aa23ab5"
+    },
+    {
+      "title": "夷堅志/志補24",
+      "revid": 2264930,
+      "sha1": "6f0e1ce580fe42610009272fa8574f972e3cc308"
+    },
+    {
+      "title": "夷堅志/志補25",
+      "revid": 2264931,
+      "sha1": "3fc843354a832225153f880683b040254962ade2"
+    },
+    {
+      "title": "夷堅志/支丁01",
+      "revid": 2195064,
+      "sha1": "c3f554909870f470187967672afcab4f4fbef5db"
+    },
+    {
+      "title": "夷堅志/支丁02",
+      "revid": 2195072,
+      "sha1": "bb4ee93cb6d9e5500a571401c55db6a457539897"
+    },
+    {
+      "title": "夷堅志/支丁03",
+      "revid": 2195074,
+      "sha1": "d2465fc2683a4c35fd293b31492baae682495f5c"
+    },
+    {
+      "title": "夷堅志/支丁04",
+      "revid": 2195075,
+      "sha1": "d49f1ccfcd3d41445505c2e0024ad0529126fcbd"
+    },
+    {
+      "title": "夷堅志/支丁05",
+      "revid": 2197167,
+      "sha1": "4dac1d7948d02ffe37ae14aab7a5cfd1af36a84d"
+    },
+    {
+      "title": "夷堅志/支丁06",
+      "revid": 2197169,
+      "sha1": "14cdfab3bf3323b054d8686e078448e393e1d5a1"
+    },
+    {
+      "title": "夷堅志/支丁07",
+      "revid": 2197171,
+      "sha1": "73644c30a997ecea57242de07d9f05c3b695b52b"
+    },
+    {
+      "title": "夷堅志/支丁08",
+      "revid": 2142739,
+      "sha1": "f3f2971f24f0f9e1e40380578bf08ee2f017bb87"
+    },
+    {
+      "title": "夷堅志/支丁09",
+      "revid": 2142741,
+      "sha1": "a4ca498394940e9cb2eb203747d30bddb01171c6"
+    },
+    {
+      "title": "夷堅志/支丁10",
+      "revid": 2197172,
+      "sha1": "8abbcb168b50f605c8195e0b8ecf50494f6a32d6"
+    },
+    {
+      "title": "夷堅志/支乙01",
+      "revid": 2153342,
+      "sha1": "b120d6fedea6de6b54f53bcc518047642bda62b0"
+    },
+    {
+      "title": "夷堅志/支乙02",
+      "revid": 2153343,
+      "sha1": "226e66da39b1142ddc9a73e235bf3e0a32f07360"
+    },
+    {
+      "title": "夷堅志/支乙03",
+      "revid": 2153344,
+      "sha1": "22d2c8885e9174ed96e7b2034509dd74a0abc08c"
+    },
+    {
+      "title": "夷堅志/支乙04",
+      "revid": 2153347,
+      "sha1": "6038fae94a4230db80a0a99f28ab2d0394461a64"
+    },
+    {
+      "title": "夷堅志/支乙05",
+      "revid": 2161083,
+      "sha1": "1eabcd98c01062b2aee0a0a12822e5f8f430966a"
+    },
+    {
+      "title": "夷堅志/支乙06",
+      "revid": 1954628,
+      "sha1": "ea3e355816338a244863d50ae2f15338de0d6071"
+    },
+    {
+      "title": "夷堅志/支乙07",
+      "revid": 2401779,
+      "sha1": "5e81c1e3b93e728b5fdde85448a22b8db894372b"
+    },
+    {
+      "title": "夷堅志/支乙08",
+      "revid": 2161100,
+      "sha1": "1902ac74d71045b305ef6675be8f4f96ac1a500b"
+    },
+    {
+      "title": "夷堅志/支乙09",
+      "revid": 2161330,
+      "sha1": "29e243b2a1c99e0626f6020e5210342d67039c97"
+    },
+    {
+      "title": "夷堅志/支乙10",
+      "revid": 2161349,
+      "sha1": "8e9d9356fb60adf5a32dc96768f0533d9fa15a76"
+    },
+    {
+      "title": "夷堅志/支庚01",
+      "revid": 2257138,
+      "sha1": "35499551e44d5790d97cabed68618ec6c5266033"
+    },
+    {
+      "title": "夷堅志/支庚02",
+      "revid": 2257139,
+      "sha1": "f8248ab8d4188a0f0ad8e283b81884dbc0e4d73d"
+    },
+    {
+      "title": "夷堅志/支庚03",
+      "revid": 2257140,
+      "sha1": "d23bdef5540027cfab2ae702b06a1a2822b46aff"
+    },
+    {
+      "title": "夷堅志/支庚04",
+      "revid": 2257141,
+      "sha1": "07e2cea5cc8a3a6ec013b0fecb98c828cbb2eb2b"
+    },
+    {
+      "title": "夷堅志/支庚05",
+      "revid": 2257142,
+      "sha1": "bf06c7e5cf0a31c45d915169dd10bd7f255713c1"
+    },
+    {
+      "title": "夷堅志/支庚06",
+      "revid": 2257143,
+      "sha1": "b132877525461df251d9b0b03653ef0943f72b5d"
+    },
+    {
+      "title": "夷堅志/支庚07",
+      "revid": 2257144,
+      "sha1": "ecdda90620b6463e99ea81228a5c8569500bbb69"
+    },
+    {
+      "title": "夷堅志/支庚08",
+      "revid": 2257145,
+      "sha1": "4807f6bb893dd3f3e6bfa6bb6e9e76434bbbdfc3"
+    },
+    {
+      "title": "夷堅志/支庚09",
+      "revid": 2257146,
+      "sha1": "6267f4abd7fb1e20c270621b2046b4cd39ec84df"
+    },
+    {
+      "title": "夷堅志/支庚10",
+      "revid": 2257147,
+      "sha1": "82fc7c82e8acd02e97d62de126a34a8fbe50a7e0"
+    },
+    {
+      "title": "夷堅志/支戊01",
+      "revid": 2199363,
+      "sha1": "015f1089e918def2152fa2546d439394588f996d"
+    },
+    {
+      "title": "夷堅志/支戊02",
+      "revid": 2199364,
+      "sha1": "4772dfb4265d2caab2da8f893b5b6dc02ba2b712"
+    },
+    {
+      "title": "夷堅志/支戊03",
+      "revid": 2199366,
+      "sha1": "a2d5ba944c907340aa4f441f524804cc9279f98c"
+    },
+    {
+      "title": "夷堅志/支戊04",
+      "revid": 2200826,
+      "sha1": "6607090c89528f555bd02355faf24ccd5c7d2526"
+    },
+    {
+      "title": "夷堅志/支戊05",
+      "revid": 2200828,
+      "sha1": "53becf6806553c7e91f4d3faf40ff7c268b7a3e6"
+    },
+    {
+      "title": "夷堅志/支戊06",
+      "revid": 2200832,
+      "sha1": "decc8a4b97e99c64db4465cfd1009364394e4fe8"
+    },
+    {
+      "title": "夷堅志/支戊07",
+      "revid": 2200835,
+      "sha1": "cd3644e0fbda1464c6f14ee551877c0c40b31ff1"
+    },
+    {
+      "title": "夷堅志/支戊08",
+      "revid": 2200839,
+      "sha1": "d8a8df726a0b63a99b1448de6230208b1d4aff21"
+    },
+    {
+      "title": "夷堅志/支戊09",
+      "revid": 2200840,
+      "sha1": "4429bf93a1884e7919f651d036a2308daf6606c7"
+    },
+    {
+      "title": "夷堅志/支戊10",
+      "revid": 2200841,
+      "sha1": "d281878c585138634261e81697b238c7e68a6088"
+    },
+    {
+      "title": "夷堅志/支景01",
+      "revid": 2161357,
+      "sha1": "68c1db135a6a3bfdd1114bcf2d8358851da26e83"
+    },
+    {
+      "title": "夷堅志/支景02",
+      "revid": 2161366,
+      "sha1": "195e4f8309181a7c10e07225dbc245e2b7e8d547"
+    },
+    {
+      "title": "夷堅志/支景03",
+      "revid": 2187650,
+      "sha1": "5111cc64c79d030a4f53fc7fb7f8fe5934a3e386"
+    },
+    {
+      "title": "夷堅志/支景04",
+      "revid": 2650531,
+      "sha1": "2eb14002ae3f42a0069decec517d220a3dba61de"
+    },
+    {
+      "title": "夷堅志/支景05",
+      "revid": 2187652,
+      "sha1": "f1001c3b67cce2e338214991cf7502e27e840ef0"
+    },
+    {
+      "title": "夷堅志/支景06",
+      "revid": 1964979,
+      "sha1": "841f0ef1f96f94809163bcf559fe114c7cca2920"
+    },
+    {
+      "title": "夷堅志/支景07",
+      "revid": 2188699,
+      "sha1": "174866038788719d69115d6e8c8500df009296c4"
+    },
+    {
+      "title": "夷堅志/支景08",
+      "revid": 2188700,
+      "sha1": "8450c56ec1efae3df24776d392f3efb25c16a184"
+    },
+    {
+      "title": "夷堅志/支景09",
+      "revid": 2188701,
+      "sha1": "02ba10be35b61aa79a5bd68ebe5a3572156d3955"
+    },
+    {
+      "title": "夷堅志/支景10",
+      "revid": 2188702,
+      "sha1": "7c19fd2cf48567ba135e35f324c72263064d283e"
+    },
+    {
+      "title": "夷堅志/支甲01",
+      "revid": 2150290,
+      "sha1": "bb483221564d52492c3386b019087a8239d082f6"
+    },
+    {
+      "title": "夷堅志/支甲02",
+      "revid": 2150291,
+      "sha1": "44a9c3b6c81405c4341091d72748456d89b0ccc7"
+    },
+    {
+      "title": "夷堅志/支甲03",
+      "revid": 2151265,
+      "sha1": "8f1bed9c87da6489f5299e9e214e2b5b6791ac40"
+    },
+    {
+      "title": "夷堅志/支甲04",
+      "revid": 2151267,
+      "sha1": "95ab28bd47a5cdfb39ea077afbfb7d43004f759d"
+    },
+    {
+      "title": "夷堅志/支甲05",
+      "revid": 2151268,
+      "sha1": "d6d1be4260938a4681e3394a34dc0de1bff0c5e3"
+    },
+    {
+      "title": "夷堅志/支甲06",
+      "revid": 2153325,
+      "sha1": "b587c4367256e0e5b84fc7885a78f99ce0c9e1ea"
+    },
+    {
+      "title": "夷堅志/支甲07",
+      "revid": 2153328,
+      "sha1": "98c7e7947b546b71cc6335ee3efc4d4c883079d0"
+    },
+    {
+      "title": "夷堅志/支甲08",
+      "revid": 2153333,
+      "sha1": "2b52b57e4e31fd8d21922c29dd078116125b8999"
+    },
+    {
+      "title": "夷堅志/支甲09",
+      "revid": 2153339,
+      "sha1": "eac5114ad3984c6ade6a06dac24f9a042ad43951"
+    },
+    {
+      "title": "夷堅志/支甲10",
+      "revid": 2153340,
+      "sha1": "10028836bd7e83e42d76d8ebca7b88dfc1e1bd72"
+    },
+    {
+      "title": "夷堅志/支癸01",
+      "revid": 2257148,
+      "sha1": "7fefcfaefd2810fd735873957d584ac97eba0b8f"
+    },
+    {
+      "title": "夷堅志/支癸02",
+      "revid": 2257149,
+      "sha1": "fd6f7c4fcb8d557ab81f61cfba411bd8e6237b62"
+    },
+    {
+      "title": "夷堅志/支癸03",
+      "revid": 2257360,
+      "sha1": "b89fb105bde6d98e5e3490b66ef9906a017799bf"
+    },
+    {
+      "title": "夷堅志/支癸04",
+      "revid": 2257362,
+      "sha1": "608a823124425c4887a96c58e670292ba73d0acf"
+    },
+    {
+      "title": "夷堅志/支癸05",
+      "revid": 2257363,
+      "sha1": "9c37f780f3a714c71809f7aa9b6ee2b873109d4f"
+    },
+    {
+      "title": "夷堅志/支癸06",
+      "revid": 2257364,
+      "sha1": "0a6fb2732c38f9635ce077a6b82a7d951a45ba9d"
+    },
+    {
+      "title": "夷堅志/支癸07",
+      "revid": 2257365,
+      "sha1": "5b38e50d29569f2d4ecb9de15a0ca557d9c0d96f"
+    },
+    {
+      "title": "夷堅志/支癸08",
+      "revid": 2257367,
+      "sha1": "4d0b643f59256b0cb3390edc6b4f4225f70e9a67"
+    },
+    {
+      "title": "夷堅志/支癸09",
+      "revid": 2257368,
+      "sha1": "00ba3f3202dc914bc020fa2e41107eb693fe82dc"
+    },
+    {
+      "title": "夷堅志/支癸10",
+      "revid": 2257371,
+      "sha1": "e8613aeb389968072dad160387433b4a1ad703b4"
+    },
+    {
+      "title": "夷堅志/甲卷01",
+      "revid": 2610281,
+      "sha1": "c9fc99b7a68f469e55ac70b686173098801aa546"
+    },
+    {
+      "title": "夷堅志/甲卷02",
+      "revid": 2610282,
+      "sha1": "ac8a61a2c49d5b76fa23958f3230b56ac65cb9a7"
+    },
+    {
+      "title": "夷堅志/甲卷03",
+      "revid": 2610283,
+      "sha1": "8d9bdb6626a90004f6b068f0aa782f29e08e7883"
+    },
+    {
+      "title": "夷堅志/甲卷04",
+      "revid": 2610285,
+      "sha1": "27bf2541baf3788abb74dc9387e403e4dd9ecf02"
+    },
+    {
+      "title": "夷堅志/甲卷05",
+      "revid": 2610284,
+      "sha1": "cdf7c588fbee6170d0a8d8a6b5fcbbe8461940df"
+    },
+    {
+      "title": "夷堅志/甲卷06",
+      "revid": 2610286,
+      "sha1": "817f8114a55284d0c4de3925659e089d627b5c3e"
+    },
+    {
+      "title": "夷堅志/甲卷07",
+      "revid": 2610287,
+      "sha1": "283b984bbe5a653dc27b697c7e6117b1c0ab6b09"
+    },
+    {
+      "title": "夷堅志/甲卷08",
+      "revid": 2610288,
+      "sha1": "75ab8104ca4f5e3673465b07a2dc5ec2d12ba356"
+    },
+    {
+      "title": "夷堅志/甲卷09",
+      "revid": 2610289,
+      "sha1": "cbae3d7732f520b46aa43afa4b2d7a5c60f58e2b"
+    },
+    {
+      "title": "夷堅志/甲卷10",
+      "revid": 2610290,
+      "sha1": "a88ff2d0063158fac6fa8b3a4839eaa2679a87a4"
+    },
+    {
+      "title": "夷堅志/甲卷11",
+      "revid": 2610291,
+      "sha1": "2e517c6c6fcaa5c38d6b9a07ae734f899ff3efc1"
+    },
+    {
+      "title": "夷堅志/甲卷12",
+      "revid": 2610292,
+      "sha1": "50541233482e8ddf0658175edb374b6ef0345601"
+    },
+    {
+      "title": "夷堅志/甲卷13",
+      "revid": 2610293,
+      "sha1": "10a3e5a8207a8e226f727637b8785aa32603345e"
+    },
+    {
+      "title": "夷堅志/甲卷14",
+      "revid": 2610294,
+      "sha1": "95aadec8b87be7a9125279df781f6b8a48907a2e"
+    },
+    {
+      "title": "夷堅志/甲卷15",
+      "revid": 2610295,
+      "sha1": "1e012f4588399a8a1740257c4f57e96aaf8ebcad"
+    },
+    {
+      "title": "夷堅志/甲卷16",
+      "revid": 2610296,
+      "sha1": "667ed434a87c3ec7ad644451fe858df06ab7ffed"
+    },
+    {
+      "title": "夷堅志/甲卷17",
+      "revid": 2610297,
+      "sha1": "843318fcea83006e36442df89bc7dbe636b4bcb6"
+    },
+    {
+      "title": "夷堅志/甲卷18",
+      "revid": 2610298,
+      "sha1": "73a76a050c916d60a0527cf537c420ed0c5da00e"
+    },
+    {
+      "title": "夷堅志/甲卷19",
+      "revid": 1401423,
+      "sha1": "c207f66e223194a2a8f0cc7c592e1a82d0101a99"
+    },
+    {
+      "title": "夷堅志/甲卷20",
+      "revid": 2610299,
+      "sha1": "790db516b73b6196e6b3e42ed15eb6377ead6612"
+    },
+    {
+      "title": "夷堅志/附録",
+      "revid": 1380612,
+      "sha1": "aacaa73bef3a5d1e186eb208fa0513b59e2841fa"
+    },
+    {
+      "title": "子不語/卷1",
+      "revid": 2632979,
+      "sha1": "c7bda08b9f07f66f10574f4eb975d5fd889f6a1a"
+    },
+    {
+      "title": "子不語/卷10",
+      "revid": 2632754,
+      "sha1": "87b7ed1d4fa9b1432d622d04a4f67d9c19925e87"
+    },
+    {
+      "title": "子不語/卷11",
+      "revid": 335818,
+      "sha1": "853484086e414a2d6d6324aa76685115f4611fff"
+    },
+    {
+      "title": "子不語/卷12",
+      "revid": 2632947,
+      "sha1": "d9276b06b2994c382c00bfc941abe32f2a1dd224"
+    },
+    {
+      "title": "子不語/卷13",
+      "revid": 1814484,
+      "sha1": "641597bbf137f54a650cf5155a7f8fcf09bdc658"
+    },
+    {
+      "title": "子不語/卷14",
+      "revid": 856364,
+      "sha1": "9b619aca8fc2c14cda30de4ac6ab92cbfc1660f4"
+    },
+    {
+      "title": "子不語/卷15",
+      "revid": 335822,
+      "sha1": "b41d171671ea6a39f34fd1fb2928ff1cb2981618"
+    },
+    {
+      "title": "子不語/卷16",
+      "revid": 337976,
+      "sha1": "76fbdce15dad85287724bdfd9781c9549c126fc7"
+    },
+    {
+      "title": "子不語/卷17",
+      "revid": 335824,
+      "sha1": "518514c23f3936f51c0093cc9a60fc6761164ec9"
+    },
+    {
+      "title": "子不語/卷18",
+      "revid": 335825,
+      "sha1": "d4845ca90c13c26b2be0c7a74608a768b57a4b55"
+    },
+    {
+      "title": "子不語/卷19",
+      "revid": 335826,
+      "sha1": "d457ac850913dc4fb8d381e5932d2f0c6ae7afd4"
+    },
+    {
+      "title": "子不語/卷2",
+      "revid": 2632996,
+      "sha1": "62edc42561fc722b2718285f982f6dda87e2f019"
+    },
+    {
+      "title": "子不語/卷20",
+      "revid": 335827,
+      "sha1": "86af0b01bbdc869341a806e94891d408341e4052"
+    },
+    {
+      "title": "子不語/卷21",
+      "revid": 1960677,
+      "sha1": "fa1095a5297a7ecc6cd5f83c42af72aaa24a9077"
+    },
+    {
+      "title": "子不語/卷22",
+      "revid": 1960678,
+      "sha1": "935835e32bfae64537c79608123ea037e7b9735b"
+    },
+    {
+      "title": "子不語/卷23",
+      "revid": 2157731,
+      "sha1": "2b4c1a357800ece51538d7c3c6037a7a6335f3cf"
+    },
+    {
+      "title": "子不語/卷24",
+      "revid": 336277,
+      "sha1": "36328ad8cd35dac78b4dca35b9dcd77f9d007d71"
+    },
+    {
+      "title": "子不語/卷3",
+      "revid": 2632975,
+      "sha1": "65542857ef5863df58c2a1f1242dcf392278dedb"
+    },
+    {
+      "title": "子不語/卷4",
+      "revid": 335705,
+      "sha1": "c56358f2e2ca6e99475443493d80808b28c09671"
+    },
+    {
+      "title": "子不語/卷5",
+      "revid": 336003,
+      "sha1": "5a95295c967ff583a0a912cb049c45b49fe31862"
+    },
+    {
+      "title": "子不語/卷6",
+      "revid": 335813,
+      "sha1": "12716632093934f9782fd3962a16220019df2853"
+    },
+    {
+      "title": "子不語/卷7",
+      "revid": 2632980,
+      "sha1": "35f56a64c947d8d62710d44292cd44b3463958a1"
+    },
+    {
+      "title": "子不語/卷8",
+      "revid": 335815,
+      "sha1": "9ae1b3e93e003957a39e196ab85db1066c9e7d1c"
+    },
+    {
+      "title": "子不語/卷9",
+      "revid": 2024560,
+      "sha1": "456be2f2e2d79d15f9b333bba0ef8ad4de943e81"
+    },
+    {
+      "title": "子不語/自序",
+      "revid": 2308185,
+      "sha1": "1425175d81bcb1f1114774ec5630abe07fbf0196"
+    },
+    {
+      "title": "夜譚隨錄/1",
+      "revid": 2480598,
+      "sha1": "1021946a874d82184f5e1cdd5d50d4b253c6258b"
+    },
+    {
+      "title": "夜譚隨錄/2",
+      "revid": 1749064,
+      "sha1": "eff8f8432d27b4a62fcfd5b582ce41d401234dd8"
+    },
+    {
+      "title": "夜譚隨錄/3",
+      "revid": 1749078,
+      "sha1": "ca551c478e16d515709ce681da5ada59019c6b37"
+    },
+    {
+      "title": "夜譚隨錄/4",
+      "revid": 2037731,
+      "sha1": "35191192330a6a8374ecadf4bc2ae11366cd31a1"
+    },
+    {
+      "title": "耳食錄/00",
+      "revid": 816070,
+      "sha1": "a759b4cf2ad7e94378cdd0120ad4683f3d45bc9b"
+    },
+    {
+      "title": "耳食錄/01",
+      "revid": 2081016,
+      "sha1": "f9d55870796cae17401826e4ad46cd011e2b8ac2"
+    },
+    {
+      "title": "耳食錄/02",
+      "revid": 1545851,
+      "sha1": "78e710562da1e71cc1818d1f6aa07aaa727241ce"
+    },
+    {
+      "title": "耳食錄/03",
+      "revid": 2083141,
+      "sha1": "2ad3996e2ec96ccdc740149cfb2eb50b0fc57729"
+    },
+    {
+      "title": "耳食錄/04",
+      "revid": 816085,
+      "sha1": "3df057e2875a3fdce83545e6ac240e7af11381f5"
+    },
+    {
+      "title": "耳食錄/05",
+      "revid": 816058,
+      "sha1": "2e608149fc6961a166d098763b8185da2495c6cd"
+    },
+    {
+      "title": "耳食錄/06",
+      "revid": 1158491,
+      "sha1": "b40ec6e3eaf08da3e92bf29bc576e52e6b0d55c8"
+    },
+    {
+      "title": "耳食錄/07",
+      "revid": 816095,
+      "sha1": "ac7508e7248dcc0544a60115970cd1bed37435aa"
+    },
+    {
+      "title": "耳食錄/08",
+      "revid": 816097,
+      "sha1": "0c5c3c53b2c2381eeec13c4d4ea366f009fed6a5"
+    },
+    {
+      "title": "耳食錄/09",
+      "revid": 1158483,
+      "sha1": "a4518f4266541145592762c0eea63e66d3e3c5a7"
+    },
+    {
+      "title": "耳食錄/10",
+      "revid": 1545862,
+      "sha1": "b55dff9aee9af226dbe31ee8f6a246bc92a1d6ea"
+    },
+    {
+      "title": "耳食錄/11",
+      "revid": 816099,
+      "sha1": "c3e23b701027fc577f6962dd037bbb79e5757efd"
+    },
+    {
+      "title": "耳食錄/12",
+      "revid": 816101,
+      "sha1": "1db9fa1578b293f83f891dd94fd3d7fc6c93ec97"
+    },
+    {
+      "title": "螢窗異草/01",
+      "revid": 2399687,
+      "sha1": "b3843815857ab7b5b1879889241257c455fb647a"
+    },
+    {
+      "title": "螢窗異草/02",
+      "revid": 2630000,
+      "sha1": "ca1acc314dd96dca564866771c4997686e800975"
+    },
+    {
+      "title": "螢窗異草/03",
+      "revid": 2401806,
+      "sha1": "8e352d901926455d22aa7a6b1b0a7f95ed47f447"
+    },
+    {
+      "title": "螢窗異草/04",
+      "revid": 2611381,
+      "sha1": "807ab2e7fb62a6a56901a29ee9f99edf7b898b3e"
+    },
+    {
+      "title": "螢窗異草/05",
+      "revid": 2611726,
+      "sha1": "f290e6848f00b38b6bd5a8cb8ee17a4b4de44a70"
+    },
+    {
+      "title": "螢窗異草/06",
+      "revid": 2344692,
+      "sha1": "9317f4edf6963c977c01a3a1789a210040297769"
+    },
+    {
+      "title": "螢窗異草/07",
+      "revid": 2344693,
+      "sha1": "0925364b93d77c8577fc315ab3bfe66aacc1d553"
+    },
+    {
+      "title": "螢窗異草/08",
+      "revid": 2612826,
+      "sha1": "3bab050f9765a229fc043848db0c4084bd53c6fc"
+    },
+    {
+      "title": "螢窗異草/09",
+      "revid": 2629977,
+      "sha1": "5edbe351924c004ffbc7ad9965ef941426dce937"
+    },
+    {
+      "title": "螢窗異草/10",
+      "revid": 2344696,
+      "sha1": "df117c89c5bc160f0908c4ba6432c767fdd16a5f"
+    },
+    {
+      "title": "螢窗異草/11",
+      "revid": 2344697,
+      "sha1": "43c290e0f0c72c2e909e1d51d5f2e22158077b32"
+    },
+    {
+      "title": "螢窗異草/12",
+      "revid": 2611808,
+      "sha1": "e9fd33c643287b07509a08f0cd0d7fb0f3995bf5"
+    },
+    {
+      "title": "剪燈新話/0",
+      "revid": 2416407,
+      "sha1": "a61b77ab710d68a3c36b8d74bfe45cc774729446"
+    },
+    {
+      "title": "剪燈新話/1",
+      "revid": 2600093,
+      "sha1": "0e8a951b70dc12baff87769dc602c26922b57f92"
+    },
+    {
+      "title": "剪燈新話/2",
+      "revid": 1528620,
+      "sha1": "5884d61e6d999b27d9f5c4f0a9b61cb2737d01e8"
+    },
+    {
+      "title": "剪燈新話/3",
+      "revid": 820547,
+      "sha1": "13446d27a8bac33df4f04e0655d207542c20b695"
+    },
+    {
+      "title": "剪燈新話/4",
+      "revid": 820376,
+      "sha1": "537b331c2b3e5621c77621d6d66987c4437933d1"
+    },
+    {
+      "title": "剪燈新話/5",
+      "revid": 820374,
+      "sha1": "d08d80cb979b6c7dca9eb0f3649adf1aa6d8affe"
+    },
+    {
+      "title": "剪燈新話/卷1",
+      "revid": 2399352,
+      "sha1": "89de249fb607e029db39540a202317b2b642c2a5"
+    },
+    {
+      "title": "剪燈新話/卷2",
+      "revid": 2399354,
+      "sha1": "8f677463554bee50a6216050f0cc53aadee1633f"
+    },
+    {
+      "title": "剪燈新話/卷3",
+      "revid": 2399356,
+      "sha1": "8e87656fa4c17794b186ed482ab605f72964eef9"
+    },
+    {
+      "title": "剪燈新話/卷4",
+      "revid": 2399357,
+      "sha1": "0d5f339cf854b1c8fdc68a752d88c24677447ed1"
+    },
+    {
+      "title": "剪燈新話/卷一",
+      "revid": 2399362,
+      "sha1": "ee9b74ef948729520c81e4ad1efb3a90b01efda3"
+    },
+    {
+      "title": "剪燈新話/卷三",
+      "revid": 2399364,
+      "sha1": "de75ed879c7899cd23dd6bdc2585dc884fb31607"
+    },
+    {
+      "title": "剪燈新話/卷二",
+      "revid": 2399363,
+      "sha1": "cff87b28bd60dd6406018c0fb947283af1153fcb"
+    },
+    {
+      "title": "剪燈新話/卷四",
+      "revid": 2399365,
+      "sha1": "5f004ef878a41210d57c2eb2d61a1f0ee55eef53"
+    },
+    {
+      "title": "剪燈新話/序",
+      "revid": 840637,
+      "sha1": "d5c1d349bf5d9485bac0a734b8cb92e3bafb10b2"
+    },
+    {
+      "title": "剪燈新話/附錄",
+      "revid": 1161762,
+      "sha1": "1a925563a71957d446687d6326b4de5e96074026"
+    },
+    {
+      "title": "剪燈餘話/卷1",
+      "revid": 2173589,
+      "sha1": "b6169c0350e1309caf8e58bb4602e9499416f03a"
+    },
+    {
+      "title": "剪燈餘話/卷2",
+      "revid": 1388360,
+      "sha1": "26c4cc31a60511fc3924739b85495475112dd134"
+    },
+    {
+      "title": "剪燈餘話/卷3",
+      "revid": 1484010,
+      "sha1": "d13fdb3d48cb84e37fccd7056ad2918fd8e7115b"
+    },
+    {
+      "title": "剪燈餘話/卷4",
+      "revid": 1388363,
+      "sha1": "214865df8121c3f3e38900961714014068d4e6c2"
+    },
+    {
+      "title": "剪燈餘話/卷5",
+      "revid": 1388364,
+      "sha1": "f6413eb803da877a39888aefe4bbf0b4a04f9dc0"
+    },
+    {
+      "title": "剪燈餘話/序",
+      "revid": 1343313,
+      "sha1": "1a6068f7de868f77c462974635020a474423e41a"
+    },
+    {
+      "title": "宣室志/卷01",
+      "revid": 2013411,
+      "sha1": "069a1abc2e465a5b0ae004de86329590486af0f5"
+    },
+    {
+      "title": "宣室志/卷02",
+      "revid": 852837,
+      "sha1": "8967f93b65aa65fc0a963303535535f90435c19b"
+    },
+    {
+      "title": "宣室志/卷03",
+      "revid": 1749877,
+      "sha1": "6539cd89e6e2c9c949fbb22f9ec1c47ca80c1c97"
+    },
+    {
+      "title": "宣室志/卷04",
+      "revid": 2330654,
+      "sha1": "af1f716eb96cc117a8076f8143e03d80cae94d08"
+    },
+    {
+      "title": "宣室志/卷05",
+      "revid": 852841,
+      "sha1": "e3fd0398762a5bf219e5f5067dc34f8ff4390f44"
+    },
+    {
+      "title": "宣室志/卷06",
+      "revid": 852842,
+      "sha1": "20a00a4ef8a5ece515a6929d3749b67750e0b9c8"
+    },
+    {
+      "title": "宣室志/卷07",
+      "revid": 852843,
+      "sha1": "7d9b05876e20957d6d894a4a648b1d67ee22df95"
+    },
+    {
+      "title": "宣室志/卷08",
+      "revid": 852844,
+      "sha1": "af4b95d2a396dad697da33d5b6c4a891f4456f7a"
+    },
+    {
+      "title": "宣室志/卷09",
+      "revid": 852845,
+      "sha1": "d2171452dc4c8462c34bf1ab82419e5689fa99c5"
+    },
+    {
+      "title": "宣室志/卷10",
+      "revid": 852846,
+      "sha1": "eba605a87ef7a4fc06146fae7dd5d558b57b1d4b"
+    },
+    {
+      "title": "宣室志/補遺",
+      "revid": 852847,
+      "sha1": "8d0c46e9cceaedf4948fdf129150a31089c5338b"
+    },
+    {
+      "title": "玄怪錄/卷1",
+      "revid": 7904071,
+      "sha1": "2d39f74743a511320ecf78e4c90356806a49c306"
+    },
+    {
+      "title": "玄怪錄/卷2",
+      "revid": 1567081,
+      "sha1": "fbc487a412d62cb23ea1a2140c0b8ea3be0f1cb2"
+    },
+    {
+      "title": "玄怪錄/卷3",
+      "revid": 821601,
+      "sha1": "9ed66985cbd71c6f15d60aed01bb140f4e1ce9ff"
+    },
+    {
+      "title": "玄怪錄/卷4",
+      "revid": 7904072,
+      "sha1": "0e0d2e139ab9dfa5d58ab24cd6ba6be4ca3138bf"
+    },
+    {
+      "title": "玄怪錄/卷5",
+      "revid": 821604,
+      "sha1": "17d0e6a427c068236f2f94401c1d47922f723247"
+    },
+    {
+      "title": "廣異記",
+      "revid": 2609236,
+      "sha1": "1df734796300c40e79fddebc72eda34767ee3bcb"
+    },
+    {
+      "title": "集異記",
+      "revid": 2326924,
+      "sha1": "241f836638ccf5aeb60c33bffac9f826d228f91b"
+    },
+    {
+      "title": "獨異志",
+      "revid": 2627088,
+      "sha1": "75b05506b5f15e0e25db122114be28baac6dca1b"
+    },
+    {
+      "title": "幽明錄",
+      "revid": 7904673,
+      "sha1": "08dfe74debc29f543dae48648c006f409a0eb41c"
+    },
+    {
+      "title": "異苑/卷01",
+      "revid": 224219,
+      "sha1": "b1841d7f65b3dfa53bca24ebb8c7e5301fa5a710"
+    },
+    {
+      "title": "異苑/卷02",
+      "revid": 224221,
+      "sha1": "9ea6ed300a9869baba1028e2315510e4abbd0ce9"
+    },
+    {
+      "title": "異苑/卷03",
+      "revid": 2640912,
+      "sha1": "5928b190f96d9de01d2e9f53df4c76b5bd2f88b3"
+    },
+    {
+      "title": "異苑/卷04",
+      "revid": 2640911,
+      "sha1": "d5fdefdd7349de7a5da1d4e1b3ed8bfe20025a50"
+    },
+    {
+      "title": "異苑/卷05",
+      "revid": 2640909,
+      "sha1": "e2941da2df4c49333f3b9af91305f304b3d775dd"
+    },
+    {
+      "title": "異苑/卷06",
+      "revid": 857495,
+      "sha1": "f1633f24ffe08e6855b68234d8cded06167636ca"
+    },
+    {
+      "title": "異苑/卷07",
+      "revid": 224222,
+      "sha1": "806954ea6b0e3c1c4989c388c0eb560ac8fcb38e"
+    },
+    {
+      "title": "異苑/卷08",
+      "revid": 224216,
+      "sha1": "78ff62c144e47fdb255a7cea9acb640b516e530e"
+    },
+    {
+      "title": "異苑/卷09",
+      "revid": 224217,
+      "sha1": "9206510d88d92598be20abcbbcd768a5bb8100f0"
+    },
+    {
+      "title": "異苑/卷10",
+      "revid": 1151223,
+      "sha1": "11369b10978518f57005d39343449ee38e140a21"
+    },
+    {
+      "title": "異苑/後記",
+      "revid": 224208,
+      "sha1": "f1e4815c77af2ed6615b47a307aad38b64bbf95f"
+    },
+    {
+      "title": "冥報記",
+      "revid": 2609237,
+      "sha1": "a9d16594fd550e0c6103680e7f2795282e65ce7a"
+    },
+    {
+      "title": "朝野僉載/卷一",
+      "revid": 2274953,
+      "sha1": "8c06afc37bc7b13a44336f2f56de18e58c4d27a4"
+    },
+    {
+      "title": "朝野僉載/卷三",
+      "revid": 2634302,
+      "sha1": "4a0b202189649292301f5bb6e82b44f1cac3484b"
+    },
+    {
+      "title": "朝野僉載/卷二",
+      "revid": 823502,
+      "sha1": "bf499b9bb812a5180e56b201a264b29f935f81e4"
+    },
+    {
+      "title": "朝野僉載/卷五",
+      "revid": 2634221,
+      "sha1": "88442fda2c0b71647827b4c8696ebb0942aa8743"
+    },
+    {
+      "title": "朝野僉載/卷六",
+      "revid": 1376804,
+      "sha1": "680fdf3fe492a0b32510dbe7638fdaac97c5f199"
+    },
+    {
+      "title": "朝野僉載/卷四",
+      "revid": 2646327,
+      "sha1": "6288a9b998c33ca79093fc1c69c394f226d89a48"
+    },
+    {
+      "title": "朝野僉載/補輯",
+      "revid": 2610796,
+      "sha1": "7806bc77254732f10de7be933da6e4abc121337a"
+    }
+  ]
+}

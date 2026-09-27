@@ -1594,6 +1594,7 @@
 ## 冥
 
 - [冥報記](<../corpus/03-佛藏/史传/冥報記（T51n2082）/README.md>) — `cbeta-T51n2082`
+- [冥報記](<../corpus/01-志怪神异/冥報記/README.md>) — `wikisource-zhiguai-849902c8bfc8`
 - [冥報記輯書](<../corpus/03-佛藏/其他/冥報記輯書（X88n1648）/README.md>) — `cbeta-X88n1648`
 - [冥樞會要](<../corpus/03-佛藏/史传/冥樞會要（D56n8980）/README.md>) — `cbeta-D56n8980`
 
@@ -1663,6 +1664,11 @@
 ## 前
 
 - [前世三轉經](<../corpus/03-佛藏/本缘/前世三轉經（T03n0178）/README.md>) — `cbeta-T03n0178`
+
+## 剪
+
+- [剪燈新話](<../corpus/01-志怪神异/剪燈新話/README.md>) — `wikisource-zhiguai-de347e01199c`
+- [剪燈餘話](<../corpus/01-志怪神异/剪燈餘話/README.md>) — `wikisource-zhiguai-3e67a497d191`
 
 ## 劉
 
@@ -2413,6 +2419,10 @@
 ## 多
 
 - [多利心菩薩念誦法](<../corpus/03-佛藏/其他/多利心菩薩念誦法（X59n1054）/README.md>) — `cbeta-X59n1054`
+
+## 夜
+
+- [夜譚隨錄](<../corpus/01-志怪神异/夜譚隨錄/README.md>) — `wikisource-zhiguai-73d99a732221`
 
 ## 大
 
@@ -3347,6 +3357,7 @@
 
 ## 夷
 
+- [夷堅志](<../corpus/01-志怪神异/夷堅志/README.md>) — `wikisource-zhiguai-0a4cb4f58d35`
 - [夷堅志甲](<../corpus/01-志怪神异/夷堅志甲/README.md>) — `kanripo-KR3l0122`
 
 ## 夾
@@ -3436,6 +3447,7 @@
 
 ## 子
 
+- [子不語](<../corpus/01-志怪神异/子不語/README.md>) — `wikisource-zhiguai-74674d06d0e0`
 - [子平真诠](<../corpus/04-阴阳术数/02-八字四柱/子平真诠/README.md>) — `xuanxue-21986dca78d8`
 - [子平管见](<../corpus/04-阴阳术数/02-八字四柱/子平管见/README.md>) — `xuanxue-3af58bfffed9`
 - [子華子](<../corpus/02-道藏/太清部/子華子/README.md>) — `KR5f0008`
@@ -3532,6 +3544,10 @@
 
 - [定慧相資歌](<../corpus/03-佛藏/其他/定慧相資歌（X63n1229）/README.md>) — `cbeta-X63n1229`
 - [定應大師布袋和尚傳](<../corpus/03-佛藏/其他/定應大師布袋和尚傳（X86n1597）/README.md>) — `cbeta-X86n1597`
+
+## 宣
+
+- [宣室志](<../corpus/01-志怪神异/宣室志/README.md>) — `wikisource-zhiguai-5c8b73d16ac9`
 
 ## 宮
 
@@ -3747,6 +3763,10 @@
 
 - [幼真先生服內元氣訣](<../corpus/02-道藏/洞神部/幼真先生服內元氣訣/README.md>) — `KR5c0225`
 
+## 幽
+
+- [幽明錄](<../corpus/01-志怪神异/幽明錄/README.md>) — `wikisource-zhiguai-923c7f67eed1`
+
 ## 序
 
 - [序聽迷詩所經](<../corpus/03-佛藏/其他/序聽迷詩所經（T54n2142）/README.md>) — `cbeta-T54n2142`
@@ -3779,6 +3799,7 @@
 - [廣成集](<../corpus/02-道藏/洞玄部/廣成集/README.md>) — `KR5b0321`
 - [廣施無遮道場儀](<../corpus/03-佛藏/藏外/廣施無遮道場儀（ZW06n0054）/README.md>) — `cbeta-ZW06n0054`
 - [廣清涼傳](<../corpus/03-佛藏/史传/廣清涼傳（T51n2099）/README.md>) — `cbeta-T51n2099`
+- [廣異記](<../corpus/01-志怪神异/廣異記/README.md>) — `wikisource-zhiguai-0b3f5c43aa96`
 - [廣百論本](<../corpus/03-佛藏/论部/廣百論本（T30n1570）/README.md>) — `cbeta-T30n1570`
 - [廣百論疏卷第一](<../corpus/03-佛藏/藏外/廣百論疏卷第一（T85n2800）/README.md>) — `cbeta-T85n2800`
 - [廣福山勝覺寺密印禪師語錄](<../corpus/03-佛藏/其他/廣福山勝覺寺密印禪師語錄（J35nB343）/README.md>) — `cbeta-J35nB343`
@@ -4204,6 +4225,10 @@
 - [拔一切業障根本得生淨土神呪](<../corpus/03-佛藏/净土/拔一切業障根本得生淨土神呪（T12n0368）/README.md>) — `cbeta-T12n0368`
 - [拔濟苦難陀羅尼經](<../corpus/03-佛藏/密教/拔濟苦難陀羅尼經（T21n1395）/README.md>) — `cbeta-T21n1395`
 - [拔陂菩薩經](<../corpus/03-佛藏/其他/拔陂菩薩經（T13n0419）/README.md>) — `cbeta-T13n0419`
+
+## 拾
+
+- [拾遺記](<../corpus/01-志怪神异/拾遺記/README.md>) — `wikisource-zhiguai-b248dfcb477b`
 
 ## 持
 
@@ -4642,6 +4667,7 @@
 
 - [朝宗禪師語錄](<../corpus/03-佛藏/其他/朝宗禪師語錄（J34nB300）/README.md>) — `cbeta-J34nB300`
 - [朝真發願懺悔文](<../corpus/02-道藏/续道藏/朝真發願懺悔文/README.md>) — `KR5h0022`
+- [朝野僉載](<../corpus/01-志怪神异/朝野僉載/README.md>) — `wikisource-zhiguai-af5d1903fa41`
 - [朝鮮佛教通史](<../corpus/03-佛藏/其他/朝鮮佛教通史（B31n0170）/README.md>) — `cbeta-B31n0170`
 - [朝鮮寺剎史料](<../corpus/03-佛藏/其他/朝鮮寺剎史料（B31n0169）/README.md>) — `cbeta-B31n0169`
 - [朝鮮禪教考](<../corpus/03-佛藏/其他/朝鮮禪教考（X87n1622）/README.md>) — `cbeta-X87n1622`
@@ -5830,6 +5856,10 @@
 
 - [猶龍傳](<../corpus/02-道藏/洞神部/猶龍傳/README.md>) — `KR5c0170`
 
+## 獨
+
+- [獨異志](<../corpus/01-志怪神异/獨異志/README.md>) — `wikisource-zhiguai-f200de737082`
+
 ## 獻
 
 - [獻花巖志](<../corpus/03-佛藏/其他/獻花巖志（B24n0139）/README.md>) — `cbeta-B24n0139`
@@ -5852,6 +5882,7 @@
 - [玄寶人鳥山經圖](<../corpus/02-道藏/洞玄部/玄寶人鳥山經圖/README.md>) — `KR5b0118`
 - [玄帝燈儀](<../corpus/02-道藏/洞真部/玄帝燈儀/README.md>) — `KR5a0204`
 - [玄微论](<../corpus/04-阴阳术数/03-紫微斗数/玄微论/README.md>) — `xuanxue-c25b862f155c`
+- [玄怪錄](<../corpus/01-志怪神异/玄怪錄/README.md>) — `wikisource-zhiguai-f15188111a49`
 - [玄教大公案](<../corpus/02-道藏/太玄部/玄教大公案/README.md>) — `KR5d0088`
 - [玄沙師備禪師廣錄](<../corpus/03-佛藏/其他/玄沙師備禪師廣錄（X73n1445）/README.md>) — `cbeta-X73n1445`
 - [玄沙師備禪師語錄](<../corpus/03-佛藏/其他/玄沙師備禪師語錄（X73n1446）/README.md>) — `cbeta-X73n1446`
@@ -6039,6 +6070,7 @@
 ## 異
 
 - [異出菩薩本起經](<../corpus/03-佛藏/本缘/異出菩薩本起經（T03n0188）/README.md>) — `cbeta-T03n0188`
+- [異苑](<../corpus/01-志怪神异/異苑/README.md>) — `wikisource-zhiguai-c80ba6ec8eea`
 - [異部宗輪論](<../corpus/03-佛藏/史传/異部宗輪論（T49n2031）/README.md>) — `cbeta-T49n2031`
 - [異部宗輪論疏述記](<../corpus/03-佛藏/其他/異部宗輪論疏述記（X53n0844）/README.md>) — `cbeta-X53n0844`
 - [異部宗輪論語體釋](<../corpus/03-佛藏/诸宗/異部宗輪論語體釋（YP14n0021）/README.md>) — `cbeta-YP14n0021`
@@ -6300,6 +6332,7 @@
 - [神峰通考](<../corpus/04-阴阳术数/02-八字四柱/神峰通考/README.md>) — `xuanxue-0f2b927212ef`
 - [神會和尚語錄的第三個敦煌寫本：南陽和尚問答雜徵義（劉澄集）](<../corpus/03-佛藏/其他/神會和尚語錄的第三個敦煌寫本：南陽和尚問答雜徵義（劉澄集）（B25n0143）/README.md>) — `cbeta-B25n0143`
 - [神氣養形論](<../corpus/02-道藏/洞神部/神氣養形論/README.md>) — `KR5c0230`
+- [神異經](<../corpus/01-志怪神异/神異經/README.md>) — `wikisource-zhiguai-f74be8feb1dc`
 - [神相全编](<../corpus/04-阴阳术数/11-相术/神相全编/README.md>) — `xuanxue-64cb40e84a42`
 - [神相铁关刀](<../corpus/04-阴阳术数/11-相术/神相铁关刀/README.md>) — `xuanxue-d91987a9ecd6`
 - [神鼎一揆禪師語錄](<../corpus/03-佛藏/其他/神鼎一揆禪師語錄（J37nB388）/README.md>) — `cbeta-J37nB388`
@@ -6685,6 +6718,7 @@
 ## 耳
 
 - [耳庵嵩禪師語錄](<../corpus/03-佛藏/其他/耳庵嵩禪師語錄（J29nB243）/README.md>) — `cbeta-J29nB243`
+- [耳食錄](<../corpus/01-志怪神异/耳食錄/README.md>) — `wikisource-zhiguai-cf702d4c9cb0`
 
 ## 聊
 
@@ -7268,6 +7302,10 @@
 - [虛舟省禪師語錄](<../corpus/03-佛藏/其他/虛舟省禪師語錄（J33nB282）/README.md>) — `cbeta-J33nB282`
 - [虛舟禪師註八識規矩頌](<../corpus/03-佛藏/其他/虛舟禪師註八識規矩頌（J33nB279）/README.md>) — `cbeta-J33nB279`
 - [虛靜沖和先生徐神翁語錄](<../corpus/02-道藏/正一部/虛靜沖和先生徐神翁語錄/README.md>) — `KR5g0060`
+
+## 螢
+
+- [螢窗異草](<../corpus/01-志怪神异/螢窗異草/README.md>) — `wikisource-zhiguai-9b7230438665`
 
 ## 螺
 
@@ -7976,6 +8014,7 @@
 
 ## 酉
 
+- [酉陽雜俎](<../corpus/01-志怪神异/酉陽雜俎/README.md>) — `wikisource-zhiguai-c612fa8dc466`
 - [酉陽雜俎選輯（前集、續集等六篇）](<../corpus/03-佛藏/其他/酉陽雜俎選輯（前集、續集等六篇）（B17n0090）/README.md>) — `cbeta-B17n0090`
 
 ## 醒
@@ -8590,6 +8629,7 @@
 - [集大乘相論](<../corpus/03-佛藏/论部/集大乘相論（T32n1637）/README.md>) — `cbeta-T32n1637`
 - [集文字禪](<../corpus/03-佛藏/其他/集文字禪（J29nB227）/README.md>) — `cbeta-J29nB227`
 - [集沙門不應拜俗等事](<../corpus/03-佛藏/史传/集沙門不應拜俗等事（T52n2108）/README.md>) — `cbeta-T52n2108`
+- [集異記](<../corpus/01-志怪神异/集異記/README.md>) — `wikisource-zhiguai-df50dcf25349`
 - [集神州三寶感通錄](<../corpus/03-佛藏/史传/集神州三寶感通錄（T52n2106）/README.md>) — `cbeta-T52n2106`
 - [集註太玄經](<../corpus/02-道藏/太清部/集註太玄經/README.md>) — `KR5f0017`
 - [集諸學頌](<../corpus/03-佛藏/其他/集諸學頌（B10n0053）/README.md>) — `cbeta-B10n0053`

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-zhiguai-b248dfcb477b",
+  "title": "拾遺記",
+  "aliases": [],
+  "author": "王嘉",
+  "author_dynasty": null,
+  "work_dynasty": "晉",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [
+    "志怪",
+    "神仙",
+    "異聞",
+    "志怪神异"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "中文維基文庫渲染文本",
+    "base_text": null,
+    "volume_count": 10,
+    "snapshot": "40ac363feb197173ea907e4bd127bf9846bdc885"
+  },
+  "source": {
+    "source_id": "wikisource-zhiguai-bulk",
+    "repository": "https://zh.wikisource.org/",
+    "commit": "40ac363feb197173ea907e4bd127bf9846bdc885",
+    "original_path": [
+      "拾遺記/卷一",
+      "拾遺記/卷七",
+      "拾遺記/卷三",
+      "拾遺記/卷九",
+      "拾遺記/卷二",
+      "拾遺記/卷五",
+      "拾遺記/卷八",
+      "拾遺記/卷六",
+      "拾遺記/卷十",
+      "拾遺記/卷四"
+    ],
+    "upstream_url": "https://zh.wikisource.org/"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed navigation/edit controls; converted headings to Markdown; preserved rendered wording"
+  },
+  "statistics": {
+    "characters": 44675,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Wikisource transcription not independently collated by this project",
+      "Rendered-page cleanup may omit navigation/editorial apparatus"
+    ]
+  },
+  "original_format": "MediaWiki rendered HTML",
+  "current_format": "text/markdown; charset=utf-8"
+}

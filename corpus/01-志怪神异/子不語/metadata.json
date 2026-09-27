@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-zhiguai-74674d06d0e0",
+  "title": "子不語",
+  "aliases": [],
+  "author": "袁枚",
+  "author_dynasty": null,
+  "work_dynasty": "清",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [
+    "鬼怪",
+    "志怪",
+    "民間傳說",
+    "志怪神异"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "中文維基文庫渲染文本",
+    "base_text": null,
+    "volume_count": 25,
+    "snapshot": "40ac363feb197173ea907e4bd127bf9846bdc885"
+  },
+  "source": {
+    "source_id": "wikisource-zhiguai-bulk",
+    "repository": "https://zh.wikisource.org/",
+    "commit": "40ac363feb197173ea907e4bd127bf9846bdc885",
+    "original_path": [
+      "子不語/卷1",
+      "子不語/卷10",
+      "子不語/卷11",
+      "子不語/卷12",
+      "子不語/卷13",
+      "子不語/卷14",
+      "子不語/卷15",
+      "子不語/卷16",
+      "子不語/卷17",
+      "子不語/卷18",
+      "子不語/卷19",
+      "子不語/卷2",
+      "子不語/卷20",
+      "子不語/卷21",
+      "子不語/卷22",
+      "子不語/卷23",
+      "子不語/卷24",
+      "子不語/卷3",
+      "子不語/卷4",
+      "子不語/卷5",
+      "子不語/卷6",
+      "子不語/卷7",
+      "子不語/卷8",
+      "子不語/卷9",
+      "子不語/自序"
+    ],
+    "upstream_url": "https://zh.wikisource.org/"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed navigation/edit controls; converted headings to Markdown; preserved rendered wording"
+  },
+  "statistics": {
+    "characters": 278016,
+    "chapters": 25
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Wikisource transcription not independently collated by this project",
+      "Rendered-page cleanup may omit navigation/editorial apparatus"
+    ]
+  },
+  "original_format": "MediaWiki rendered HTML",
+  "current_format": "text/markdown; charset=utf-8"
+}

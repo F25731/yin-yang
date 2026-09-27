@@ -46,6 +46,7 @@
 - wikisource-qimenbaojian：1 部
 - wikisource-yuewei：1 部
 - wikisource-zengshan：1 部
+- wikisource-zhiguai-bulk：19 部
 - xuanxue：71 部
 
 转换失败统计：0。

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-zhiguai-c612fa8dc466",
+  "title": "酉陽雜俎",
+  "aliases": [],
+  "author": "段成式",
+  "author_dynasty": null,
+  "work_dynasty": "唐",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [
+    "志怪",
+    "妖異",
+    "博物",
+    "志怪神异"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "中文維基文庫渲染文本",
+    "base_text": null,
+    "volume_count": 31,
+    "snapshot": "40ac363feb197173ea907e4bd127bf9846bdc885"
+  },
+  "source": {
+    "source_id": "wikisource-zhiguai-bulk",
+    "repository": "https://zh.wikisource.org/",
+    "commit": "40ac363feb197173ea907e4bd127bf9846bdc885",
+    "original_path": [
+      "酉陽雜俎/卷一",
+      "酉陽雜俎/卷七",
+      "酉陽雜俎/卷三",
+      "酉陽雜俎/卷九",
+      "酉陽雜俎/卷二",
+      "酉陽雜俎/卷二十",
+      "酉陽雜俎/卷五",
+      "酉陽雜俎/卷八",
+      "酉陽雜俎/卷六",
+      "酉陽雜俎/卷十",
+      "酉陽雜俎/卷十一",
+      "酉陽雜俎/卷十七",
+      "酉陽雜俎/卷十三",
+      "酉陽雜俎/卷十九",
+      "酉陽雜俎/卷十二",
+      "酉陽雜俎/卷十五",
+      "酉陽雜俎/卷十八",
+      "酉陽雜俎/卷十六",
+      "酉陽雜俎/卷十四",
+      "酉陽雜俎/卷四",
+      "酉陽雜俎/續集/卷一",
+      "酉陽雜俎/續集/卷七",
+      "酉陽雜俎/續集/卷三",
+      "酉陽雜俎/續集/卷九",
+      "酉陽雜俎/續集/卷二",
+      "酉陽雜俎/續集/卷五",
+      "酉陽雜俎/續集/卷八",
+      "酉陽雜俎/續集/卷六",
+      "酉陽雜俎/續集/卷十",
+      "酉陽雜俎/續集/卷四",
+      "酉陽雜俎/酉陽雜俎序"
+    ],
+    "upstream_url": "https://zh.wikisource.org/"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed navigation/edit controls; converted headings to Markdown; preserved rendered wording"
+  },
+  "statistics": {
+    "characters": 136808,
+    "chapters": 31
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Wikisource transcription not independently collated by this project",
+      "Rendered-page cleanup may omit navigation/editorial apparatus"
+    ]
+  },
+  "original_format": "MediaWiki rendered HTML",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1342,9 +1342,10 @@
       "verified": true,
       "status": "ATTRIBUTION_REQUIRED"
     },
-    "imported_commit": "0000000000000000000000000000000000000000",
+    "imported_commit": "40ac363feb197173ea907e4bd127bf9846bdc885",
     "importer": "tools/import/import_zhiguai_wikisource.py",
     "enabled": true,
-    "scope": "Selected premodern zhiguai works; manifest hash is refreshed from revision SHA1 values at import time"
+    "scope": "Selected premodern zhiguai works; manifest hash is refreshed from revision SHA1 values at import time",
+    "snapshot_pages": 394
   }
 ]

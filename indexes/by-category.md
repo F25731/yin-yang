@@ -8940,15 +8940,34 @@
 
 ## 志怪神异
 
+- [冥報記](<../corpus/01-志怪神异/冥報記/README.md>) — `wikisource-zhiguai-849902c8bfc8`
+- [剪燈新話](<../corpus/01-志怪神异/剪燈新話/README.md>) — `wikisource-zhiguai-de347e01199c`
+- [剪燈餘話](<../corpus/01-志怪神异/剪燈餘話/README.md>) — `wikisource-zhiguai-3e67a497d191`
 - [博物志](<../corpus/01-志怪神异/博物志/README.md>) — `kanripo-KR3l0123`
+- [夜譚隨錄](<../corpus/01-志怪神异/夜譚隨錄/README.md>) — `wikisource-zhiguai-73d99a732221`
 - [太平廣記](<../corpus/01-志怪神异/太平廣記/README.md>) — `kanripo-KR3l0118`
+- [夷堅志](<../corpus/01-志怪神异/夷堅志/README.md>) — `wikisource-zhiguai-0a4cb4f58d35`
 - [夷堅志甲](<../corpus/01-志怪神异/夷堅志甲/README.md>) — `kanripo-KR3l0122`
+- [子不語](<../corpus/01-志怪神异/子不語/README.md>) — `wikisource-zhiguai-74674d06d0e0`
+- [宣室志](<../corpus/01-志怪神异/宣室志/README.md>) — `wikisource-zhiguai-5c8b73d16ac9`
 - [山海經](<../corpus/01-志怪神异/山海經/README.md>) — `kanripo-KR3l0090`
+- [幽明錄](<../corpus/01-志怪神异/幽明錄/README.md>) — `wikisource-zhiguai-923c7f67eed1`
+- [廣異記](<../corpus/01-志怪神异/廣異記/README.md>) — `wikisource-zhiguai-0b3f5c43aa96`
+- [拾遺記](<../corpus/01-志怪神异/拾遺記/README.md>) — `wikisource-zhiguai-b248dfcb477b`
 - [搜神後記](<../corpus/01-志怪神异/搜神後記/README.md>) — `kanripo-KR3l0100`
 - [搜神記](<../corpus/01-志怪神异/搜神記/README.md>) — `kanripo-KR3l0099`
+- [朝野僉載](<../corpus/01-志怪神异/朝野僉載/README.md>) — `wikisource-zhiguai-af5d1903fa41`
+- [獨異志](<../corpus/01-志怪神异/獨異志/README.md>) — `wikisource-zhiguai-f200de737082`
+- [玄怪錄](<../corpus/01-志怪神异/玄怪錄/README.md>) — `wikisource-zhiguai-f15188111a49`
+- [異苑](<../corpus/01-志怪神异/異苑/README.md>) — `wikisource-zhiguai-c80ba6ec8eea`
+- [神異經](<../corpus/01-志怪神异/神異經/README.md>) — `wikisource-zhiguai-f74be8feb1dc`
+- [耳食錄](<../corpus/01-志怪神异/耳食錄/README.md>) — `wikisource-zhiguai-cf702d4c9cb0`
 - [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
+- [螢窗異草](<../corpus/01-志怪神异/螢窗異草/README.md>) — `wikisource-zhiguai-9b7230438665`
 - [述異記](<../corpus/01-志怪神异/述異記/README.md>) — `kanripo-KR3l0124`
+- [酉陽雜俎](<../corpus/01-志怪神异/酉陽雜俎/README.md>) — `wikisource-zhiguai-c612fa8dc466`
 - [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
+- [集異記](<../corpus/01-志怪神异/集異記/README.md>) — `wikisource-zhiguai-df50dcf25349`
 
 ## 择日
 
