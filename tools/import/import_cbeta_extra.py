@@ -34,8 +34,11 @@ def ensure_source(source, fetch=False):
         if root.exists():
             shutil.rmtree(root)
         root.parent.mkdir(parents=True, exist_ok=True)
-        git("clone", "--filter=blob:none", "--no-checkout", source["url"], str(root))
-        git("checkout", source["imported_commit"], cwd=root)
+        root.mkdir(parents=True, exist_ok=True)
+        git("init", cwd=root)
+        git("remote", "add", "origin", source["url"], cwd=root)
+        git("fetch", "--depth", "1", "--filter=blob:none", "origin", source["imported_commit"], cwd=root)
+        git("checkout", "--detach", "FETCH_HEAD", cwd=root)
     if not root.exists():
         raise FileNotFoundError(f"{root} missing; use --fetch")
     return root
