@@ -1,0 +1,44 @@
+name: Complete zhiguai supplement
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/complete-zhiguai.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  complete-zhiguai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --disable-pip-version-check beautifulsoup4
+      - run: |
+          git config user.name "yin-yang corpus bot"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Import Wikisource zhiguai
+        run: python tools/import/import_zhiguai_wikisource.py
+      - name: Rebuild AI-ready indexes
+        run: |
+          python tools/index/build_all.py
+          python tools/index/build_ai_indexes.py
+          python tools/reports/build_final.py
+          python tools/validate_all.py
+      - name: Commit generated supplement
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "feat: add zhiguai second-pass supplement"
+          git push origin HEAD:main
