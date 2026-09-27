@@ -46,7 +46,7 @@ def validate_metadata():
             errors.append(f"source not registered: {bid}")
         if not re.fullmatch(r"[0-9a-f]{40}", book["source"].get("commit", "")):
             errors.append(f"missing source commit: {bid}")
-        if book["license"].get("status") not in {"OK_TO_REDISTRIBUTE", "ATTRIBUTION_REQUIRED", "NONCOMMERCIAL_OR_RESTRICTED"}:
+        if book["license"].get("status") not in {"OK_TO_REDISTRIBUTE", "ATTRIBUTION_REQUIRED", "NONCOMMERCIAL_OR_RESTRICTED", "SOURCE_TERMS_UNCLEAR"}:
             errors.append(f"unapproved license for corpus: {bid}")
         if book["processing"].get("ai_modified_text") is not False:
             errors.append(f"AI-modified text marked: {bid}")
@@ -128,4 +128,52 @@ def validate_links():
                 continue
             if not (path.parent / target).exists():
                 errors.append(f"broken link: {path.name} -> {target}")
+    return errors
+
+
+REQUIRED_METAPHYSICS_CATEGORIES = [
+    "周易", "八字四柱", "紫微斗数", "六爻", "梅花易数", "奇门遁甲",
+    "大六壬", "太乙神数", "风水堪舆", "择日", "相术", "卜筮",
+]
+
+# Each inner tuple is satisfied when any title/alias contains one alternative.
+REQUIRED_WORK_GROUPS = {
+    "志怪神异": [
+        ("搜神記", "搜神记"), ("太平廣記", "太平广记"), ("聊齋志異", "聊斋志异"),
+        ("山海經", "山海经"), ("博物志",), ("述異記", "述异记"), ("閱微草堂筆記", "阅微草堂笔记"),
+    ],
+    "八字四柱": [
+        ("三命通會", "三命通会"), ("淵海子平", "渊海子平"), ("子平真詮", "子平真诠"),
+        ("滴天髓",), ("窮通寶鑑", "穷通宝鉴"), ("五行精紀", "五行精纪"),
+    ],
+    "紫微斗数": [("斗數骨髓賦", "斗数骨髓赋"), ("玄微論", "玄微论"), ("太微賦", "太微赋")],
+    "六爻": [("增刪卜易", "增删卜易"), ("卜筮正宗",), ("卜筮全書", "卜筮全书"), ("黃金策", "黄金策")],
+    "梅花易数": [("梅花易數", "梅花易数")],
+    "奇门遁甲": [("遁甲演義", "遁甲演义"), ("奇門法竅", "奇门法窍"), ("奇門遁甲元靈經", "奇门遁甲元灵经")],
+    "大六壬": [("六壬大全",), ("六壬粹言",), ("大六壬心鏡", "大六壬心镜", "大六壬心境")],
+    "太乙神数": [("太乙金鏡式經", "太乙金镜式经")],
+    "风水堪舆": [("葬書", "葬书", "葬經", "葬经"), ("撼龍經", "撼龙经"), ("陽宅十書", "阳宅十书"), ("青囊經", "青囊经")],
+    "择日": [("協紀辨方書", "协纪辨方书")],
+    "相术": [("麻衣神相",), ("神相全編", "神相全编"), ("柳莊神相", "柳庄神相")],
+    "卜筮": [("卜筮正宗",), ("京氏易傳", "京氏易传")],
+}
+
+
+def validate_coverage():
+    errors = []
+    corpus = books()
+    counts = {cat: sum(cat in b.get("categories", []) for b in corpus) for cat in REQUIRED_METAPHYSICS_CATEGORIES}
+    for cat, count in counts.items():
+        if count == 0:
+            errors.append(f"empty metaphysics category: {cat}")
+
+    def labels(book):
+        return [book.get("title", "")] + list(book.get("aliases", []))
+
+    for cat, groups in REQUIRED_WORK_GROUPS.items():
+        scoped = [b for b in corpus if cat in b.get("categories", []) or cat == "志怪神异" and "志怪神异" in b.get("categories", [])]
+        all_labels = [label for b in scoped for label in labels(b)]
+        for alternatives in groups:
+            if not any(any(alt in label for alt in alternatives) for label in all_labels):
+                errors.append(f"missing core work in {cat}: {' / '.join(alternatives)}")
     return errors
