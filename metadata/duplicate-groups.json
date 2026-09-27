@@ -1,0 +1,140 @@
+{
+  "exact_groups": [],
+  "near_candidates": [],
+  "edition_groups": [
+    {
+      "canonical_work": "高上玉皇心印經",
+      "editions": [
+        "KR5a0013",
+        "KR5i0019"
+      ]
+    },
+    {
+      "canonical_work": "黃帝陰符經",
+      "editions": [
+        "KR5a0031",
+        "KR5i0031",
+        "KR5i0032"
+      ]
+    },
+    {
+      "canonical_work": "黃帝陰符經集解",
+      "editions": [
+        "KR5a0112",
+        "KR5a0128"
+      ]
+    },
+    {
+      "canonical_work": "黃帝陰符經註",
+      "editions": [
+        "KR5a0113",
+        "KR5a0116",
+        "KR5a0117",
+        "KR5a0118",
+        "KR5a0122",
+        "KR5a0123",
+        "KR5a0124",
+        "KR5a0126"
+      ]
+    },
+    {
+      "canonical_work": "黃帝陰符經註解",
+      "editions": [
+        "KR5a0115",
+        "KR5a0125"
+      ]
+    },
+    {
+      "canonical_work": "太上黃庭內景玉經",
+      "editions": [
+        "KR5b0015",
+        "KR5i0010"
+      ]
+    },
+    {
+      "canonical_work": "玄珠心鏡註",
+      "editions": [
+        "KR5b0279",
+        "KR5b0280"
+      ]
+    },
+    {
+      "canonical_work": "洞靈真經",
+      "editions": [
+        "KR5c0050",
+        "KR5c0141"
+      ]
+    },
+    {
+      "canonical_work": "南華真經註疏",
+      "editions": [
+        "KR5c0139",
+        "KR5i0036"
+      ]
+    },
+    {
+      "canonical_work": "北斗七元金玄羽章",
+      "editions": [
+        "KR5c0149",
+        "KR5c0375"
+      ]
+    },
+    {
+      "canonical_work": "太上說玄天大聖真武本傳神咒妙經",
+      "editions": [
+        "KR5c0150",
+        "KR5c0171"
+      ]
+    },
+    {
+      "canonical_work": "龍虎還丹訣",
+      "editions": [
+        "KR5c0307",
+        "KR5d0107"
+      ]
+    },
+    {
+      "canonical_work": "山海經",
+      "editions": [
+        "KR5d0054",
+        "kanripo-KR3l0090"
+      ]
+    },
+    {
+      "canonical_work": "化書",
+      "editions": [
+        "KR5d0067",
+        "KR5i0042"
+      ]
+    },
+    {
+      "canonical_work": "洞淵集",
+      "editions": [
+        "KR5d0086",
+        "KR5d0087"
+      ]
+    },
+    {
+      "canonical_work": "金丹四百字",
+      "editions": [
+        "KR5d0104",
+        "KR5i0058"
+      ]
+    },
+    {
+      "canonical_work": "搜神記",
+      "editions": [
+        "KR5h0045",
+        "kanripo-KR3l0099"
+      ]
+    },
+    {
+      "canonical_work": "元始大洞玉經",
+      "editions": [
+        "KR5i0001",
+        "KR5i0003"
+      ]
+    }
+  ],
+  "method": "Unicode-preserving punctuation/space removal; sampled 5-gram Jaccard only among identical titles"
+}
