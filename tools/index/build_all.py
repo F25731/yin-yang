@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import ROOT, read_manifest, write_json
 
-MAJORS = ["志怪神异", "道藏", "佛藏", "阴阳术数"]
+MAJORS = ["志怪神异", "道藏", "佛藏", "阴阳术数", "现代民间灵异"]
 
 
 def dump_jsonl(path, rows):
@@ -103,9 +103,12 @@ def build():
             if unit_chars == 0:
                 empty_files += 1
             search.append({"id": f"{book['id']}:{pos:04d}", "book_id": book["id"],
-                           "book": book["title"], "path": file.relative_to(ROOT).as_posix(),
+                           "book": book["title"], "aliases": book.get("aliases", []),
+                           "author": book.get("author"), "dynasty": book.get("work_dynasty"),
+                           "path": file.relative_to(ROOT).as_posix(),
                            "categories": book["categories"], "topics": book.get("topics", []),
-                           "characters": unit_chars, "source_id": book["source"]["source_id"]})
+                           "characters": unit_chars, "source_id": book["source"]["source_id"],
+                           "quality": book.get("quality", {}).get("grade")})
     books.sort(key=lambda x: x["id"])
     search.sort(key=lambda x: x["id"])
     dump_jsonl(ROOT / "metadata/books.jsonl", books)
@@ -128,20 +131,72 @@ def build():
         ("by-source.md", "按来源", lambda b: [b["source"]["source_id"]]),
     ]:
         (index_dir / filename).write_text(markdown_index(title, books, fn), encoding="utf-8")
-    catalog = ["# 阴阳资料总库目录", "", "先按类定位，再读取具体章节；同一部书可有多个分类标签，但正文只存一处。", ""]
+    # Compact root catalog + split catalogs. The root stays small enough for an
+    # agent to read first; detailed lists live under indexes/catalog/.
+    catalog_dir = ROOT / "indexes/catalog"
+    catalog_dir.mkdir(parents=True, exist_ok=True)
+    root_catalog = [
+        "# 阴阳资料总库目录", "",
+        "本页只提供总入口。先按类进入小目录，再读取具体正文；不要一次加载全库。", "",
+        f"- 总书目：**{len(books)}**",
+        f"- 检索单元：**{len(search)}**", "",
+        "## 分类入口", "",
+    ]
     for major in MAJORS:
-        catalog.extend(["## " + major, ""])
         selected = [book for book in books if major in book["categories"]]
-        if not selected:
-            catalog.extend(["当前没有可再分发正文。", ""])
-        for book in sorted(selected, key=lambda x: (x["categories"][1:] or [""], x["title"])):
-            path = book["path"]
+        filename = clean_catalog_name = re.sub(r'[<>:"/\\|?*]', "_", major) + ".md"
+        root_catalog.append(f"- [{major}](indexes/catalog/{filename}) — {len(selected)} 部")
+        lines = [f"# {major}", "", f"共 **{len(selected)}** 部。", ""]
+        if major == "阴阳术数":
+            subcats = ["周易","八字四柱","紫微斗数","六爻","梅花易数","奇门遁甲",
+                       "大六壬","太乙神数","风水堪舆","择日","相术","卜筮"]
+            subdir = catalog_dir / "阴阳术数"
+            subdir.mkdir(exist_ok=True)
+            lines += ["## 子类入口", ""]
+            for sub in subcats:
+                subbooks = [b for b in selected if sub in b["categories"]]
+                lines.append(f"- [{sub}](阴阳术数/{sub}.md) — {len(subbooks)} 部")
+                slines = [f"# 阴阳术数 / {sub}", "", f"共 **{len(subbooks)}** 部。", ""]
+                for book in sorted(subbooks, key=lambda x: (x["title"], x["id"])):
+                    label = book["title"].replace("[", "\\[").replace("]", "\\]")
+                    slines.append(f"- [{label}](<../../../{book['path']}/README.md>) — `{book['id']}`")
+                (subdir / f"{sub}.md").write_text("\n".join(slines) + "\n", encoding="utf-8")
+            lines.append("")
+        lines += ["## 书目", ""]
+        for book in sorted(selected, key=lambda x: (x["title"], x["id"])):
             label = book["title"].replace("[", "\\[").replace("]", "\\]")
-            catalog.extend([f"### [{label}](<{path}/README.md>)",
-                            f"- 作者：{book.get('author') or '未详'}；时代：{book.get('work_dynasty') or '未详'}",
-                            f"- 分类：{'、'.join(book['categories'])}；来源：{book['source']['source_id']}",
-                            f"- 章节：{book['statistics']['chapters']}；路径：`{path}`", ""])
-    (ROOT / "CATALOG.md").write_text("\n".join(catalog), encoding="utf-8")
+            cats = "、".join(book["categories"])
+            lines.append(f"- [{label}](<../../{book['path']}/README.md>) — {cats}；`{book['id']}`")
+        (catalog_dir / filename).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (ROOT / "CATALOG.md").write_text("\n".join(root_catalog) + "\n", encoding="utf-8")
+
+    # Topic index is metadata-driven and therefore cheap for agents to scan.
+    topic_groups = defaultdict(list)
+    for book in books:
+        for topic in book.get("topics", []):
+            topic_groups[topic].append(book)
+    topic_lines = ["# 按主题", ""]
+    for topic in sorted(topic_groups):
+        topic_lines += [f"## {topic}", ""]
+        for book in sorted(topic_groups[topic], key=lambda x: (x["title"], x["id"])):
+            topic_lines.append(f"- [{book['title']}](<../{book['path']}/README.md>) — `{book['id']}`")
+        topic_lines.append("")
+    (ROOT / "indexes/by-topic.md").write_text("\n".join(topic_lines), encoding="utf-8")
+
+    # Machine-readable coverage snapshot used by validation and second-pass audits.
+    metaphysics = ["周易","八字四柱","紫微斗数","六爻","梅花易数","奇门遁甲",
+                   "大六壬","太乙神数","风水堪舆","择日","相术","卜筮"]
+    coverage = {
+        "generated_from": "corpus metadata",
+        "major_categories": {m: {"books": sum(m in b["categories"] for b in books)} for m in MAJORS},
+        "metaphysics": {
+            sub: {
+                "books": sum(sub in b["categories"] for b in books),
+                "titles": sorted({b["title"] for b in books if sub in b["categories"]}),
+            } for sub in metaphysics
+        },
+    }
+    write_json(ROOT / "metadata/coverage.json", coverage)
     duplicates = build_duplicates(books, files_by_id)
     major_counts = {key: sum(key in b["categories"] for b in books) for key in MAJORS}
     category_counts = Counter(cat for book in books for cat in book["categories"])
