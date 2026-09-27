@@ -1,0 +1,92 @@
+name: Complete corpus second pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/complete-corpus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-yin-yang-corpus
+  cancel-in-progress: false
+
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout corpus
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install parser dependencies
+        run: python -m pip install --disable-pip-version-check beautifulsoup4
+
+      - name: Configure git
+        run: |
+          git config user.name "yin-yang corpus bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Import xuanxue classical corpus
+        id: xuanxue
+        continue-on-error: true
+        run: python tools/import/import_xuanxue.py --fetch
+
+      - name: Import extra zhiguai from Wikisource
+        id: zhiguai
+        continue-on-error: true
+        run: python tools/import/import_zhiguai_wikisource.py
+
+      - name: Build modern folklore indexes
+        id: modern
+        continue-on-error: true
+        run: python tools/import/import_modern_folklore.py
+
+      - name: Import remaining CBETA collections
+        id: cbeta_extra
+        continue-on-error: true
+        run: python tools/import/import_cbeta_extra.py --fetch
+
+      - name: Rebuild indexes and AI navigation
+        run: |
+          python tools/index/build_all.py
+          python tools/index/build_ai_indexes.py
+          python tools/reports/build_final.py
+
+      - name: Validate corpus
+        id: validate
+        continue-on-error: true
+        run: python tools/validate_all.py
+
+      - name: Record workflow outcome
+        run: |
+          cat > reports/SECOND_PASS_WORKFLOW.md <<EOF
+          # Second-pass workflow
+
+          - xuanxue: ${{ steps.xuanxue.outcome }}
+          - Wikisource 志怪: ${{ steps.zhiguai.outcome }}
+          - modern folklore index: ${{ steps.modern.outcome }}
+          - CBETA extra: ${{ steps.cbeta_extra.outcome }}
+          - validation: ${{ steps.validate.outcome }}
+          - run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+
+      - name: Commit generated corpus
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git commit -m "feat: complete second-pass yin-yang corpus"
+          git push origin HEAD:main
