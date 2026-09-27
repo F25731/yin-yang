@@ -1881,6 +1881,7 @@
 - [坐禪三昧經](<../corpus/03-佛藏/其他/坐禪三昧經（T15n0614）/README.md>) — `cbeta-T15n0614`
 - [堅牢地天儀軌](<../corpus/03-佛藏/密教/堅牢地天儀軌（T21n1286）/README.md>) — `cbeta-T21n1286`
 - [墉城集仙錄](<../corpus/02-道藏/洞神部/墉城集仙錄/README.md>) — `KR5c0180`
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 - [增壹阿含經](<../corpus/03-佛藏/阿含/增壹阿含經（T02n0125）/README.md>) — `cbeta-T02n0125`
 - [增慧陀羅尼經](<../corpus/03-佛藏/密教/增慧陀羅尼經（T21n1372）/README.md>) — `cbeta-T21n1372`
 - [墨子](<../corpus/02-道藏/太清部/墨子/README.md>) — `KR5f0010`
@@ -4244,7 +4245,9 @@
 - [御定道德經註](<../corpus/02-道藏/洞神部/御定道德經註/README.md>) — `KR5c0384`
 - [欽定協紀辨方書](<../corpus/04-阴阳术数/10-择日/欽定協紀辨方書/README.md>) — `kanripo-KR3g0051`
 - [老子說畧](<../corpus/02-道藏/洞神部/老子說畧/README.md>) — `KR5c0385`
+- [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
 - [道德經註](<../corpus/02-道藏/洞神部/道德經註/README.md>) — `KR5c0077`
+- [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
 
 ## 漢
 

@@ -1,6 +1,16 @@
 {
+  "wikisource-liaozhai": [
+    "聊斋志异"
+  ],
   "wikisource-meihua": [
     "觀梅數",
     "梅花數"
+  ],
+  "wikisource-yuewei": [
+    "阅微草堂笔记",
+    "閱微艸堂筆記"
+  ],
+  "wikisource-zengshan": [
+    "增删卜易"
   ]
 }

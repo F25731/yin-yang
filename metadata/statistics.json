@@ -1,21 +1,21 @@
 {
-  "books": 4148,
-  "chapters": 11608,
-  "characters": 129885632,
+  "books": 4151,
+  "chapters": 12160,
+  "characters": 130879751,
   "major_categories": {
-    "志怪神异": 7,
+    "志怪神异": 9,
     "道藏": 1650,
     "佛藏": 2459,
-    "阴阳术数": 33
+    "阴阳术数": 34
   },
   "categories": {
     "佛藏": 2459,
     "八字四柱": 8,
-    "六爻": 3,
+    "六爻": 4,
     "其他": 638,
     "净土": 43,
     "华严": 32,
-    "卜筮": 5,
+    "卜筮": 6,
     "史传": 96,
     "周易": 1,
     "大六壬": 1,
@@ -27,7 +27,7 @@
     "宝积": 51,
     "密教": 614,
     "律部": 87,
-    "志怪神异": 7,
+    "志怪神异": 9,
     "择日": 1,
     "本缘": 72,
     "梅花易数": 1,
@@ -46,7 +46,7 @@
     "论部": 190,
     "诸宗": 266,
     "道藏": 1650,
-    "阴阳术数": 33,
+    "阴阳术数": 34,
     "阿含": 155,
     "风水堪舆": 9
   },
@@ -91,12 +91,15 @@
     "kanripo-KR3l0124": 1,
     "kr5-corpus": 1650,
     "wikisource-huangjince": 1,
-    "wikisource-meihua": 1
+    "wikisource-liaozhai": 1,
+    "wikisource-meihua": 1,
+    "wikisource-yuewei": 1,
+    "wikisource-zengshan": 1
   },
   "quality_grades": {
     "B": 2496,
-    "C": 2,
-    "D": 1650
+    "C": 4,
+    "D": 1651
   },
   "exact_duplicate_groups": 0,
   "duplicate_texts": 0,

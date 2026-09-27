@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-zengshan",
+  "title": "增刪卜易",
+  "aliases": [
+    "增删卜易"
+  ],
+  "author": "野鶴老人",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "六爻",
+    "卜筮"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "維基文庫四卷錄入版",
+    "base_text": null,
+    "volume_count": 4,
+    "revisions": {
+      "1": {
+        "id": 2100473,
+        "sha1": "6eff077b7ecb7223d2fa767033d4ab226e8008fd",
+        "title": "增刪卜易/1"
+      },
+      "2": {
+        "id": 2100494,
+        "sha1": "52efccf4604e10253ec04252a14f68b58e8931e0",
+        "title": "增刪卜易/2"
+      },
+      "3": {
+        "id": 2100295,
+        "sha1": "1b7011398a4da0eb243bb7dfcc55f14fb4bc0cd7",
+        "title": "增刪卜易/3"
+      },
+      "10": {
+        "id": 2100301,
+        "sha1": "9c2aa281a5d5564a5c229bdc8630c388fb3d84cf",
+        "title": "增刪卜易/10"
+      },
+      "11": {
+        "id": 2100315,
+        "sha1": "55dac55f2a7b3a46d8588001755f3913e9473c10",
+        "title": "增刪卜易/11"
+      },
+      "12": {
+        "id": 2100316,
+        "sha1": "a0290ff965b9c30d307917d4ad259d71bac2dc25",
+        "title": "增刪卜易/12"
+      },
+      "13": {
+        "id": 2100319,
+        "sha1": "bae40df35c4cea1828f1baebaf8519e28f232cd3",
+        "title": "增刪卜易/13"
+      },
+      "14": {
+        "id": 2100320,
+        "sha1": "0f606cbde654ad456f276518fd2a60bd6896c47a",
+        "title": "增刪卜易/14"
+      },
+      "15": {
+        "id": 2100321,
+        "sha1": "729f68a1fbd164e17a9a118a0c9744ce71401c49",
+        "title": "增刪卜易/15"
+      },
+      "15又": {
+        "id": 2100323,
+        "sha1": "a226f44442e2a41de6fb19f8cbad70f20cd0e527",
+        "title": "增刪卜易/15又"
+      },
+      "16": {
+        "id": 2100331,
+        "sha1": "f08c4239958ca85c94bb9e704814457a3c212de4",
+        "title": "增刪卜易/16"
+      },
+      "17": {
+        "id": 2100338,
+        "sha1": "ec40f7ab39bcf30ad60cc1d1aa3be17a98aeba98",
+        "title": "增刪卜易/17"
+      },
+      "18": {
+        "id": 2101727,
+        "sha1": "55b47c8190ca4ecea90959be31ef3623e2466f6c",
+        "title": "增刪卜易/18"
+      },
+      "19": {
+        "id": 2100447,
+        "sha1": "6dee0a09b634c622731dfb55be598c6c43cec6dc",
+        "title": "增刪卜易/19"
+      },
+      "20": {
+        "id": 2100449,
+        "sha1": "2c34c3725692308ae6ded7be797e66d4b03b6798",
+        "title": "增刪卜易/20"
+      },
+      "21": {
+        "id": 2100450,
+        "sha1": "a1765d1747f3c880618e9ab042d0321ced3fc913",
+        "title": "增刪卜易/21"
+      },
+      "22": {
+        "id": 2100453,
+        "sha1": "9ed8c54b677cc88b0f7d76ec0a045eed927425bd",
+        "title": "增刪卜易/22"
+      },
+      "23": {
+        "id": 2100454,
+        "sha1": "47d4daa18f23cae28e6d57cd3475dbe859f886ee",
+        "title": "增刪卜易/23"
+      },
+      "24": {
+        "id": 2100456,
+        "sha1": "40538f3da8923afd7eb7edf0a442c382d66bb548",
+        "title": "增刪卜易/24"
+      },
+      "25": {
+        "id": 2100458,
+        "sha1": "2ad20d740cc8b09cb06421f560f81645d05c78b9",
+        "title": "增刪卜易/25"
+      },
+      "26": {
+        "id": 2100460,
+        "sha1": "137cf0e60060630016f801e0be0a7229aa9ba68e",
+        "title": "增刪卜易/26"
+      },
+      "26又1": {
+        "id": 2100461,
+        "sha1": "c98ffd70527b3e119c981ab09e2d96d411c06e43",
+        "title": "增刪卜易/26又1"
+      },
+      "26又2": {
+        "id": 2100463,
+        "sha1": "fef57e2864c5a50ba469363e67c5a9d2ffe2d6a5",
+        "title": "增刪卜易/26又2"
+      },
+      "26又3": {
+        "id": 2100495,
+        "sha1": "20606717ba787e39ade0bc7b59713336b6f72e97",
+        "title": "增刪卜易/26又3"
+      },
+      "26又4": {
+        "id": 2100467,
+        "sha1": "14aa129f36ccd5057ab42398d286d882c05b64f6",
+        "title": "增刪卜易/26又4"
+      },
+      "4": {
+        "id": 2100293,
+        "sha1": "9d95b58690afeeb2ece6e5f5471a77cf26b7fd6c",
+        "title": "增刪卜易/4"
+      },
+      "5": {
+        "id": 2100292,
+        "sha1": "fabb55bb052ffbfa3d657c6ad9ade7beefe21206",
+        "title": "增刪卜易/5"
+      },
+      "6": {
+        "id": 2100291,
+        "sha1": "642ece6a39bef926878e523c53dc193fcd01c9f3",
+        "title": "增刪卜易/6"
+      },
+      "7": {
+        "id": 2100290,
+        "sha1": "98655eb264dba3b6021dc4671f971392d6ef6001",
+        "title": "增刪卜易/7"
+      },
+      "8": {
+        "id": 2100700,
+        "sha1": "6193fac32377ab6e6d108a426070b7b544b5a38d",
+        "title": "增刪卜易/8"
+      },
+      "9": {
+        "id": 2100299,
+        "sha1": "7a25fc453a358cc46ef31394330498b9119d1ab2",
+        "title": "增刪卜易/9"
+      },
+      "main": {
+        "id": 2572918,
+        "sha1": "ffbbd9d6ce640ef6f07319b7e39127c85ef95490",
+        "title": "增刪卜易"
+      },
+      "3-chart": {
+        "id": 2100341,
+        "sha1": "c26c8a7834a04f5583f349cfee7f9e674128594b",
+        "title": "增刪卜易/3/八卦各宮全圖"
+      }
+    }
+  },
+  "source": {
+    "source_id": "wikisource-zengshan",
+    "repository": "https://zh.wikisource.org/wiki/增刪卜易",
+    "commit": "ffbbd9d6ce640ef6f07319b7e39127c85ef95490",
+    "original_path": [
+      "增刪卜易/1",
+      "增刪卜易/2",
+      "增刪卜易/3",
+      "增刪卜易/3/八卦各宮全圖",
+      "增刪卜易/4",
+      "增刪卜易/5",
+      "增刪卜易/6",
+      "增刪卜易/7",
+      "增刪卜易/8",
+      "增刪卜易/9",
+      "增刪卜易/10",
+      "增刪卜易/11",
+      "增刪卜易/12",
+      "增刪卜易/13",
+      "增刪卜易/14",
+      "增刪卜易/15",
+      "增刪卜易/15又",
+      "增刪卜易/16",
+      "增刪卜易/17",
+      "增刪卜易/18",
+      "增刪卜易/19",
+      "增刪卜易/20",
+      "增刪卜易/21",
+      "增刪卜易/22",
+      "增刪卜易/23",
+      "增刪卜易/24",
+      "增刪卜易/25",
+      "增刪卜易/26",
+      "增刪卜易/26又1",
+      "增刪卜易/26又2",
+      "增刪卜易/26又3",
+      "增刪卜易/26又4",
+      "增刪卜易",
+      "增刪卜易",
+      "增刪卜易"
+    ],
+    "upstream_url": "https://zh.wikisource.org/wiki/增刪卜易",
+    "editorial_notes": "sources/provenance/zengshan-editorial-notes.jsonl",
+    "editorial_note_count": 8
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-28",
+    "changes": "Excluded modern recorder preface; converted wiki markup; kept diagrams as preformatted text"
+  },
+  "statistics": {
+    "characters": 133942,
+    "chapters": 35
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "Wikisource labels main transcription 25% text quality and chapter pages 50%",
+      "Source transcription is not independently collated; some modern editorial insertions may remain"
+    ]
+  },
+  "original_format": "MediaWiki wikitext",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1689,6 +1689,7 @@
 
 ## 增
 
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 - [增壹阿含經](<../corpus/03-佛藏/阿含/增壹阿含經（T02n0125）/README.md>) — `cbeta-T02n0125`
 - [增慧陀羅尼經](<../corpus/03-佛藏/密教/增慧陀羅尼經（T21n1372）/README.md>) — `cbeta-T21n1372`
 
@@ -4411,6 +4412,10 @@
 - [老子說五厨經註](<../corpus/02-道藏/洞神部/老子說五厨經註/README.md>) — `KR5c0159`
 - [老子說畧](<../corpus/02-道藏/洞神部/老子說畧/README.md>) — `KR5c0385`
 
+## 聊
+
+- [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
+
 ## 聖
 
 - [聖佛母般若波羅蜜多九頌精義論](<../corpus/03-佛藏/论部/聖佛母般若波羅蜜多九頌精義論（T25n1516）/README.md>) — `cbeta-T25n1516`
@@ -5392,6 +5397,10 @@
 - [開元寺求得經疏記等目錄](<../corpus/03-佛藏/其他/開元寺求得經疏記等目錄（T55n2169）/README.md>) — `cbeta-T55n2169`
 - [開元釋教錄](<../corpus/03-佛藏/其他/開元釋教錄（T55n2154）/README.md>) — `cbeta-T55n2154`
 - [開元釋教錄略出](<../corpus/03-佛藏/其他/開元釋教錄略出（T55n2155）/README.md>) — `cbeta-T55n2155`
+
+## 閱
+
+- [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
 
 ## 閻
 

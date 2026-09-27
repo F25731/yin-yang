@@ -2477,6 +2477,7 @@
 
 - [京氏易傳](<../corpus/04-阴阳术数/12-卜筮/京氏易傳/README.md>) — `kanripo-KR3g0030`
 - [卜法詳考](<../corpus/04-阴阳术数/12-卜筮/卜法詳考/README.md>) — `kanripo-KR3g0032`
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 - [黃金策](<../corpus/04-阴阳术数/04-六爻/黃金策/README.md>) — `wikisource-huangjince`
 
 ## 其他
@@ -3205,6 +3206,7 @@
 
 - [京氏易傳](<../corpus/04-阴阳术数/12-卜筮/京氏易傳/README.md>) — `kanripo-KR3g0030`
 - [卜法詳考](<../corpus/04-阴阳术数/12-卜筮/卜法詳考/README.md>) — `kanripo-KR3g0032`
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 - [焦氏易林](<../corpus/04-阴阳术数/12-卜筮/焦氏易林/README.md>) — `kanripo-KR3g0029`
 - [靈棋經](<../corpus/04-阴阳术数/12-卜筮/靈棋經/README.md>) — `kanripo-KR3g0028`
 - [黃金策](<../corpus/04-阴阳术数/04-六爻/黃金策/README.md>) — `wikisource-huangjince`
@@ -4315,7 +4317,9 @@
 - [山海經](<../corpus/01-志怪神异/山海經/README.md>) — `kanripo-KR3l0090`
 - [搜神後記](<../corpus/01-志怪神异/搜神後記/README.md>) — `kanripo-KR3l0100`
 - [搜神記](<../corpus/01-志怪神异/搜神記/README.md>) — `kanripo-KR3l0099`
+- [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
 - [述異記](<../corpus/01-志怪神异/述異記/README.md>) — `kanripo-KR3l0124`
+- [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
 
 ## 择日
 
@@ -8218,6 +8222,7 @@
 - [六壬大全](<../corpus/04-阴阳术数/07-大六壬/六壬大全/README.md>) — `kanripo-KR3g0031`
 - [卜法詳考](<../corpus/04-阴阳术数/12-卜筮/卜法詳考/README.md>) — `kanripo-KR3g0032`
 - [周易](<../corpus/04-阴阳术数/01-周易/周易/README.md>) — `kanripo-KR1a0001`
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
 - [天玉經](<../corpus/04-阴阳术数/09-风水堪舆/天玉經/README.md>) — `kanripo-KR3g0024`
 - [太乙金鏡式經](<../corpus/04-阴阳术数/08-太乙神数/太乙金鏡式經/README.md>) — `kanripo-KR3g0047`
 - [太清神鑑](<../corpus/04-阴阳术数/11-相术/太清神鑑/README.md>) — `kanripo-KR3g0045`

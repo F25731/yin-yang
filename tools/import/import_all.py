@@ -11,8 +11,10 @@ from common import ROOT, read_manifest
 def fetch(source):
     sid = source["id"]
     if source["type"] == "mediawiki":
-        subprocess.run([sys.executable, str(ROOT / "tools/import/import_wikisource.py"),
-                        "--fetch", "--work", "meihua" if sid.endswith("meihua") else "huangjince"], check=True)
+        command = [sys.executable, str(ROOT / source["importer"]), "--fetch"]
+        if sid not in ("wikisource-yuewei", "wikisource-liaozhai", "wikisource-zengshan"):
+            command += ["--work", "meihua" if sid.endswith("meihua") else "huangjince"]
+        subprocess.run(command, check=True)
         return
     dirname = sid.split("-", 1)[1] if sid.startswith("kanripo-") else ("xml-p5" if sid == "cbeta-xml-p5" else sid)
     path = ROOT / ".work" / dirname
@@ -53,12 +55,18 @@ def main():
                 command = [sys.executable, str(ROOT / "tools/import/import_kr5.py")]
             elif sid == "cbeta-xml-p5":
                 command = [sys.executable, str(ROOT / "tools/import/import_cbeta.py")]
+            elif sid == "wikisource-yuewei":
+                command = [sys.executable, str(ROOT / "tools/import/import_yuewei.py")]
+            elif sid == "wikisource-liaozhai":
+                command = [sys.executable, str(ROOT / "tools/import/import_liaozhai.py")]
+            elif sid == "wikisource-zengshan":
+                command = [sys.executable, str(ROOT / "tools/import/import_zengshan.py")]
             else:
                 continue  # MediaWiki works share one pinned importer, called below.
             subprocess.run(command, check=True)
         except (OSError, subprocess.CalledProcessError) as exc:
             failures.append(f"{sid}: {exc}")
-    if not args.source or args.source.startswith("wikisource-"):
+    if not args.source or args.source in ("wikisource-meihua", "wikisource-huangjince"):
         try:
             work = "all" if not args.source else ("meihua" if args.source.endswith("meihua") else "huangjince")
             subprocess.run([sys.executable, str(ROOT / "tools/import/import_wikisource.py"), "--work", work], check=True)

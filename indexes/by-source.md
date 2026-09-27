@@ -4267,6 +4267,18 @@
 
 - [黃金策](<../corpus/04-阴阳术数/04-六爻/黃金策/README.md>) — `wikisource-huangjince`
 
+## wikisource-liaozhai
+
+- [聊齋志異](<../corpus/01-志怪神异/聊齋志異/README.md>) — `wikisource-liaozhai`
+
 ## wikisource-meihua
 
 - [梅花易數](<../corpus/04-阴阳术数/05-梅花易数/梅花易數/README.md>) — `wikisource-meihua`
+
+## wikisource-yuewei
+
+- [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
+
+## wikisource-zengshan
+
+- [增刪卜易](<../corpus/04-阴阳术数/04-六爻/增刪卜易/README.md>) — `wikisource-zengshan`
