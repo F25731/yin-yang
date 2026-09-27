@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "KR5h0001",
+  "title": "太上中道妙法蓮花經",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "道藏",
+    "续道藏"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "HFL",
+    "base_text": "HFL",
+    "volume_count": null,
+    "kanripo_commit": "c49a6a375fab8722bcb5ea10d94a1da3011b2a02",
+    "kanripo_witness": "master",
+    "dz_no": "DZ1432"
+  },
+  "source": {
+    "source_id": "kr5-corpus",
+    "repository": "https://github.com/tokushige-koyasan/kr5-corpus",
+    "commit": "f74680b25aa0805e34d4427e414116553abd1a82",
+    "original_path": [
+      "KR5h/KR5h0001.txt"
+    ],
+    "upstream_url": "https://github.com/tokushige-koyasan/kr5-corpus"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 13189,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "Catalog marks bibliographic data as machine-generated or unverified"
+    ]
+  },
+  "original_format": "KR5 plain text",
+  "current_format": "text/markdown; charset=utf-8"
+}

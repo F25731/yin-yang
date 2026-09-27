@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "KR5g0123",
+  "title": "洞真太上素靈洞元大有妙經",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": "六朝",
+  "categories": [
+    "道藏",
+    "正一部"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "HFL",
+    "base_text": "HFL",
+    "volume_count": null,
+    "kanripo_commit": "8bac78096cdad9bfe64a0871f8858f4fd05621fe",
+    "kanripo_witness": "master",
+    "dz_no": "DZ1314"
+  },
+  "source": {
+    "source_id": "kr5-corpus",
+    "repository": "https://github.com/tokushige-koyasan/kr5-corpus",
+    "commit": "f74680b25aa0805e34d4427e414116553abd1a82",
+    "original_path": [
+      "KR5g/KR5g0123.txt"
+    ],
+    "upstream_url": "https://github.com/tokushige-koyasan/kr5-corpus"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 21427,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "Catalog marks bibliographic data as machine-generated or unverified"
+    ]
+  },
+  "original_format": "KR5 plain text",
+  "current_format": "text/markdown; charset=utf-8"
+}

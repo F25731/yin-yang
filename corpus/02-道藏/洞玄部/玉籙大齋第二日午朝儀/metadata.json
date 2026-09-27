@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "KR5b0205",
+  "title": "玉籙大齋第二日午朝儀",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": "宋",
+  "categories": [
+    "道藏",
+    "洞玄部"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "HFL",
+    "base_text": "HFL",
+    "volume_count": null,
+    "kanripo_commit": "f6cd3e426819117861759c0452e9b3246f4aa18e",
+    "kanripo_witness": "master",
+    "dz_no": "DZ0505e"
+  },
+  "source": {
+    "source_id": "kr5-corpus",
+    "repository": "https://github.com/tokushige-koyasan/kr5-corpus",
+    "commit": "f74680b25aa0805e34d4427e414116553abd1a82",
+    "original_path": [
+      "KR5b/KR5b0205.txt"
+    ],
+    "upstream_url": "https://github.com/tokushige-koyasan/kr5-corpus"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 1574,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "Catalog marks bibliographic data as machine-generated or unverified"
+    ]
+  },
+  "original_format": "KR5 plain text",
+  "current_format": "text/markdown; charset=utf-8"
+}
