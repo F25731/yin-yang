@@ -74,11 +74,14 @@ def run(source_root=None, limit=None):
                 raise ValueError("empty text")
             title = row["title"].strip() or row["id"]
             sub = SUBCATS.get(row["subcat"], "其他")
+            categories = ["道藏", sub]
+            if row["id"] == "KR5h0055":
+                categories.extend(["阴阳术数", "紫微斗数"])
             quality = {"grade": "B" if "検証済" in row.get("status", "") else "D",
                        "ocr": False, "known_issues": [] if "検証済" in row.get("status", "")
                        else ["Catalog marks bibliographic data as machine-generated or unverified"]}
             meta = write_book(row["id"], title, "02-道藏/" + sub, source, units,
-                              categories=["道藏", sub], author=row["author"] or None,
+                              categories=categories, author=row["author"] or None,
                               work_dynasty=row["era"] or None,
                               edition={"name": row["baseedition"] or None,
                                        "base_text": row["baseedition"] or None,

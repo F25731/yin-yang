@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0031",
+  "title": "六壬大全",
+  "aliases": [],
+  "author": "闕名",
+  "author_dynasty": null,
+  "work_dynasty": "清",
+  "categories": [
+    "阴阳术数",
+    "大六壬"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 12
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0031",
+    "repository": "https://github.com/kanripo/KR3g0031",
+    "commit": "320cbc13a9048aa0f028d996ab32f8bf7b362ef7",
+    "original_path": [
+      "KR3g0031_000.txt",
+      "KR3g0031_001.txt",
+      "KR3g0031_002.txt",
+      "KR3g0031_003.txt",
+      "KR3g0031_004.txt",
+      "KR3g0031_005.txt",
+      "KR3g0031_006.txt",
+      "KR3g0031_007.txt",
+      "KR3g0031_008.txt",
+      "KR3g0031_009.txt",
+      "KR3g0031_010.txt",
+      "KR3g0031_011.txt",
+      "KR3g0031_012.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0031"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 235978,
+    "chapters": 13
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

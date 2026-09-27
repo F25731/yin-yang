@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0033",
+  "title": "李虛中命書",
+  "aliases": [],
+  "author": "鬼谷子",
+  "author_dynasty": null,
+  "work_dynasty": "周",
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0033",
+    "repository": "https://github.com/kanripo/KR3g0033",
+    "commit": "39b431e00ab899741d35c54da8e7b90aedb97179",
+    "original_path": [
+      "KR3g0033_000.txt",
+      "KR3g0033_001.txt",
+      "KR3g0033_002.txt",
+      "KR3g0033_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0033"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 25347,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

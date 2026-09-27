@@ -1,6 +1,8 @@
 """Import selected Kanripo mandoku texts, preserving glyphs and source paths."""
 import argparse
+import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -8,6 +10,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import ROOT, chunks, read_manifest, write_book
 
 BOOKS = {
+    "KR3l0090": ("山海經", "01-志怪神异", ["志怪神异"], None, None, None, "Kanripo"),
+    "KR3l0100": ("搜神後記", "01-志怪神异", ["志怪神异"], None, None, None, "Kanripo"),
+    "KR3l0122": ("夷堅志甲", "01-志怪神异", ["志怪神异"], "洪邁", "宋", "宋", "Kanripo"),
+    "KR3l0123": ("博物志", "01-志怪神异", ["志怪神异"], None, None, None, "Kanripo"),
+    "KR3l0124": ("述異記", "01-志怪神异", ["志怪神异"], None, None, None, "Kanripo"),
     "KR3l0099": ("搜神記", "01-志怪神异", ["志怪神异"], "干寶", "東晉", "東晉", "四庫全書・文淵閣"),
     "KR3l0118": ("太平廣記", "01-志怪神异", ["志怪神异"], None, None, "宋", "四庫全書・文淵閣"),
     "KR1a0001": ("周易", "04-阴阳术数/01-周易", ["阴阳术数", "周易"], None, None, None, "tls"),
@@ -16,6 +23,28 @@ BOOKS = {
     "KR3g0048": ("遁甲演義", "04-阴阳术数/06-奇门遁甲", ["阴阳术数", "奇门遁甲"], None, None, "明", "四庫全書・文淵閣"),
     "KR3g0051": ("欽定協紀辨方書", "04-阴阳术数/10-择日", ["阴阳术数", "择日"], None, None, "清", "四庫全書・文淵閣"),
 }
+
+EXTRA = ["KR3l0090", "KR3l0100", "KR3l0122", "KR3l0123", "KR3l0124"]
+
+
+def register_extra():
+    path = ROOT / "sources/manifest.yaml"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    known = {row["id"] for row in data}
+    for code in EXTRA:
+        sid = f"kanripo-{code}"
+        if sid in known:
+            continue
+        title = BOOKS[code][0]
+        sha = subprocess.check_output(["git", "-C", str(ROOT / ".work" / code), "rev-parse", "HEAD"], text=True).strip()
+        data.append({"id": sid, "name": f"Kanripo {title}",
+                     "url": f"https://github.com/kanripo/{code}", "type": "git",
+                     "categories": ["志怪神异"],
+                     "license": {"name": "CC BY-SA 4.0", "verified": True,
+                                 "status": "ATTRIBUTION_REQUIRED"},
+                     "imported_commit": sha, "importer": "tools/import/import_kanripo.py",
+                     "enabled": True})
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def convert(raw):
@@ -46,7 +75,10 @@ def import_one(code, source_root=None):
     if not src.exists():
         raise FileNotFoundError(f"missing {src}; clone {manifest['url']} at {manifest['imported_commit']}")
     units = []
-    files = sorted(src.glob(f"{code}_*.txt"))
+    candidates = sorted(src.glob(f"{code}_*.txt"))
+    files = [p for p in candidates if re.fullmatch(r"\d{3}", p.stem.split("_")[-1])]
+    for omitted in set(candidates) - set(files):
+        print(f"SKIPPED non-volume auxiliary file {omitted.name}")
     if not files:
         raise ValueError(f"{code}: no source files")
     for file in files:
@@ -75,8 +107,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("codes", nargs="*", choices=list(BOOKS) if False else None)
     parser.add_argument("--source-root")
+    parser.add_argument("--register-extra", action="store_true")
     args = parser.parse_args()
-    for code in args.codes or BOOKS:
+    if args.register_extra:
+        register_extra()
+    for code in args.codes or ([] if args.register_extra else BOOKS):
         if code not in BOOKS:
             parser.error(f"unknown code: {code}")
         import_one(code, args.source_root)

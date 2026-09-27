@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-huangjince",
+  "title": "黃金策",
+  "aliases": [],
+  "author": "題劉基",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "六爻",
+    "卜筮"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "《卜筮正宗》本文字版",
+    "base_text": "卜筮正宗",
+    "volume_count": 1,
+    "revision": {
+      "id": 2452958,
+      "sha1": "b918820a6985386a949f7303a4ccb7f84dab3c0f"
+    }
+  },
+  "source": {
+    "source_id": "wikisource-huangjince",
+    "repository": "https://zh.wikisource.org/wiki/黄金策",
+    "commit": "b918820a6985386a949f7303a4ccb7f84dab3c0f",
+    "original_path": [
+      "黄金策"
+    ],
+    "upstream_url": "https://zh.wikisource.org/wiki/黄金策"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed wiki templates and converted headings; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 23106,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Author attribution follows Wikisource header",
+      "Wikisource transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "MediaWiki wikitext",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0032",
+  "title": "卜法詳考",
+  "aliases": [],
+  "author": "胡煦",
+  "author_dynasty": null,
+  "work_dynasty": "清",
+  "categories": [
+    "阴阳术数",
+    "卜筮",
+    "六爻"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 8
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0032",
+    "repository": "https://github.com/kanripo/KR3g0032",
+    "commit": "a17d871b38e7a334e7da4418f424d42888d4e2ee",
+    "original_path": [
+      "KR3g0032_000.txt",
+      "KR3g0032_001.txt",
+      "KR3g0032_002.txt",
+      "KR3g0032_003.txt",
+      "KR3g0032_004.txt",
+      "KR3g0032_005.txt",
+      "KR3g0032_006.txt",
+      "KR3g0032_007.txt",
+      "KR3g0032_008.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0032"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 70444,
+    "chapters": 9
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3l0090",
+  "title": "山海經",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": "Kanripo",
+    "volume_count": 18
+  },
+  "source": {
+    "source_id": "kanripo-KR3l0090",
+    "repository": "https://github.com/kanripo/KR3l0090",
+    "commit": "87c7f2ab528145f0cd1628fc40a567cc6a5caa34",
+    "original_path": [
+      "KR3l0090_000.txt",
+      "KR3l0090_001.txt",
+      "KR3l0090_002.txt",
+      "KR3l0090_003.txt",
+      "KR3l0090_004.txt",
+      "KR3l0090_005.txt",
+      "KR3l0090_006.txt",
+      "KR3l0090_007.txt",
+      "KR3l0090_008.txt",
+      "KR3l0090_009.txt",
+      "KR3l0090_010.txt",
+      "KR3l0090_011.txt",
+      "KR3l0090_012.txt",
+      "KR3l0090_013.txt",
+      "KR3l0090_014.txt",
+      "KR3l0090_015.txt",
+      "KR3l0090_016.txt",
+      "KR3l0090_017.txt",
+      "KR3l0090_018.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3l0090"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 63412,
+    "chapters": 19
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Source transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

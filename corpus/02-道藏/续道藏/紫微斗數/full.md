@@ -10,6 +10,8 @@ editorial_segment: false
 categories:
   - "道藏"
   - "续道藏"
+  - "阴阳术数"
+  - "紫微斗数"
 ---
 
 # 紫微斗數

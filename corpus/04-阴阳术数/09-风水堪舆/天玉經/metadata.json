@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0024",
+  "title": "天玉經",
+  "aliases": [],
+  "author": "楊筠松",
+  "author_dynasty": null,
+  "work_dynasty": "唐",
+  "categories": [
+    "阴阳术数",
+    "风水堪舆"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0024",
+    "repository": "https://github.com/kanripo/KR3g0024",
+    "commit": "34fa8e48c9139a9334f5b0fa204edfca4c0e4eff",
+    "original_path": [
+      "KR3g0024_001.txt",
+      "KR3g0024_002.txt",
+      "KR3g0024_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0024"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 12538,
+    "chapters": 3
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

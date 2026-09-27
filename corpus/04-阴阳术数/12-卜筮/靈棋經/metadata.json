@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0028",
+  "title": "靈棋經",
+  "aliases": [],
+  "author": "東方朔",
+  "author_dynasty": null,
+  "work_dynasty": "漢",
+  "categories": [
+    "阴阳术数",
+    "卜筮"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0028",
+    "repository": "https://github.com/kanripo/KR3g0028",
+    "commit": "2382d7d1e2b822a5a8f974b26d6e786b9c8add7d",
+    "original_path": [
+      "KR3g0028_000.txt",
+      "KR3g0028_001.txt",
+      "KR3g0028_002.txt",
+      "KR3g0028_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0028"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 43045,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

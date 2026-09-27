@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3l0122",
+  "title": "夷堅志甲",
+  "aliases": [],
+  "author": "洪邁",
+  "author_dynasty": "宋",
+  "work_dynasty": "宋",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": "Kanripo",
+    "volume_count": 50
+  },
+  "source": {
+    "source_id": "kanripo-KR3l0122",
+    "repository": "https://github.com/kanripo/KR3l0122",
+    "commit": "060e06390006ebd8779cc11bf221184374702734",
+    "original_path": [
+      "KR3l0122_000.txt",
+      "KR3l0122_001.txt",
+      "KR3l0122_002.txt",
+      "KR3l0122_003.txt",
+      "KR3l0122_004.txt",
+      "KR3l0122_005.txt",
+      "KR3l0122_006.txt",
+      "KR3l0122_007.txt",
+      "KR3l0122_008.txt",
+      "KR3l0122_009.txt",
+      "KR3l0122_010.txt",
+      "KR3l0122_011.txt",
+      "KR3l0122_012.txt",
+      "KR3l0122_013.txt",
+      "KR3l0122_014.txt",
+      "KR3l0122_015.txt",
+      "KR3l0122_016.txt",
+      "KR3l0122_017.txt",
+      "KR3l0122_018.txt",
+      "KR3l0122_019.txt",
+      "KR3l0122_020.txt",
+      "KR3l0122_021.txt",
+      "KR3l0122_022.txt",
+      "KR3l0122_023.txt",
+      "KR3l0122_024.txt",
+      "KR3l0122_025.txt",
+      "KR3l0122_026.txt",
+      "KR3l0122_027.txt",
+      "KR3l0122_028.txt",
+      "KR3l0122_029.txt",
+      "KR3l0122_030.txt",
+      "KR3l0122_031.txt",
+      "KR3l0122_032.txt",
+      "KR3l0122_033.txt",
+      "KR3l0122_034.txt",
+      "KR3l0122_035.txt",
+      "KR3l0122_036.txt",
+      "KR3l0122_037.txt",
+      "KR3l0122_038.txt",
+      "KR3l0122_039.txt",
+      "KR3l0122_040.txt",
+      "KR3l0122_041.txt",
+      "KR3l0122_042.txt",
+      "KR3l0122_043.txt",
+      "KR3l0122_044.txt",
+      "KR3l0122_045.txt",
+      "KR3l0122_046.txt",
+      "KR3l0122_047.txt",
+      "KR3l0122_048.txt",
+      "KR3l0122_049.txt",
+      "KR3l0122_050.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3l0122"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 180511,
+    "chapters": 51
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Source transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -57,7 +57,7 @@ def write_book(book_id, title, category_path, source, units, *, categories,
                author=None, author_dynasty=None, work_dynasty=None,
                aliases=None, topics=None, edition=None, quality=None,
                original_format="text/plain", original_script="source_preserved",
-               directory_name=None):
+               directory_name=None, processing_changes=None):
     """units: [(source relative path, label, source text, provenance dict)]."""
     if not units:
         raise ValueError(f"{book_id}: no text")
@@ -84,7 +84,7 @@ def write_book(book_id, title, category_path, source, units, *, categories,
                     "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"},
         "processing": {"importer_version": "1.0", "normalized": True,
                        "ai_modified_text": False, "import_date": str(date.today()),
-                       "changes": "Removed source format directives and page markers; preserved source glyphs"},
+                       "changes": processing_changes or "Removed source format directives and page markers; preserved source glyphs"},
         "statistics": {"characters": char_count, "chapters": len(units)},
         "quality": quality or {"grade": "B", "ocr": False, "known_issues": []},
         "original_format": original_format, "current_format": "text/markdown; charset=utf-8",

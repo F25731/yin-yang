@@ -1,0 +1,9 @@
+{
+  "source_id": "yaya",
+  "commit": "62f1d82114c56610df16cad80b329e25685a3b14",
+  "files_in_tree": 67,
+  "candidate_paths": [
+    "读山海经.md"
+  ],
+  "decision": "No corpus text imported: no verified republication license for the dataset"
+}

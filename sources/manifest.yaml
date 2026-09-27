@@ -1,13 +1,868 @@
 [
-  {"id":"yaya","name":"yaya","url":"https://github.com/dreamsxin/yaya","type":"git","categories":["志怪神异"],"license":{"name":"unknown","verified":false,"status":"UNCLEAR"},"imported_commit":"62f1d82114c56610df16cad80b329e25685a3b14","importer":"tools/import/import_yaya.py","enabled":false},
-  {"id":"kanripo-KR3l0099","name":"Kanripo 搜神記","url":"https://github.com/kanripo/KR3l0099","type":"git","categories":["志怪神异"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"9959e70d799062d8dc3872225ce9a5b429ec5cac","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kanripo-KR3l0118","name":"Kanripo 太平廣記","url":"https://github.com/kanripo/KR3l0118","type":"git","categories":["志怪神异"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"7990feeb9c302e37942661d1b29abc22818cc204","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kr5-corpus","name":"Kanripo KR5 Corpus","url":"https://github.com/tokushige-koyasan/kr5-corpus","type":"git","categories":["道藏"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"f74680b25aa0805e34d4427e414116553abd1a82","importer":"tools/import/import_kr5.py","enabled":true},
-  {"id":"cbeta-xml-p5","name":"CBETA XML P5","url":"https://github.com/cbeta-org/xml-p5","type":"git","categories":["佛藏"],"license":{"name":"CC BY-NC-SA 4.0; T01 file headers require noncommercial use and intact header","verified":true,"status":"NONCOMMERCIAL_OR_RESTRICTED"},"imported_commit":"dbdea41071e1e260ad84b72faefd4587333cf76d","importer":"tools/import/import_cbeta.py","enabled":true,"scope":"T/T01 only; each imported file retains exact TEI header in sources/provenance/cbeta"},
-  {"id":"xuanxue","name":"xuanxue","url":"https://github.com/youngzs/xuanxue","type":"git","categories":["阴阳术数"],"license":{"name":"unknown","verified":false,"status":"UNCLEAR"},"imported_commit":"aa7bc942602d2d88ef94778a726c0d19a4d286ff","importer":"tools/import/import_xuanxue.py","enabled":false},
-  {"id":"kanripo-KR1a0001","name":"Kanripo 周易","url":"https://github.com/kanripo/KR1a0001","type":"git","categories":["阴阳术数","周易"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"8284adbf9e3435d713180e24f05bf75f8b7d1d96","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kanripo-KR3g0042","name":"Kanripo 三命通會","url":"https://github.com/kanripo/KR3g0042","type":"git","categories":["阴阳术数","八字四柱"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"efe780a4f6fd835f4e2d769ffc8f79b7099db3b1","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kanripo-KR3g0047","name":"Kanripo 太乙金鏡式經","url":"https://github.com/kanripo/KR3g0047","type":"git","categories":["阴阳术数","太乙神数"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"e3264da2c9f556225e056abe7eade01903b4543e","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kanripo-KR3g0048","name":"Kanripo 遁甲演義","url":"https://github.com/kanripo/KR3g0048","type":"git","categories":["阴阳术数","奇门遁甲"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"e26b129b0c57f5cb7f3efcc1e36bcb7922f02c39","importer":"tools/import/import_kanripo.py","enabled":true},
-  {"id":"kanripo-KR3g0051","name":"Kanripo 欽定協紀辨方書","url":"https://github.com/kanripo/KR3g0051","type":"git","categories":["阴阳术数","择日"],"license":{"name":"CC BY-SA 4.0","verified":true,"status":"ATTRIBUTION_REQUIRED"},"imported_commit":"8b5522eb0299afbd575f1cb556e972c71c40c42a","importer":"tools/import/import_kanripo.py","enabled":true}
+  {
+    "id": "wikisource-meihua",
+    "name": "維基文庫 梅花易數",
+    "url": "https://zh.wikisource.org/wiki/梅花易數",
+    "type": "mediawiki",
+    "categories": [
+      "阴阳术数",
+      "梅花易数"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "2fd179346810645674c576e5b6bb3b2cf83d5ac1",
+    "importer": "tools/import/import_wikisource.py",
+    "enabled": true,
+    "revisions": {
+      "main": {
+        "id": 2188971,
+        "sha1": "2fd179346810645674c576e5b6bb3b2cf83d5ac1"
+      },
+      "1": {
+        "id": 2690596,
+        "sha1": "8ecc5f097fd4020accf051e6739108f24456f1fb"
+      },
+      "2": {
+        "id": 1441921,
+        "sha1": "e5881444a1a3e70312190fb800f437ca54f52238"
+      },
+      "3": {
+        "id": 1441927,
+        "sha1": "67e9f7ab836c058bf87789ebffc3267f8497af76"
+      }
+    }
+  },
+  {
+    "id": "wikisource-huangjince",
+    "name": "維基文庫 黄金策",
+    "url": "https://zh.wikisource.org/wiki/黄金策",
+    "type": "mediawiki",
+    "categories": [
+      "阴阳术数",
+      "六爻",
+      "卜筮"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "b918820a6985386a949f7303a4ccb7f84dab3c0f",
+    "importer": "tools/import/import_wikisource.py",
+    "enabled": true,
+    "revisions": {
+      "main": {
+        "id": 2452958,
+        "sha1": "b918820a6985386a949f7303a4ccb7f84dab3c0f"
+      }
+    }
+  },
+  {
+    "id": "yaya",
+    "name": "yaya",
+    "url": "https://github.com/dreamsxin/yaya",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "unknown",
+      "verified": false,
+      "status": "UNCLEAR"
+    },
+    "imported_commit": "62f1d82114c56610df16cad80b329e25685a3b14",
+    "importer": "tools/import/import_yaya.py",
+    "enabled": false
+  },
+  {
+    "id": "kanripo-KR3l0099",
+    "name": "Kanripo 搜神記",
+    "url": "https://github.com/kanripo/KR3l0099",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "9959e70d799062d8dc3872225ce9a5b429ec5cac",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3l0118",
+    "name": "Kanripo 太平廣記",
+    "url": "https://github.com/kanripo/KR3l0118",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "7990feeb9c302e37942661d1b29abc22818cc204",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kr5-corpus",
+    "name": "Kanripo KR5 Corpus",
+    "url": "https://github.com/tokushige-koyasan/kr5-corpus",
+    "type": "git",
+    "categories": [
+      "道藏"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "f74680b25aa0805e34d4427e414116553abd1a82",
+    "importer": "tools/import/import_kr5.py",
+    "enabled": true
+  },
+  {
+    "id": "cbeta-xml-p5",
+    "name": "CBETA XML P5",
+    "url": "https://github.com/cbeta-org/xml-p5",
+    "type": "git",
+    "categories": [
+      "佛藏"
+    ],
+    "license": {
+      "name": "CC BY-NC-SA 4.0; T01 file headers require noncommercial use and intact header",
+      "verified": true,
+      "status": "NONCOMMERCIAL_OR_RESTRICTED"
+    },
+    "imported_commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "importer": "tools/import/import_cbeta.py",
+    "enabled": true,
+    "scope": "T/T01 only; each imported file retains exact TEI header in sources/provenance/cbeta"
+  },
+  {
+    "id": "xuanxue",
+    "name": "xuanxue",
+    "url": "https://github.com/youngzs/xuanxue",
+    "type": "git",
+    "categories": [
+      "阴阳术数"
+    ],
+    "license": {
+      "name": "unknown",
+      "verified": false,
+      "status": "UNCLEAR"
+    },
+    "imported_commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "importer": "tools/import/import_xuanxue.py",
+    "enabled": false
+  },
+  {
+    "id": "kanripo-KR1a0001",
+    "name": "Kanripo 周易",
+    "url": "https://github.com/kanripo/KR1a0001",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "周易"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "8284adbf9e3435d713180e24f05bf75f8b7d1d96",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3g0042",
+    "name": "Kanripo 三命通會",
+    "url": "https://github.com/kanripo/KR3g0042",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3g0047",
+    "name": "Kanripo 太乙金鏡式經",
+    "url": "https://github.com/kanripo/KR3g0047",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "太乙神数"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "e3264da2c9f556225e056abe7eade01903b4543e",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3g0048",
+    "name": "Kanripo 遁甲演義",
+    "url": "https://github.com/kanripo/KR3g0048",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "奇门遁甲"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "e26b129b0c57f5cb7f3efcc1e36bcb7922f02c39",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3g0051",
+    "name": "Kanripo 欽定協紀辨方書",
+    "url": "https://github.com/kanripo/KR3g0051",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "择日"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "8b5522eb0299afbd575f1cb556e972c71c40c42a",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3g0019",
+    "name": "Kanripo 宅經",
+    "url": "https://github.com/kanripo/KR3g0019",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "66368bef6dce5fbc855c8fbcdd703846c1cbb514",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "宅經",
+    "catalog_era": null,
+    "catalog_author": "黃帝"
+  },
+  {
+    "id": "kanripo-KR3g0020",
+    "name": "Kanripo 葬書",
+    "url": "https://github.com/kanripo/KR3g0020",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "a226840ad41dc34a98448cbea0229ec2a4687760",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "葬書",
+    "catalog_era": "晉",
+    "catalog_author": "郭璞"
+  },
+  {
+    "id": "kanripo-KR3g0021",
+    "name": "Kanripo 撼龍經",
+    "url": "https://github.com/kanripo/KR3g0021",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "dcf13a9cc01e3aa6aa04ffb00e99a83f5c1f077e",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "撼龍經",
+    "catalog_era": "唐",
+    "catalog_author": "楊筠松"
+  },
+  {
+    "id": "kanripo-KR3g0022",
+    "name": "Kanripo 青囊序",
+    "url": "https://github.com/kanripo/KR3g0022",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "47a60114602b9fe5aaabf6c567a0759847a9c663",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "青囊序",
+    "catalog_era": "唐",
+    "catalog_author": "曾文辿"
+  },
+  {
+    "id": "kanripo-KR3g0023",
+    "name": "Kanripo 青囊奧語",
+    "url": "https://github.com/kanripo/KR3g0023",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "2b8bb8b4076807e5f9c9af5194c83ed584c9da71",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "青囊奧語",
+    "catalog_era": "唐",
+    "catalog_author": "楊筠松"
+  },
+  {
+    "id": "kanripo-KR3g0024",
+    "name": "Kanripo 天玉經",
+    "url": "https://github.com/kanripo/KR3g0024",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "34fa8e48c9139a9334f5b0fa204edfca4c0e4eff",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "天玉經",
+    "catalog_era": "唐",
+    "catalog_author": "楊筠松"
+  },
+  {
+    "id": "kanripo-KR3g0025",
+    "name": "Kanripo 靈城精義",
+    "url": "https://github.com/kanripo/KR3g0025",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "fafe8939ed8019ee407bc64c60a22b28cd79b5ce",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "靈城精義",
+    "catalog_era": "南唐",
+    "catalog_author": "何溥"
+  },
+  {
+    "id": "kanripo-KR3g0026",
+    "name": "Kanripo 催官篇",
+    "url": "https://github.com/kanripo/KR3g0026",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "5045f9276d8cb397ef3a747ee5cc2473b5dbf91c",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "催官篇",
+    "catalog_era": "宋",
+    "catalog_author": "賴文俊"
+  },
+  {
+    "id": "kanripo-KR3g0027",
+    "name": "Kanripo 發微論",
+    "url": "https://github.com/kanripo/KR3g0027",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "风水堪舆"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "e2f37432da1cd3232c978ee5b853d1dffe4367e6",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "發微論",
+    "catalog_era": "宋",
+    "catalog_author": "蔡元定"
+  },
+  {
+    "id": "kanripo-KR3g0028",
+    "name": "Kanripo 靈棋經",
+    "url": "https://github.com/kanripo/KR3g0028",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "卜筮"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "2382d7d1e2b822a5a8f974b26d6e786b9c8add7d",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "靈棋經",
+    "catalog_era": "漢",
+    "catalog_author": "東方朔"
+  },
+  {
+    "id": "kanripo-KR3g0029",
+    "name": "Kanripo 焦氏易林",
+    "url": "https://github.com/kanripo/KR3g0029",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "卜筮"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "764e995ce74aa249081918ca1b0c23bbca62bec8",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "焦氏易林",
+    "catalog_era": "漢",
+    "catalog_author": "焦贛"
+  },
+  {
+    "id": "kanripo-KR3g0030",
+    "name": "Kanripo 京氏易傳",
+    "url": "https://github.com/kanripo/KR3g0030",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "卜筮",
+      "六爻"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "42da545025dbfb453cc7503a5e9793d3a3a09377",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "京氏易傳",
+    "catalog_era": "漢",
+    "catalog_author": "京房"
+  },
+  {
+    "id": "kanripo-KR3g0031",
+    "name": "Kanripo 六壬大全",
+    "url": "https://github.com/kanripo/KR3g0031",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "大六壬"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "320cbc13a9048aa0f028d996ab32f8bf7b362ef7",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "六壬大全",
+    "catalog_era": "清",
+    "catalog_author": "闕名"
+  },
+  {
+    "id": "kanripo-KR3g0032",
+    "name": "Kanripo 卜法詳考",
+    "url": "https://github.com/kanripo/KR3g0032",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "卜筮",
+      "六爻"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "a17d871b38e7a334e7da4418f424d42888d4e2ee",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "卜法詳考",
+    "catalog_era": "清",
+    "catalog_author": "胡煦"
+  },
+  {
+    "id": "kanripo-KR3g0033",
+    "name": "Kanripo 李虛中命書",
+    "url": "https://github.com/kanripo/KR3g0033",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "39b431e00ab899741d35c54da8e7b90aedb97179",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "李虛中命書",
+    "catalog_era": "周",
+    "catalog_author": "鬼谷子"
+  },
+  {
+    "id": "kanripo-KR3g0034",
+    "name": "Kanripo 玉照定眞經",
+    "url": "https://github.com/kanripo/KR3g0034",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "29efe4a62dde7581530192925ea550f9fcab8341",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "玉照定眞經",
+    "catalog_era": "晉",
+    "catalog_author": "郭璞"
+  },
+  {
+    "id": "kanripo-KR3g0035",
+    "name": "Kanripo 星命溯源",
+    "url": "https://github.com/kanripo/KR3g0035",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "34e2dc6e2a25843f32ab550d4bf446673cc7bd17",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "星命溯源",
+    "catalog_era": null,
+    "catalog_author": "闕名"
+  },
+  {
+    "id": "kanripo-KR3g0036",
+    "name": "Kanripo 珞琭子賦註",
+    "url": "https://github.com/kanripo/KR3g0036",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "f9605c2c80ce8360b58ea07f6571b74ac5bfdfdd",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "珞琭子賦註",
+    "catalog_era": "宋",
+    "catalog_author": "釋曇瑩"
+  },
+  {
+    "id": "kanripo-KR3g0037",
+    "name": "Kanripo 珞琭子三命消息賦註",
+    "url": "https://github.com/kanripo/KR3g0037",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "a3080d7f020ab30fb34ac0ac69c7179498c9ed81",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "珞琭子三命消息賦註",
+    "catalog_era": "宋",
+    "catalog_author": "徐子平"
+  },
+  {
+    "id": "kanripo-KR3g0038",
+    "name": "Kanripo 三命指迷賦",
+    "url": "https://github.com/kanripo/KR3g0038",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "b0a58335dbcb7284cd7592e8ad8c9117e7f30c89",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "三命指迷賦",
+    "catalog_era": "宋",
+    "catalog_author": "珞琭子"
+  },
+  {
+    "id": "kanripo-KR3g0039",
+    "name": "Kanripo 星命總括",
+    "url": "https://github.com/kanripo/KR3g0039",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "八字四柱"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "31cc63f248e0b6f2ca598c348346c6e3737df3a5",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "星命總括",
+    "catalog_era": "遼",
+    "catalog_author": "耶律純"
+  },
+  {
+    "id": "kanripo-KR3g0043",
+    "name": "Kanripo 月波洞中記",
+    "url": "https://github.com/kanripo/KR3g0043",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "相术"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "f69732902fc82fb6b1f759cb7bf5a910c0b903a3",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "月波洞中記",
+    "catalog_era": null,
+    "catalog_author": "闕名"
+  },
+  {
+    "id": "kanripo-KR3g0044",
+    "name": "Kanripo 玉管照神局",
+    "url": "https://github.com/kanripo/KR3g0044",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "相术"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "0fa9edb26dc77e9068a7dbf8af9ce6844ea96d74",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "玉管照神局",
+    "catalog_era": "南唐",
+    "catalog_author": "宋齊邱"
+  },
+  {
+    "id": "kanripo-KR3g0045",
+    "name": "Kanripo 太清神鑑",
+    "url": "https://github.com/kanripo/KR3g0045",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "相术"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "b3e5b69beb95f575bb47e9eaed1e6aadd23bffe5",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "太清神鑑",
+    "catalog_era": "後周",
+    "catalog_author": "王朴"
+  },
+  {
+    "id": "kanripo-KR3g0046",
+    "name": "Kanripo 人倫大統賦",
+    "url": "https://github.com/kanripo/KR3g0046",
+    "type": "git",
+    "categories": [
+      "阴阳术数",
+      "相术"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "b408ea0b969672a1f52e5ec371f9fe3250976e58",
+    "importer": "tools/import/import_kanripo_extra.py",
+    "enabled": true,
+    "catalog_title": "人倫大統賦",
+    "catalog_era": "金",
+    "catalog_author": "張行簡"
+  },
+  {
+    "id": "kanripo-KR3l0090",
+    "name": "Kanripo 山海經",
+    "url": "https://github.com/kanripo/KR3l0090",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "87c7f2ab528145f0cd1628fc40a567cc6a5caa34",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3l0100",
+    "name": "Kanripo 搜神後記",
+    "url": "https://github.com/kanripo/KR3l0100",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "a582ba42a250ed54fdee1876b6a6703ad163557d",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3l0122",
+    "name": "Kanripo 夷堅志甲",
+    "url": "https://github.com/kanripo/KR3l0122",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "060e06390006ebd8779cc11bf221184374702734",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3l0123",
+    "name": "Kanripo 博物志",
+    "url": "https://github.com/kanripo/KR3l0123",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "56dade949bb60b0d9d7422a5909f567995e5f3f7",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  },
+  {
+    "id": "kanripo-KR3l0124",
+    "name": "Kanripo 述異記",
+    "url": "https://github.com/kanripo/KR3l0124",
+    "type": "git",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "b2ef3b2acb29a427ed9090d402e5cbd935f4e878",
+    "importer": "tools/import/import_kanripo.py",
+    "enabled": true
+  }
 ]

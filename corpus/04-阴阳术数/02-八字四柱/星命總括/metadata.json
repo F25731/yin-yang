@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0039",
+  "title": "星命總括",
+  "aliases": [],
+  "author": "耶律純",
+  "author_dynasty": null,
+  "work_dynasty": "遼",
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0039",
+    "repository": "https://github.com/kanripo/KR3g0039",
+    "commit": "31cc63f248e0b6f2ca598c348346c6e3737df3a5",
+    "original_path": [
+      "KR3g0039_000.txt",
+      "KR3g0039_001.txt",
+      "KR3g0039_002.txt",
+      "KR3g0039_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0039"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 31881,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

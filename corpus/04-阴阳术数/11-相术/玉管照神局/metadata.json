@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0044",
+  "title": "玉管照神局",
+  "aliases": [],
+  "author": "宋齊邱",
+  "author_dynasty": null,
+  "work_dynasty": "南唐",
+  "categories": [
+    "阴阳术数",
+    "相术"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0044",
+    "repository": "https://github.com/kanripo/KR3g0044",
+    "commit": "0fa9edb26dc77e9068a7dbf8af9ce6844ea96d74",
+    "original_path": [
+      "KR3g0044_000.txt",
+      "KR3g0044_001.txt",
+      "KR3g0044_002.txt",
+      "KR3g0044_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0044"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 27833,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

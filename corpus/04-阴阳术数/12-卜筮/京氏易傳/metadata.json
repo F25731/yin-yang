@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0030",
+  "title": "京氏易傳",
+  "aliases": [],
+  "author": "京房",
+  "author_dynasty": null,
+  "work_dynasty": "漢",
+  "categories": [
+    "阴阳术数",
+    "卜筮",
+    "六爻"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "Kanripo",
+    "base_text": null,
+    "volume_count": 3
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0030",
+    "repository": "https://github.com/kanripo/KR3g0030",
+    "commit": "42da545025dbfb453cc7503a5e9793d3a3a09377",
+    "original_path": [
+      "KR3g0030_000.txt",
+      "KR3g0030_001.txt",
+      "KR3g0030_002.txt",
+      "KR3g0030_003.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0030"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 24509,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Bibliographic attribution follows Kanripo catalog; not independently collated"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

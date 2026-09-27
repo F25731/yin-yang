@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-meihua",
+  "title": "梅花易數",
+  "aliases": [
+    "觀梅數",
+    "梅花數"
+  ],
+  "author": "傳邵雍",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "梅花易数"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "維基文庫校錄版",
+    "base_text": null,
+    "volume_count": 3,
+    "revisions": {
+      "main": {
+        "id": 2188971,
+        "sha1": "2fd179346810645674c576e5b6bb3b2cf83d5ac1"
+      },
+      "1": {
+        "id": 2690596,
+        "sha1": "8ecc5f097fd4020accf051e6739108f24456f1fb"
+      },
+      "2": {
+        "id": 1441921,
+        "sha1": "e5881444a1a3e70312190fb800f437ca54f52238"
+      },
+      "3": {
+        "id": 1441927,
+        "sha1": "67e9f7ab836c058bf87789ebffc3267f8497af76"
+      }
+    }
+  },
+  "source": {
+    "source_id": "wikisource-meihua",
+    "repository": "https://zh.wikisource.org/wiki/梅花易數",
+    "commit": "2fd179346810645674c576e5b6bb3b2cf83d5ac1",
+    "original_path": [
+      "梅花易數",
+      "梅花易數/卷一",
+      "梅花易數/卷二",
+      "梅花易數/卷三"
+    ],
+    "upstream_url": "https://zh.wikisource.org/wiki/梅花易數"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Converted wiki headings and links to Markdown; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 40457,
+    "chapters": 4
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "Traditional attribution to Shao Yong is not independently verified",
+      "Wikisource transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "MediaWiki wikitext",
+  "current_format": "text/markdown; charset=utf-8"
+}
