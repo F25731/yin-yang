@@ -17,10 +17,6 @@
     "importer": "tools/import/import_wikisource.py",
     "enabled": true,
     "revisions": {
-      "main": {
-        "id": 2188971,
-        "sha1": "2fd179346810645674c576e5b6bb3b2cf83d5ac1"
-      },
       "1": {
         "id": 2690596,
         "sha1": "8ecc5f097fd4020accf051e6739108f24456f1fb"
@@ -32,6 +28,10 @@
       "3": {
         "id": 1441927,
         "sha1": "67e9f7ab836c058bf87789ebffc3267f8497af76"
+      },
+      "main": {
+        "id": 2188971,
+        "sha1": "2fd179346810645674c576e5b6bb3b2cf83d5ac1"
       }
     }
   },
@@ -312,6 +312,36 @@
         "sha1": "1b7011398a4da0eb243bb7dfcc55f14fb4bc0cd7",
         "title": "增刪卜易/3"
       },
+      "4": {
+        "id": 2100293,
+        "sha1": "9d95b58690afeeb2ece6e5f5471a77cf26b7fd6c",
+        "title": "增刪卜易/4"
+      },
+      "5": {
+        "id": 2100292,
+        "sha1": "fabb55bb052ffbfa3d657c6ad9ade7beefe21206",
+        "title": "增刪卜易/5"
+      },
+      "6": {
+        "id": 2100291,
+        "sha1": "642ece6a39bef926878e523c53dc193fcd01c9f3",
+        "title": "增刪卜易/6"
+      },
+      "7": {
+        "id": 2100290,
+        "sha1": "98655eb264dba3b6021dc4671f971392d6ef6001",
+        "title": "增刪卜易/7"
+      },
+      "8": {
+        "id": 2100700,
+        "sha1": "6193fac32377ab6e6d108a426070b7b544b5a38d",
+        "title": "增刪卜易/8"
+      },
+      "9": {
+        "id": 2100299,
+        "sha1": "7a25fc453a358cc46ef31394330498b9119d1ab2",
+        "title": "增刪卜易/9"
+      },
       "10": {
         "id": 2100301,
         "sha1": "9c2aa281a5d5564a5c229bdc8630c388fb3d84cf",
@@ -341,11 +371,6 @@
         "id": 2100321,
         "sha1": "729f68a1fbd164e17a9a118a0c9744ce71401c49",
         "title": "增刪卜易/15"
-      },
-      "15又": {
-        "id": 2100323,
-        "sha1": "a226f44442e2a41de6fb19f8cbad70f20cd0e527",
-        "title": "增刪卜易/15又"
       },
       "16": {
         "id": 2100331,
@@ -402,6 +427,11 @@
         "sha1": "137cf0e60060630016f801e0be0a7229aa9ba68e",
         "title": "增刪卜易/26"
       },
+      "15又": {
+        "id": 2100323,
+        "sha1": "a226f44442e2a41de6fb19f8cbad70f20cd0e527",
+        "title": "增刪卜易/15又"
+      },
       "26又1": {
         "id": 2100461,
         "sha1": "c98ffd70527b3e119c981ab09e2d96d411c06e43",
@@ -421,36 +451,6 @@
         "id": 2100467,
         "sha1": "14aa129f36ccd5057ab42398d286d882c05b64f6",
         "title": "增刪卜易/26又4"
-      },
-      "4": {
-        "id": 2100293,
-        "sha1": "9d95b58690afeeb2ece6e5f5471a77cf26b7fd6c",
-        "title": "增刪卜易/4"
-      },
-      "5": {
-        "id": 2100292,
-        "sha1": "fabb55bb052ffbfa3d657c6ad9ade7beefe21206",
-        "title": "增刪卜易/5"
-      },
-      "6": {
-        "id": 2100291,
-        "sha1": "642ece6a39bef926878e523c53dc193fcd01c9f3",
-        "title": "增刪卜易/6"
-      },
-      "7": {
-        "id": 2100290,
-        "sha1": "98655eb264dba3b6021dc4671f971392d6ef6001",
-        "title": "增刪卜易/7"
-      },
-      "8": {
-        "id": 2100700,
-        "sha1": "6193fac32377ab6e6d108a426070b7b544b5a38d",
-        "title": "增刪卜易/8"
-      },
-      "9": {
-        "id": 2100299,
-        "sha1": "7a25fc453a358cc46ef31394330498b9119d1ab2",
-        "title": "增刪卜易/9"
       },
       "main": {
         "id": 2572918,
@@ -559,13 +559,14 @@
       "阴阳术数"
     ],
     "license": {
-      "name": "unknown",
+      "name": "Source terms not declared; classical/public-domain works imported with provenance",
       "verified": false,
-      "status": "UNCLEAR"
+      "status": "SOURCE_TERMS_UNCLEAR"
     },
     "imported_commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
     "importer": "tools/import/import_xuanxue.py",
-    "enabled": false
+    "enabled": true,
+    "scope": "Selective classical/public-domain works only; modern tutorials/case studies excluded"
   },
   {
     "id": "kanripo-KR1a0001",
@@ -1291,5 +1292,59 @@
     },
     "importer": "tools/import/import_qimenbaojian.py",
     "enabled": true
+  },
+  {
+    "id": "supernatural-tianya",
+    "name": "supernatural_tianya",
+    "url": "https://github.com/exposir/supernatural_tianya",
+    "type": "git",
+    "categories": [
+      "现代民间灵异"
+    ],
+    "license": {
+      "name": "Forum-derived text; source attribution retained",
+      "verified": false,
+      "status": "SOURCE_TERMS_UNCLEAR"
+    },
+    "imported_commit": "86dafdf6b3abb8b6b266ae9eda5d92234d4df340",
+    "importer": "tools/import/import_modern_folklore.py",
+    "enabled": true,
+    "scope": "Metadata/index and source-linked excerpts only unless source terms permit full redistribution"
+  },
+  {
+    "id": "ghost-audio",
+    "name": "Justsenger/ghost",
+    "url": "https://github.com/Justsenger/ghost",
+    "type": "git",
+    "categories": [
+      "现代民间灵异"
+    ],
+    "license": {
+      "name": "Audio archive; source terms not independently verified",
+      "verified": false,
+      "status": "SOURCE_TERMS_UNCLEAR"
+    },
+    "imported_commit": "94f2a0b181be24e0ea7ed77c15ad60b0c211bf61",
+    "importer": "tools/import/import_modern_folklore.py",
+    "enabled": true,
+    "scope": "Episode-title index only; large MP3 files are not mirrored"
+  },
+  {
+    "id": "wikisource-zhiguai-bulk",
+    "name": "中文维基文库志怪补充集",
+    "url": "https://zh.wikisource.org/",
+    "type": "mediawiki",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "0000000000000000000000000000000000000000",
+    "importer": "tools/import/import_zhiguai_wikisource.py",
+    "enabled": true,
+    "scope": "Selected premodern zhiguai works; manifest hash is refreshed from revision SHA1 values at import time"
   }
 ]

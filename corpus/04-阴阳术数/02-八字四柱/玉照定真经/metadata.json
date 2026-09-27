@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-e73f9f4ff70c",
+  "title": "玉照定真经",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [
+    "命理",
+    "干支"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/玉照定真经/000玉照定真经：综论.md",
+      "docs/玉照定真经/001玉照定真经：杂论一.md",
+      "docs/玉照定真经/002玉照定真经：杂论二.md",
+      "docs/玉照定真经/003玉照定真经：杂论三.md",
+      "docs/玉照定真经/004玉照定真经：杂论四.md",
+      "docs/玉照定真经/005玉照定真经：杂论五.md",
+      "docs/玉照定真经/006玉照定真经：杂论六.md",
+      "docs/玉照定真经/007玉照定真经：杂论七.md",
+      "docs/玉照定真经/008玉照定真经：疾病论.md",
+      "docs/玉照定真经/009玉照定真经：天干论.md",
+      "docs/玉照定真经/010玉照定真经：六神论.md",
+      "docs/玉照定真经/011玉照定真经：家人论.md",
+      "docs/玉照定真经/012玉照定真经：论专旺.md",
+      "docs/玉照定真经/013玉照定真经：干合论.md",
+      "docs/玉照定真经/014玉照定真经：地支论.md",
+      "docs/玉照定真经/015玉照定真经：上下论.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 3999,
+    "chapters": 16
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

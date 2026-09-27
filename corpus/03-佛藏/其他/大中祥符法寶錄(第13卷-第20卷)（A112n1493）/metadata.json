@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-A112n1493",
+  "title": "大中祥符法寶錄(第13卷-第20卷)",
+  "aliases": [],
+  "author": "宋 楊億等編修",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "趙城金藏",
+    "CBETA",
+    "A"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "趙城金藏",
+    "base_text": "趙城金藏",
+    "canonical_id": "A112n1493",
+    "collection": "A",
+    "volume_count": 7
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml",
+      "A/A112/A112n1493.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/A112n1493-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/A112n1493-notes.jsonl",
+    "note_count": 70,
+    "cbeta_collection": "A",
+    "cbeta_canon": "趙城金藏"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 33343,
+    "chapters": 7
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

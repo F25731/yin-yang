@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-J39nB450",
+  "title": "敏樹禪師語錄",
+  "aliases": [],
+  "author": "清 如相說　道崇編　道領錄（依駒本印）",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "嘉興藏",
+    "CBETA",
+    "J"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "嘉興大藏經（新文豐版）",
+    "base_text": "嘉興大藏經（新文豐版）",
+    "canonical_id": "J39nB450",
+    "collection": "J",
+    "volume_count": 10
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml",
+      "J/J39/J39nB450.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/J39nB450-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/J39nB450-notes.jsonl",
+    "note_count": 108,
+    "cbeta_collection": "J",
+    "cbeta_canon": "嘉興藏"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 70555,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

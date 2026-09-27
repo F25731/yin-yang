@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-B09n0030",
+  "title": "現觀莊嚴論中八品七十義略解",
+  "aliases": [],
+  "author": "法尊述",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "大藏經補編",
+    "CBETA",
+    "B"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "大藏經補編",
+    "base_text": "大藏經補編",
+    "canonical_id": "B09n0030",
+    "collection": "B",
+    "volume_count": 1
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "B/B09/B09n0030.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/B09n0030-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/B09n0030-notes.jsonl",
+    "note_count": 6,
+    "cbeta_collection": "B",
+    "cbeta_canon": "大藏經補編"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 9142,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

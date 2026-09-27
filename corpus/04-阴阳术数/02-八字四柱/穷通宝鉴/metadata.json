@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-c4b345bac73f",
+  "title": "穷通宝鉴",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [
+    "调候",
+    "命理",
+    "五行"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/穷通宝鉴/000穷通宝鉴：五行总论.md",
+      "docs/穷通宝鉴/001穷通宝鉴：论甲木.md",
+      "docs/穷通宝鉴/002穷通宝鉴：论乙木.md",
+      "docs/穷通宝鉴/003穷通宝鉴：论丙火.md",
+      "docs/穷通宝鉴/004穷通宝鉴：论丁火.md",
+      "docs/穷通宝鉴/005穷通宝鉴：论戊土.md",
+      "docs/穷通宝鉴/006穷通宝鉴：论己土.md",
+      "docs/穷通宝鉴/007穷通宝鉴：论庚金.md",
+      "docs/穷通宝鉴/008穷通宝鉴：论辛金.md",
+      "docs/穷通宝鉴/009穷通宝鉴：论壬水.md",
+      "docs/穷通宝鉴/010穷通宝鉴：论癸水.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 37457,
+    "chapters": 11
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

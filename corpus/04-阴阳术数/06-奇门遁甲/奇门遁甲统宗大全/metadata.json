@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-8f5fa46e28d9",
+  "title": "奇门遁甲统宗大全",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "奇门遁甲"
+  ],
+  "topics": [
+    "九宫",
+    "八门",
+    "九星",
+    "三奇六仪"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/奇门遁甲统宗大全/000序.md",
+      "docs/奇门遁甲统宗大全/001奇门遁甲统宗源流.md",
+      "docs/奇门遁甲统宗大全/002凡例.md",
+      "docs/奇门遁甲统宗大全/003卷之一.md",
+      "docs/奇门遁甲统宗大全/004卷之二.md",
+      "docs/奇门遁甲统宗大全/005卷之三.md",
+      "docs/奇门遁甲统宗大全/006卷之四～九（缺）.md",
+      "docs/奇门遁甲统宗大全/007卷之十 玄机赋（上）.md",
+      "docs/奇门遁甲统宗大全/008卷之十一 玄机赋（中）.md",
+      "docs/奇门遁甲统宗大全/009卷之十二 玄机赋（下）.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 54935,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理",
+      "上游明确标有卷四至卷九缺失，保留缺卷说明"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

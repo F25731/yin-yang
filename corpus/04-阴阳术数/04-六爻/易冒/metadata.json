@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-c0e08daeb36b",
+  "title": "易冒",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "六爻",
+    "卜筮"
+  ],
+  "topics": [
+    "六爻",
+    "占验"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/易冒/000序.md",
+      "docs/易冒/001易冒卷之一.md",
+      "docs/易冒/002易冒卷之二.md",
+      "docs/易冒/003易冒卷之三.md",
+      "docs/易冒/004易冒卷之四.md",
+      "docs/易冒/005易冒卷之五.md",
+      "docs/易冒/006易冒卷之六.md",
+      "docs/易冒/007易冒卷之七.md",
+      "docs/易冒/008易冒卷之八.md",
+      "docs/易冒/009易冒卷之九.md",
+      "docs/易冒/010易冒卷之十.md",
+      "docs/易冒/011易冒十卷.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 119139,
+    "chapters": 12
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

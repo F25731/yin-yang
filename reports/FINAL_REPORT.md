@@ -1,46 +1,123 @@
 # 建设报告
 
-生成依据：`metadata/statistics.json`、`metadata/duplicate-groups.json` 与来源审计。
+本报告由当前 corpus/metadata 自动生成，不再使用第一轮硬编码数字。
 
-## 已导入规模
+## 当前规模
 
-- 独立正文：**4152 部**；检索单元：**12161 个**；正文字符：**130917813 个**。
-- 主类书目数（多标签可重复计数）：志怪神异 9、道藏 1650、佛藏 2459、阴阳术数 35。
-- 术数 12 子类：周易 1、八字四柱 8、紫微斗数 1、六爻 4、梅花易数 1、奇门遁甲 2、大六壬 1、太乙神数 1、风水堪舆 9、择日 1、相术 4、卜筮 6。
-- 来源：kr5-corpus 1,650 部；CBETA 大正藏 T 部 2459 部；Kanripo 独立仓库 37 部；维基文库 6 部。
+- 独立书目：**6682 部**
+- AI 检索单元：**26135 个**
+- 正文字符：**325570230**
+- 主类：志怪神异 9、道藏 1650、佛藏 4917、阴阳术数 106、现代民间灵异 1
+- 阴阳术数 12 类：周易 3、八字四柱 22、紫微斗数 8、六爻 10、梅花易数 3、奇门遁甲 7、大六壬 10、太乙神数 1、风水堪舆 25、择日 1、相术 12、卜筮 16
 
-## 授权与质量
+## 来源规模
 
-- `yaya` 和 `xuanxue` 缺乏覆盖全文的明确再分发许可，只保存来源和目录调查，不提交正文。
-- CBETA 导入 xml-p5 仓库所含大正藏 T01–T55、T85，逐文件核对非商业使用及保留 header 的授权字段；保留每部原始 TEI header 和注记。其他藏经系列未导入。
-- 质量等级：B 2496、C 4、D 1652。道藏 D 主要表示上游书目数据为机器生成且未逐书校核，并不等于已发现正文 OCR 错误。
-- 缺失 metadata 0；编码异常 0；空正文文件 0；转换失败 0。
+- cbeta-xml-p5：4917 部
+- kanripo-KR1a0001：1 部
+- kanripo-KR3g0019：1 部
+- kanripo-KR3g0020：1 部
+- kanripo-KR3g0021：1 部
+- kanripo-KR3g0022：1 部
+- kanripo-KR3g0023：1 部
+- kanripo-KR3g0024：1 部
+- kanripo-KR3g0025：1 部
+- kanripo-KR3g0026：1 部
+- kanripo-KR3g0027：1 部
+- kanripo-KR3g0028：1 部
+- kanripo-KR3g0029：1 部
+- kanripo-KR3g0030：1 部
+- kanripo-KR3g0031：1 部
+- kanripo-KR3g0032：1 部
+- kanripo-KR3g0033：1 部
+- kanripo-KR3g0034：1 部
+- kanripo-KR3g0035：1 部
+- kanripo-KR3g0036：1 部
+- kanripo-KR3g0037：1 部
+- kanripo-KR3g0038：1 部
+- kanripo-KR3g0039：1 部
+- kanripo-KR3g0042：1 部
+- kanripo-KR3g0043：1 部
+- kanripo-KR3g0044：1 部
+- kanripo-KR3g0045：1 部
+- kanripo-KR3g0046：1 部
+- kanripo-KR3g0047：1 部
+- kanripo-KR3g0048：1 部
+- kanripo-KR3g0051：1 部
+- kanripo-KR3l0090：1 部
+- kanripo-KR3l0099：1 部
+- kanripo-KR3l0100：1 部
+- kanripo-KR3l0118：1 部
+- kanripo-KR3l0122：1 部
+- kanripo-KR3l0123：1 部
+- kanripo-KR3l0124：1 部
+- kr5-corpus：1650 部
+- supernatural-tianya：1 部
+- wikisource-huangjince：1 部
+- wikisource-liaozhai：1 部
+- wikisource-meihua：1 部
+- wikisource-qimenbaojian：1 部
+- wikisource-yuewei：1 部
+- wikisource-zengshan：1 部
+- xuanxue：71 部
 
-## 重复与版本
+## CBETA 系列覆盖
 
-- 精确重复文本 0；近重复候选 1；同题名版本组 90。
-- 同题名不自动合并。例：《山海經》在 KR3l 和 KR5d 中均有正文，分别保留来源与版本；其他版本组见 `metadata/duplicate-groups.json`。
+- A：12 部
+- B：204 部
+- C：12 部
+- CC：6 部
+- D：64 部
+- F：27 部
+- G：69 部
+- GA：58 部
+- GB：2 部
+- I：1 部
+- J：287 部
+- K：10 部
+- L：26 部
+- LC：8 部
+- M：1 部
+- N：83 部
+- P：20 部
+- S：2 部
+- T：2459 部
+- TX：40 部
+- U：3 部
+- X：1236 部
+- Y：44 部
+- YP：40 部
+- ZS：1 部
+- ZW：202 部
 
-## 仍需完成的覆盖
+## 数据质量
 
-- 12 个术数子类目前均有可检索正文或跨类标签，但这不等于文档所列核心书单已齐。六爻、紫微斗数、奇门、大六壬、太乙、择日等类的作品数量和版本仍偏少。
-- 《卜筮正宗》未完整导入；《奇门宝鉴御定》仅有维基文库单页转录，尚未与指定的《御定奇門寶鑑》印本核对完整性。紫微、六爻、奇门等类仍缺多部指定经典。
-- 佛藏已覆盖上游 xml-p5 的 T 部，但 CBETA 其他藏经系列尚未做逐文件授权审查及导入。部分佛典部类跨卷，目录按经号分配 T09、T12、T47，其他卷仍按卷号粗分；需继续核对官方部类目录。
-- 维基文库《梅花易數》保留原繁体字形和修订 SHA1；《黃金策》采用维基文库所载《卜筮正宗》本文字，版本与署名仍需人工校核。
-- 维基文库《閱微草堂筆記》导入全部 24 卷；6 条维基文库编者注单独保留在 provenance，正文保留原字形和逐卷修订 SHA1。
-- 维基文库《聊齋志異》导入锁定版全部 12 卷、493 个篇目标题；本版篇目数与常见 496 篇说法有差异，需做版本比对。现代释词、编者注与异文标记单独保留在 provenance。
-- 维基文库《增刪卜易》导入卷一分章及卷二至四的连续转录；上游标注主页面 25%、分章页 50% 校对程度，故列为 D 级并须继续与可靠底本对校。
-- 维基文库《奇门宝鉴御定》导入单页转录；来源署名‘唐 徐道符’与正文提及明代人物矛盾，故作者、成书时代留空并列为 D 级，完整性及底本待校。
+- 质量等级：B 4954、C 5、D 1723
+- metadata 缺失：0
+- 编码异常：0
+- 空正文：0
+- 精确重复组：5
+- 近重复候选：9
+- 同题名版本组：151
 
-## 增量更新和检索
+## 核心覆盖验收
 
-1. 先复核来源授权与 `sources/manifest.yaml` 中的 commit 或 revision。
-2. 上游检出到 `.work/` 后运行 `python tools/import/import_all.py --source <source-id>`；需要按锁定版本下载时加 `--fetch`。
-3. 运行 `python tools/index/build_all.py`、`python tools/index/build_ai_indexes.py` 和 `python tools/validate_all.py`。
-4. AI 检索先读 `CATALOG.md`，再查 `metadata/books.jsonl` 或 `indexes/search-manifest.jsonl`，最后打开少数命中章节；引用须标书名、卷次和来源。
+**PASS：四大古籍体系与阴阳术数 12 子类核心书目验收通过。**
 
-## 已知限制与验收状态
+## 失败 / 暂缓项目
 
-- 道藏页码仅在章节 front matter 中保存起止范围；页内逐行位置须回查上游。CBETA 页行起止范围和注记另存 provenance。
-- Kanripo 署名、时代沿用上游目录或留空，未在本项目独立考证；古籍正文未做 AI 改写。
-- 本轮完成了四大主类、12 个术数标签、UTF-8、metadata、索引、授权报告与自动校验。由于上述核心书单及其他佛藏系列的覆盖缺口，`EXECUTION.md` 的全部最终验收项**尚未完成**。
+- CBETA_EXTRA_WITHHELD.txt：100 条
+
+## AI 使用方式
+
+1. 先读根目录 CATALOG.md，它只保留小型分类入口。
+2. 再进入 indexes/catalog/ 对应分类；按主题可查 indexes/by-topic.md。
+3. 小说写作优先看 ai/writing/TOPIC_INDEX.md，随后打开词项中的真实原文章节。
+4. 精确搜索使用 metadata/books.jsonl 与 indexes/search-manifest.jsonl。
+5. corpus/ 为来源文本整理层，ai/ 只做导航，不得冒充古籍原文。
+
+## 已知边界
+
+- 同题名不同版本默认并存，不自动认定某一版为唯一正确文本。
+- D/C 级文本应在正式引用前回查上游或影印底本。
+- 现代民间灵异材料只作叙事/民俗线索，不作为事实证据。
+- ghost 约 70GB 音频不镜像，只建立节目标题索引；AI 资料库优先保存可检索文本。

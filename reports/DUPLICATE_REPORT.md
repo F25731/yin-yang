@@ -1,6 +1,6 @@
 # 重复与版本报告
 
-完全相同组 0；同题名版本组 90；近似候选 1。
+完全相同组 5；同题名版本组 151；近似候选 9。
 
 近似候选仅供人工判断，不自动删除正文。详情见 `metadata/duplicate-groups.json`。
 
@@ -25,14 +25,14 @@
 - 金丹四百字：KR5d0104、KR5i0058
 - 搜神記：KR5h0045、kanripo-KR3l0099
 - 元始大洞玉經：KR5i0001、KR5i0003
-- 大般涅槃經：cbeta-T01n0007、cbeta-T12n0374、cbeta-T12n0375
-- 雜阿含經：cbeta-T02n0099、cbeta-T02n0101
-- 須摩提女經：cbeta-T02n0128a、cbeta-T02n0128b
-- 佛說睒子經：cbeta-T03n0175b、cbeta-T03n0175c
-- 雜譬喻經：cbeta-T04n0204、cbeta-T04n0205、cbeta-T04n0207
-- 法句經：cbeta-T04n0210、cbeta-T85n2901
-- 金剛般若波羅蜜經：cbeta-T08n0235、cbeta-T08n0236a、cbeta-T08n0236b、cbeta-T08n0237
-- 般若波羅蜜多心經：cbeta-T08n0251、cbeta-T08n0253、cbeta-T08n0254、cbeta-T08n0255
-- 大方廣佛華嚴經：cbeta-T09n0278、cbeta-T10n0279、cbeta-T10n0293
-- 佛說普門品經：cbeta-T11n0315a、cbeta-T11n0315b
-- 佛說須賴經：cbeta-T12n0328、cbeta-T12n0329
+- 新譯大方廣佛華嚴經音義：cbeta-A091n1057、cbeta-K32n1064
+- 三自性論：cbeta-B09n0036、cbeta-ZW10n0078
+- 菩提道次第論攝頌：cbeta-B10n0054、cbeta-G148n2517
+- 宗喀巴大師傳：cbeta-B11n0074、cbeta-G160n2619
+- 古尊宿語錄：cbeta-C077n1710、cbeta-D48n8939、cbeta-X68n1315
+- 禪宗頌古聯珠通集：cbeta-C078n1720、cbeta-X65n1295
+- 楞伽經纂：cbeta-C097n1821、cbeta-X17n0325
+- 新菩薩經：cbeta-D12n8820、cbeta-T85n2917A、cbeta-T85n2917B
+- 金剛般若波羅蜜經註解：cbeta-D13n8838、cbeta-T33n1703
+- 般若心經註解：cbeta-D14n8842、cbeta-X26n0547、cbeta-X26n0571、cbeta-X26n0573、cbeta-X26n0574、cbeta-X26n0575、cbeta-X26n0576
+- 一切如來白傘蓋大佛頂陀羅尼：cbeta-F27n1048、cbeta-F27n1063

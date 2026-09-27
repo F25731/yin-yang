@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-ab80ab45008e",
+  "title": "撼龙经",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "风水堪舆"
+  ],
+  "topics": [
+    "龙脉",
+    "疑龙",
+    "峦头"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/撼龙经/000《撼龙经》撼龙经.md",
+      "docs/撼龙经/001《撼龙经》疑龙经·上篇.md",
+      "docs/撼龙经/002《撼龙经》疑龙经·中篇.md",
+      "docs/撼龙经/003《撼龙经》疑龙经·下篇.md",
+      "docs/撼龙经/004《撼龙经》疑龙经·附：疑龙十问.md",
+      "docs/撼龙经/005《撼龙经》疑龙经·附：卫龙篇.md",
+      "docs/撼龙经/006《撼龙经》疑龙经·附：变星篇.md",
+      "docs/撼龙经/007《撼龙经》葬法倒杖·认太极.md",
+      "docs/撼龙经/008《撼龙经》葬法倒杖·分两仪.md",
+      "docs/撼龙经/009《撼龙经》葬法倒杖·求四象.md",
+      "docs/撼龙经/010《撼龙经》葬法倒杖·倍八卦.md",
+      "docs/撼龙经/011《撼龙经》葬法倒杖·倒杖十二法.md",
+      "docs/撼龙经/012《撼龙经》葬法倒杖·附：二十四砂葬法.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 18767,
+    "chapters": 13
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

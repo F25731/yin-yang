@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-8e3b495020b3",
+  "title": "六壬粹言",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "大六壬"
+  ],
+  "topics": [
+    "六壬",
+    "毕法"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/六壬粹言/000蛟门刘赤江慕甫编.md",
+      "docs/六壬粹言/001卷一 辨非十则.md",
+      "docs/六壬粹言/002卷二 毕法补谈一 立课.md",
+      "docs/六壬粹言/003卷三 毕法补谈二 经课.md",
+      "docs/六壬粹言/004卷四 毕法补谈三 要将.md",
+      "docs/六壬粹言/005卷五 毕法补谈四 吉神.md",
+      "docs/六壬粹言/006卷六 毕法补谈五 凶煞.md",
+      "docs/六壬粹言/007卷七 毕法补谈之六 格例.md",
+      "docs/六壬粹言/008卷八 毕法补谈之七 占法.md",
+      "docs/六壬粹言/009卷九 指南汇笺.md",
+      "docs/六壬粹言/010卷十 指南汇笺二.md",
+      "docs/六壬粹言/011卷十一 指南汇笺三.md",
+      "docs/六壬粹言/012卷十三 慕农占验集全一.md",
+      "docs/六壬粹言/013卷十四 慕农占验集全二.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 77422,
+    "chapters": 14
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

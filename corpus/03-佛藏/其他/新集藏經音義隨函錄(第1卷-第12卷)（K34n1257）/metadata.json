@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-K34n1257",
+  "title": "新集藏經音義隨函錄(第1卷-第12卷)",
+  "aliases": [],
+  "author": "後晉 可洪撰",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "高麗藏",
+    "CBETA",
+    "K"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "高麗大藏經（新文豐版）",
+    "base_text": "高麗大藏經（新文豐版）",
+    "canonical_id": "K34n1257",
+    "collection": "K",
+    "volume_count": 12
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml",
+      "K/K34/K34n1257.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/K34n1257-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/K34n1257-notes.jsonl",
+    "note_count": 46605,
+    "cbeta_collection": "K",
+    "cbeta_canon": "高麗藏"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 275816,
+    "chapters": 12
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

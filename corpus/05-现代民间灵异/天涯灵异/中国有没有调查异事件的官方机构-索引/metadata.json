@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "id": "modern-tianya-supernatural-index",
+  "title": "天涯灵异帖子索引",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "现代民间灵异"
+  ],
+  "topics": [
+    "民间灵异",
+    "网络怪谈",
+    "都市传说",
+    "罗布泊",
+    "鬼神",
+    "奇闻"
+  ],
+  "text_type": "modern_folklore_index",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "supernatural-tianya",
+    "repository": "https://github.com/exposir/supernatural_tianya",
+    "commit": "86dafdf6b3abb8b6b266ae9eda5d92234d4df340",
+    "original_path": [
+      "README.md"
+    ],
+    "upstream_url": "https://github.com/exposir/supernatural_tianya"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Forum-derived text; source attribution retained",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Extracted heading-level post index only; full forum body not mirrored"
+  },
+  "statistics": {
+    "characters": 559,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "C",
+    "ocr": false,
+    "known_issues": [
+      "仅索引，不代表帖文真实性；完整正文未镜像"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

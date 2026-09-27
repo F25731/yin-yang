@@ -1,0 +1,93 @@
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">The Complete Works of Venerable Yen Pei</title>
+      <title level="s" xml:lang="zh-Hant">演培法師全集</title>
+      <title level="m" xml:lang="zh-Hant">俱舍論頌講記（下）(第7卷-第10卷)</title>
+      <title>The Complete Works of Venerable Yen Pei, Electronic version, No. 23 俱舍論頌講記（下）(第7卷-第10卷)</title>
+      <title xml:lang="zh-Hant">演培法師全集數位版, No. 23 俱舍論頌講記（下）(第7卷-第10卷)</title>
+      <author>民國 釋演培著</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5</edition>
+      <respStmt xml:id="resp1"><resp>corrections</resp><name>orig</name></respStmt>
+    </editionStmt>
+    <extent>4卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">YP</idno>.<idno type="vol">18</idno>.<idno type="no">23</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-05-15 11:10:16 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>演培法師全集</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">ABBYY FineReader 16 OCR, ABBYY FineReader 11 OCR, Google Document AI</p>
+      <p xml:lang="zh-Hant" cb:type="ly">ABBYY FineReader 16 OCR，ABBYY FineReader 11 OCR，Google Document AI</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="#resp1"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+            <witness xml:id="wit.orig">【演培】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00574">
+        <charName>CBETA CHARACTER CB00574</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[夢-夕+登]</value>
+        </charProp>
+        <mapping type="unicode">U+2713C</mapping>
+        <mapping cb:dec="983614" type="PUA">U+F023E</mapping>
+      </char>
+      <char xml:id="CB00930">
+        <charName>CBETA CHARACTER CB00930</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[魅-未+勿]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>魅</value>
+        </charProp>
+        <mapping type="unicode">U+29C90</mapping>
+        <mapping cb:dec="983970" type="PUA">U+F03A2</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2026-05-12">
+      <name>Ray Chou 周邦信</name>Created initial TEI XML P5a version with bm2p5a.py
+    </change>
+  </revisionDesc>
+</teiHeader>

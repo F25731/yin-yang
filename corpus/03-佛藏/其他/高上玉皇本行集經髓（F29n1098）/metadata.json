@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-F29n1098",
+  "title": "高上玉皇本行集經髓",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "房山石經",
+    "CBETA",
+    "F"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "房山石經",
+    "base_text": "房山石經",
+    "canonical_id": "F29n1098",
+    "collection": "F",
+    "volume_count": 1
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "F/F29/F29n1098.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/F29n1098-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/F29n1098-notes.jsonl",
+    "note_count": 2,
+    "cbeta_collection": "F",
+    "cbeta_canon": "房山石經"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 1745,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

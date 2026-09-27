@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-f918ace3284e",
+  "title": "滴天髓阐微",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [
+    "命理",
+    "五行",
+    "干支"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/滴天髓阐微/000滴天髓阐微：通神论天道.md",
+      "docs/滴天髓阐微/001滴天髓阐微：通神论地道.md",
+      "docs/滴天髓阐微/002滴天髓阐微：通神论人道.md",
+      "docs/滴天髓阐微/003滴天髓阐微：通神论知命.md",
+      "docs/滴天髓阐微/004滴天髓阐微：通神论理气.md",
+      "docs/滴天髓阐微/005滴天髓阐微：通神论配合.md",
+      "docs/滴天髓阐微/006滴天髓阐微：通神论天干.md",
+      "docs/滴天髓阐微/007滴天髓阐微：通神论地支.md",
+      "docs/滴天髓阐微/008滴天髓阐微：通神论干支总论.md",
+      "docs/滴天髓阐微/009滴天髓阐微：通神论形象.md",
+      "docs/滴天髓阐微/010滴天髓阐微：通神论方局.md",
+      "docs/滴天髓阐微/011滴天髓阐微：通神论八格.md",
+      "docs/滴天髓阐微/012滴天髓阐微：通神论体用.md",
+      "docs/滴天髓阐微/013滴天髓阐微：通神论精神.md",
+      "docs/滴天髓阐微/014滴天髓阐微：通神论月令.md",
+      "docs/滴天髓阐微/015滴天髓阐微：通神论生时.md",
+      "docs/滴天髓阐微/016滴天髓阐微：通神论衰旺.md",
+      "docs/滴天髓阐微/017滴天髓阐微：通神论中和.md",
+      "docs/滴天髓阐微/018滴天髓阐微：通神论源流.md",
+      "docs/滴天髓阐微/019滴天髓阐微：通神论通关.md",
+      "docs/滴天髓阐微/020滴天髓阐微：通神论官杀.md",
+      "docs/滴天髓阐微/021滴天髓阐微：通神论伤官.md",
+      "docs/滴天髓阐微/022滴天髓阐微：通神论清气.md",
+      "docs/滴天髓阐微/023滴天髓阐微：通神论浊气.md",
+      "docs/滴天髓阐微/024滴天髓阐微：通神论真神.md",
+      "docs/滴天髓阐微/025滴天髓阐微：通神论假神.md",
+      "docs/滴天髓阐微/026滴天髓阐微：通神论刚柔.md",
+      "docs/滴天髓阐微/027滴天髓阐微：通神论顺逆.md",
+      "docs/滴天髓阐微/028滴天髓阐微：通神论寒暖.md",
+      "docs/滴天髓阐微/029滴天髓阐微：通神论燥湿.md",
+      "docs/滴天髓阐微/030滴天髓阐微：通神论隐显.md",
+      "docs/滴天髓阐微/031滴天髓阐微：通神论众寡.md",
+      "docs/滴天髓阐微/032滴天髓阐微：通神论震兑.md",
+      "docs/滴天髓阐微/033滴天髓阐微：通神论坎离.md",
+      "docs/滴天髓阐微/034滴天髓阐微：六亲论夫妻.md",
+      "docs/滴天髓阐微/035滴天髓阐微：六亲论子女.md",
+      "docs/滴天髓阐微/036滴天髓阐微：六亲论父母.md",
+      "docs/滴天髓阐微/037滴天髓阐微：六亲论兄弟.md",
+      "docs/滴天髓阐微/038滴天髓阐微：六亲论何知章.md",
+      "docs/滴天髓阐微/039滴天髓阐微：六亲论女命章.md",
+      "docs/滴天髓阐微/040滴天髓阐微：六亲论小儿.md",
+      "docs/滴天髓阐微/041滴天髓阐微：六亲论才德.md",
+      "docs/滴天髓阐微/042滴天髓阐微：六亲论奋郁.md",
+      "docs/滴天髓阐微/043滴天髓阐微：六亲论恩怨.md",
+      "docs/滴天髓阐微/044滴天髓阐微：六亲论闲神.md",
+      "docs/滴天髓阐微/045滴天髓阐微：六亲论从象.md",
+      "docs/滴天髓阐微/046滴天髓阐微：六亲论化象.md",
+      "docs/滴天髓阐微/047滴天髓阐微：六亲论假从.md",
+      "docs/滴天髓阐微/048滴天髓阐微：六亲论假化.md",
+      "docs/滴天髓阐微/049滴天髓阐微：六亲论顺局.md",
+      "docs/滴天髓阐微/050滴天髓阐微：六亲论反局.md",
+      "docs/滴天髓阐微/051滴天髓阐微：六亲论战局.md",
+      "docs/滴天髓阐微/052滴天髓阐微：六亲论合局.md",
+      "docs/滴天髓阐微/053滴天髓阐微：六亲论君象.md",
+      "docs/滴天髓阐微/054滴天髓阐微：六亲论臣象.md",
+      "docs/滴天髓阐微/055滴天髓阐微：六亲论母象.md",
+      "docs/滴天髓阐微/056滴天髓阐微：六亲论子象.md",
+      "docs/滴天髓阐微/057滴天髓阐微：六亲论性情.md",
+      "docs/滴天髓阐微/058滴天髓阐微：六亲论疾病.md",
+      "docs/滴天髓阐微/059滴天髓阐微：六亲论出身.md",
+      "docs/滴天髓阐微/060滴天髓阐微：六亲论地位.md",
+      "docs/滴天髓阐微/061滴天髓阐微：六亲论岁运.md",
+      "docs/滴天髓阐微/062滴天髓阐微：六亲论贞元.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 132013,
+    "chapters": 63
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

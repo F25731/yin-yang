@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-a15c18726c39",
+  "title": "公笃相法",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "相术"
+  ],
+  "topics": [
+    "面相",
+    "人相"
+  ],
+  "text_type": "mixed_classical_commentary",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/公笃相法/000《公笃相法》自序.md",
+      "docs/公笃相法/001《公笃相法》卷一.md",
+      "docs/公笃相法/002《公笃相法》卷二.md",
+      "docs/公笃相法/003《公笃相法》卷三.md",
+      "docs/公笃相法/004《公笃相法》卷四.md",
+      "docs/公笃相法/005《公笃相法》卷五.md",
+      "docs/公笃相法/006《公笃相法》卷六.md",
+      "docs/公笃相法/007《公笃相法》卷七.md",
+      "docs/公笃相法/008《公笃相法》卷八.md",
+      "docs/公笃相法/009《公笃相法》卷九.md",
+      "docs/公笃相法/010《公笃相法》卷十.md",
+      "docs/公笃相法/011《公笃相法》卷十一.md",
+      "docs/公笃相法/012《公笃相法》卷十二.md",
+      "docs/公笃相法/013《公笃相法》卷十三.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 311471,
+    "chapters": 14
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

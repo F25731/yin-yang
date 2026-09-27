@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-bf982379cb40",
+  "title": "五行精纪",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [
+    "五行",
+    "命理",
+    "神煞"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/五行精纪/000五行精纪：序.md",
+      "docs/五行精纪/001五行精纪：第一卷　论六十甲子上.md",
+      "docs/五行精纪/002五行精纪：论六甲纳音法.md",
+      "docs/五行精纪/003五行精纪：第二卷　论六十甲子下.md",
+      "docs/五行精纪/005五行精纪：第四卷 论干神二.md",
+      "docs/五行精纪/006五行精纪：第五卷 论干神三.md",
+      "docs/五行精纪/007五行精纪：论甲乙.md",
+      "docs/五行精纪/008五行精纪：论戊己.md",
+      "docs/五行精纪/009五行精纪：论庚辛.md",
+      "docs/五行精纪/010五行精纪：论壬癸.md",
+      "docs/五行精纪/011五行精纪：第六卷论支神.md",
+      "docs/五行精纪/012五行精纪：并论十神.md",
+      "docs/五行精纪/013五行精纪：第七卷论五行一.md",
+      "docs/五行精纪/014五行精纪：第八卷论五行二.md",
+      "docs/五行精纪/015五行精纪：第九卷论五行三.md",
+      "docs/五行精纪/016五行精纪：第十卷论年月日时胎.md",
+      "docs/五行精纪/017五行精纪：第十一卷释日时凶中凶格.md",
+      "docs/五行精纪/018五行精纪：第十二卷论十二月节气.md",
+      "docs/五行精纪/019五行精纪：第十三卷论释吉贵神例.md",
+      "docs/五行精纪/020五行精纪：第十四卷【论天乙贵神】.md",
+      "docs/五行精纪/021五行精纪：第十五卷论禄.md",
+      "docs/五行精纪/022五行精纪：第十六卷论马.md",
+      "docs/五行精纪/023五行精纪：第十七卷并论禄马.md",
+      "docs/五行精纪/024五行精纪：论官神.md",
+      "docs/五行精纪/025五行精纪：第十八卷论印绶.md",
+      "docs/五行精纪/026五行精纪：论食神.md",
+      "docs/五行精纪/027五行精纪：论三奇 四奇附.md",
+      "docs/五行精纪/028五行精纪：第十九卷论进神.md",
+      "docs/五行精纪/029五行精纪：论正印.md",
+      "docs/五行精纪/030五行精纪：论库墓.md",
+      "docs/五行精纪/031五行精纪：论财.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 104473,
+    "chapters": 31
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

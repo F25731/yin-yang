@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-ZW01n0007",
+  "title": "阿毗達磨俱舍論實義疏",
+  "aliases": [],
+  "author": "尊者安惠造　蘇軍整理",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "藏外"
+  ],
+  "topics": [
+    "藏外佛教文獻",
+    "CBETA",
+    "ZW"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "藏外佛教文獻",
+    "base_text": "藏外佛教文獻",
+    "canonical_id": "ZW01n0007",
+    "collection": "ZW",
+    "volume_count": 1
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "ZW/ZW01/ZW01n0007.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/ZW01n0007-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/ZW01n0007-notes.jsonl",
+    "note_count": 364,
+    "cbeta_collection": "ZW",
+    "cbeta_canon": "藏外佛教文獻"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 43583,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-2489d028bde2",
+  "title": "阳宅十书",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "风水堪舆"
+  ],
+  "topics": [
+    "阳宅",
+    "择日",
+    "风水"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/阳宅十书/000一、【阳宅十书——论宅外形】.md",
+      "docs/阳宅十书/001二、【阳宅十书——论福元】.md",
+      "docs/阳宅十书/002三、【阳宅十书——论大游年】.md",
+      "docs/阳宅十书/003四、【阳宅十书——论穿宫九星】.md",
+      "docs/阳宅十书/004五、【阳宅十书——论元空装卦】.md",
+      "docs/阳宅十书/005六、【阳宅十书——论开门修造门】.md",
+      "docs/阳宅十书/006七【阳宅十书——论放水】.md",
+      "docs/阳宅十书/007八、【阳宅十书——论宅内形】.md",
+      "docs/阳宅十书/008九、【阳宅十书——论宅选择】.md",
+      "docs/阳宅十书/009十【阳宅十书——论符镇】.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 42155,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

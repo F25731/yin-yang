@@ -1,6 +1,56 @@
 {
-  "exact_groups": [],
+  "exact_groups": [
+    {
+      "kind": "exact_strict",
+      "hash": "6f29d7ea625f765398d056eaccd9c8fe45bf3b5c461df40c31b929846ac5ddbe",
+      "books": [
+        "cbeta-GA000na001",
+        "cbeta-GB000na001"
+      ]
+    },
+    {
+      "kind": "exact_strict",
+      "hash": "7514a8690cc6a21ae6ff388e95e3c9b0a1cbf6dc68b14133b17452e80a3d49d0",
+      "books": [
+        "cbeta-ZW08na047",
+        "cbeta-ZW09na054"
+      ]
+    },
+    {
+      "kind": "exact_strict",
+      "hash": "3e8063e8e05a987b9d611fe2394ccf07c8c4a6fe69b9b08e73758f4c80f9052f",
+      "books": [
+        "cbeta-ZW08na048",
+        "cbeta-ZW09na055"
+      ]
+    },
+    {
+      "kind": "exact_strict",
+      "hash": "d417f50d59a72d6ec1f97fc7db6e17dcc31d3be79a7b5642ba3cb32fdb1cf55a",
+      "books": [
+        "cbeta-ZW09na056",
+        "cbeta-ZW10na062"
+      ]
+    },
+    {
+      "kind": "exact_strict",
+      "hash": "688e9e708cdab4d671308323dda0d818ff7508ab60fce87a799378f75e255da4",
+      "books": [
+        "cbeta-ZW10na058",
+        "cbeta-ZW11na064"
+      ]
+    }
+  ],
   "near_candidates": [
+    {
+      "books": [
+        "cbeta-GA000na001",
+        "cbeta-GB000na001"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 1.0,
+      "status": "review"
+    },
     {
       "books": [
         "cbeta-T03n0175b",
@@ -8,6 +58,69 @@
       ],
       "length_ratio": 0.998,
       "sampled_5gram_jaccard": 0.873,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW04na024",
+        "cbeta-ZW05na030"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.983,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW04na024",
+        "cbeta-ZW06na036"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.967,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW05na030",
+        "cbeta-ZW06na036"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.984,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW08na047",
+        "cbeta-ZW09na054"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 1.0,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW10na061",
+        "cbeta-ZW11na067"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.993,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW10na061",
+        "cbeta-ZW12na073"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.995,
+      "status": "review"
+    },
+    {
+      "books": [
+        "cbeta-ZW11na067",
+        "cbeta-ZW12na073"
+      ],
+      "length_ratio": 1.0,
+      "sampled_5gram_jaccard": 0.988,
       "status": "review"
     }
   ],
@@ -153,6 +266,133 @@
       ]
     },
     {
+      "canonical_work": "新譯大方廣佛華嚴經音義",
+      "editions": [
+        "cbeta-A091n1057",
+        "cbeta-K32n1064"
+      ]
+    },
+    {
+      "canonical_work": "三自性論",
+      "editions": [
+        "cbeta-B09n0036",
+        "cbeta-ZW10n0078"
+      ]
+    },
+    {
+      "canonical_work": "菩提道次第論攝頌",
+      "editions": [
+        "cbeta-B10n0054",
+        "cbeta-G148n2517"
+      ]
+    },
+    {
+      "canonical_work": "宗喀巴大師傳",
+      "editions": [
+        "cbeta-B11n0074",
+        "cbeta-G160n2619"
+      ]
+    },
+    {
+      "canonical_work": "古尊宿語錄",
+      "editions": [
+        "cbeta-C077n1710",
+        "cbeta-D48n8939",
+        "cbeta-X68n1315"
+      ]
+    },
+    {
+      "canonical_work": "禪宗頌古聯珠通集",
+      "editions": [
+        "cbeta-C078n1720",
+        "cbeta-X65n1295"
+      ]
+    },
+    {
+      "canonical_work": "楞伽經纂",
+      "editions": [
+        "cbeta-C097n1821",
+        "cbeta-X17n0325"
+      ]
+    },
+    {
+      "canonical_work": "新菩薩經",
+      "editions": [
+        "cbeta-D12n8820",
+        "cbeta-T85n2917A",
+        "cbeta-T85n2917B"
+      ]
+    },
+    {
+      "canonical_work": "金剛般若波羅蜜經註解",
+      "editions": [
+        "cbeta-D13n8838",
+        "cbeta-T33n1703"
+      ]
+    },
+    {
+      "canonical_work": "般若心經註解",
+      "editions": [
+        "cbeta-D14n8842",
+        "cbeta-X26n0547",
+        "cbeta-X26n0571",
+        "cbeta-X26n0573",
+        "cbeta-X26n0574",
+        "cbeta-X26n0575",
+        "cbeta-X26n0576"
+      ]
+    },
+    {
+      "canonical_work": "一切如來白傘蓋大佛頂陀羅尼",
+      "editions": [
+        "cbeta-F27n1048",
+        "cbeta-F27n1063"
+      ]
+    },
+    {
+      "canonical_work": "梵本般若波羅蜜多心經",
+      "editions": [
+        "cbeta-F27n1056",
+        "cbeta-F27n1060"
+      ]
+    },
+    {
+      "canonical_work": "佛頂尊勝陀羅尼",
+      "editions": [
+        "cbeta-F27n1062",
+        "cbeta-T19n0974B"
+      ]
+    },
+    {
+      "canonical_work": "中國佛寺志編輯說明",
+      "editions": [
+        "cbeta-GA000na001",
+        "cbeta-GB000na001"
+      ]
+    },
+    {
+      "canonical_work": "慶忠鐵壁機禪師語錄",
+      "editions": [
+        "cbeta-J29nB240",
+        "cbeta-J29nB241"
+      ]
+    },
+    {
+      "canonical_work": "法句經",
+      "editions": [
+        "cbeta-N26n0009",
+        "cbeta-T04n0210",
+        "cbeta-T85n2901"
+      ]
+    },
+    {
+      "canonical_work": "佛遺教經論疏節要",
+      "editions": [
+        "cbeta-P174n1590",
+        "cbeta-T40n1820"
+      ]
+    },
+    {
       "canonical_work": "大般涅槃經",
       "editions": [
         "cbeta-T01n0007",
@@ -187,13 +427,6 @@
         "cbeta-T04n0204",
         "cbeta-T04n0205",
         "cbeta-T04n0207"
-      ]
-    },
-    {
-      "canonical_work": "法句經",
-      "editions": [
-        "cbeta-T04n0210",
-        "cbeta-T85n2901"
       ]
     },
     {
@@ -522,14 +755,16 @@
       "canonical_work": "金剛般若經疏",
       "editions": [
         "cbeta-T33n1698",
-        "cbeta-T85n2741"
+        "cbeta-T85n2741",
+        "cbeta-ZW03n0029"
       ]
     },
     {
       "canonical_work": "仁王經疏",
       "editions": [
         "cbeta-T33n1708",
-        "cbeta-T85n2745"
+        "cbeta-T85n2745",
+        "cbeta-X26n0520"
       ]
     },
     {
@@ -554,6 +789,13 @@
       ]
     },
     {
+      "canonical_work": "觀無量壽佛經疏妙宗鈔",
+      "editions": [
+        "cbeta-T37n1751",
+        "cbeta-X22n0407"
+      ]
+    },
+    {
       "canonical_work": "阿彌陀經疏",
       "editions": [
         "cbeta-T37n1757",
@@ -566,6 +808,55 @@
       "editions": [
         "cbeta-T38n1776",
         "cbeta-T85n2768"
+      ]
+    },
+    {
+      "canonical_work": "維摩經略疏",
+      "editions": [
+        "cbeta-T38n1778",
+        "cbeta-X19n0343"
+      ]
+    },
+    {
+      "canonical_work": "梵網經菩薩戒本疏",
+      "editions": [
+        "cbeta-T40n1813",
+        "cbeta-X38n0687"
+      ]
+    },
+    {
+      "canonical_work": "俱舍論疏",
+      "editions": [
+        "cbeta-T41n1822",
+        "cbeta-X53n0836"
+      ]
+    },
+    {
+      "canonical_work": "俱舍論頌疏",
+      "editions": [
+        "cbeta-T41n1823",
+        "cbeta-X53n0842"
+      ]
+    },
+    {
+      "canonical_work": "大乘百法明門論疏",
+      "editions": [
+        "cbeta-T44n1837",
+        "cbeta-U205n1368"
+      ]
+    },
+    {
+      "canonical_work": "因明入正理論疏",
+      "editions": [
+        "cbeta-T44n1840",
+        "cbeta-X53n0848"
+      ]
+    },
+    {
+      "canonical_work": "肇論疏",
+      "editions": [
+        "cbeta-T45n1859",
+        "cbeta-X54n0866"
       ]
     },
     {
@@ -598,6 +889,14 @@
       ]
     },
     {
+      "canonical_work": "梁朝傅大士頌金剛經",
+      "editions": [
+        "cbeta-T85n2732",
+        "cbeta-ZW09n0073f",
+        "cbeta-ZW09n0073g"
+      ]
+    },
+    {
       "canonical_work": "金剛經疏",
       "editions": [
         "cbeta-T85n2737",
@@ -609,7 +908,8 @@
       "editions": [
         "cbeta-T85n2749",
         "cbeta-T85n2750",
-        "cbeta-T85n2751"
+        "cbeta-T85n2751",
+        "cbeta-X27n0577"
       ]
     },
     {
@@ -628,6 +928,13 @@
       ]
     },
     {
+      "canonical_work": "天請問經疏",
+      "editions": [
+        "cbeta-T85n2786",
+        "cbeta-ZW01n0005"
+      ]
+    },
+    {
       "canonical_work": "律戒本疏",
       "editions": [
         "cbeta-T85n2788",
@@ -635,10 +942,31 @@
       ]
     },
     {
+      "canonical_work": "因緣心釋論開決記",
+      "editions": [
+        "cbeta-T85n2816",
+        "cbeta-ZW03n0028"
+      ]
+    },
+    {
       "canonical_work": "祈願文",
       "editions": [
         "cbeta-T85n2846",
         "cbeta-T85n2847"
+      ]
+    },
+    {
+      "canonical_work": "地藏菩薩十齋日",
+      "editions": [
+        "cbeta-T85n2850",
+        "cbeta-ZW07n0064a",
+        "cbeta-ZW07n0064b",
+        "cbeta-ZW07n0064c",
+        "cbeta-ZW07n0064d",
+        "cbeta-ZW07n0064e",
+        "cbeta-ZW07n0064f",
+        "cbeta-ZW07n0064g",
+        "cbeta-ZW07n0064h"
       ]
     },
     {
@@ -657,10 +985,249 @@
       ]
     },
     {
-      "canonical_work": "新菩薩經",
+      "canonical_work": "大方廣華嚴十惡品經",
       "editions": [
-        "cbeta-T85n2917A",
-        "cbeta-T85n2917B"
+        "cbeta-T85n2875",
+        "cbeta-ZW01n0013"
+      ]
+    },
+    {
+      "canonical_work": "天公經",
+      "editions": [
+        "cbeta-T85n2876",
+        "cbeta-ZW01n0014a",
+        "cbeta-ZW01n0014c"
+      ]
+    },
+    {
+      "canonical_work": "如來在金棺囑累清淨莊嚴敬福經",
+      "editions": [
+        "cbeta-T85n2877",
+        "cbeta-ZW04n0043b"
+      ]
+    },
+    {
+      "canonical_work": "淨度三昧經",
+      "editions": [
+        "cbeta-X01n0015",
+        "cbeta-ZW07n0063"
+      ]
+    },
+    {
+      "canonical_work": "大梵天王問佛決疑經",
+      "editions": [
+        "cbeta-X01n0026",
+        "cbeta-X01n0027"
+      ]
+    },
+    {
+      "canonical_work": "楞嚴經玄義",
+      "editions": [
+        "cbeta-X13n0282",
+        "cbeta-X13n0284"
+      ]
+    },
+    {
+      "canonical_work": "金剛經註",
+      "editions": [
+        "cbeta-X24n0454",
+        "cbeta-X24n0461"
+      ]
+    },
+    {
+      "canonical_work": "金剛經解義",
+      "editions": [
+        "cbeta-X24n0459",
+        "cbeta-X25n0509"
+      ]
+    },
+    {
+      "canonical_work": "般若心經疏",
+      "editions": [
+        "cbeta-X26n0521",
+        "cbeta-X26n0522",
+        "cbeta-X26n0529"
+      ]
+    },
+    {
+      "canonical_work": "般若心經說",
+      "editions": [
+        "cbeta-X26n0539",
+        "cbeta-X26n0546"
+      ]
+    },
+    {
+      "canonical_work": "法華經大意",
+      "editions": [
+        "cbeta-X27n0583",
+        "cbeta-X31n0609"
+      ]
+    },
+    {
+      "canonical_work": "法華經科註",
+      "editions": [
+        "cbeta-X30n0605",
+        "cbeta-X31n0606",
+        "cbeta-X31n0607"
+      ]
+    },
+    {
+      "canonical_work": "涅槃經疏私記",
+      "editions": [
+        "cbeta-X37n0660",
+        "cbeta-X37n0661"
+      ]
+    },
+    {
+      "canonical_work": "四分律疏",
+      "editions": [
+        "cbeta-X41n0731",
+        "cbeta-X42n0734"
+      ]
+    },
+    {
+      "canonical_work": "釋摩訶衍論記",
+      "editions": [
+        "cbeta-X45n0770",
+        "cbeta-X46n0774"
+      ]
+    },
+    {
+      "canonical_work": "金剛錍科",
+      "editions": [
+        "cbeta-X56n0933",
+        "cbeta-X56n0934"
+      ]
+    },
+    {
+      "canonical_work": "註華嚴法界觀科文",
+      "editions": [
+        "cbeta-X58n1007",
+        "cbeta-X58n1008"
+      ]
+    },
+    {
+      "canonical_work": "溈山警策註",
+      "editions": [
+        "cbeta-X63n1239",
+        "cbeta-X65n1294"
+      ]
+    },
+    {
+      "canonical_work": "證道歌註",
+      "editions": [
+        "cbeta-X63n1241",
+        "cbeta-X65n1292",
+        "cbeta-X65n1293"
+      ]
+    },
+    {
+      "canonical_work": "十牛圖頌",
+      "editions": [
+        "cbeta-X64n1269",
+        "cbeta-X64n1270"
+      ]
+    },
+    {
+      "canonical_work": "投子義青禪師語錄",
+      "editions": [
+        "cbeta-X71n1423",
+        "cbeta-X71n1424"
+      ]
+    },
+    {
+      "canonical_work": "華嚴普賢行願修證儀",
+      "editions": [
+        "cbeta-X74n1472",
+        "cbeta-X74n1473"
+      ]
+    },
+    {
+      "canonical_work": "南山祖師禮讚文",
+      "editions": [
+        "cbeta-X74n1504",
+        "cbeta-X74n1505",
+        "cbeta-X74n1506"
+      ]
+    },
+    {
+      "canonical_work": "藥師經講記",
+      "editions": [
+        "cbeta-Y04n0004",
+        "cbeta-YP10n0016"
+      ]
+    },
+    {
+      "canonical_work": "般若波羅密多心經講記",
+      "editions": [
+        "cbeta-YP02n0004",
+        "cbeta-YP02n0005"
+      ]
+    },
+    {
+      "canonical_work": "天竺國菩提達摩禪師論",
+      "editions": [
+        "cbeta-ZW01n0001",
+        "cbeta-ZW02n0018a",
+        "cbeta-ZW02n0018b"
+      ]
+    },
+    {
+      "canonical_work": "大般涅槃經佛母品",
+      "editions": [
+        "cbeta-ZW01n0015b",
+        "cbeta-ZW01n0015c"
+      ]
+    },
+    {
+      "canonical_work": "佛說相好經",
+      "editions": [
+        "cbeta-ZW03n0031b",
+        "cbeta-ZW03n0031d"
+      ]
+    },
+    {
+      "canonical_work": "藏外佛教文獻第一六輯要目",
+      "editions": [
+        "cbeta-ZW04na024",
+        "cbeta-ZW05na030",
+        "cbeta-ZW06na036"
+      ]
+    },
+    {
+      "canonical_work": "藏外佛教文獻第一九輯要目",
+      "editions": [
+        "cbeta-ZW08na047",
+        "cbeta-ZW09na054"
+      ]
+    },
+    {
+      "canonical_work": "金剛經讚集擬",
+      "editions": [
+        "cbeta-ZW09n0073b",
+        "cbeta-ZW09n0073c"
+      ]
+    },
+    {
+      "canonical_work": "藏外佛教文獻總目錄第一輯第十二輯",
+      "editions": [
+        "cbeta-ZW10na061",
+        "cbeta-ZW11na067",
+        "cbeta-ZW12na073"
+      ]
+    },
+    {
+      "canonical_work": "催官篇",
+      "editions": [
+        "kanripo-KR3g0026",
+        "xuanxue-ac2ae6ba1655"
+      ]
+    },
+    {
+      "canonical_work": "六壬大全",
+      "editions": [
+        "kanripo-KR3g0031",
+        "xuanxue-5ac686c7a83c"
       ]
     }
   ],

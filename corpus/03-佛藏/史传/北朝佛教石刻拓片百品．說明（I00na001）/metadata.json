@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-I00na001",
+  "title": "北朝佛教石刻拓片百品．說明",
+  "aliases": [],
+  "author": "財團法人佛教電子佛典基金會",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "史传"
+  ],
+  "topics": [
+    "北朝佛拓百品",
+    "CBETA",
+    "I"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "北朝佛教石刻拓片百品",
+    "base_text": "北朝佛教石刻拓片百品",
+    "canonical_id": "I00na001",
+    "collection": "I",
+    "volume_count": 1
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "I/I00/I00na001.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/I00na001-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/I00na001-notes.jsonl",
+    "note_count": 1,
+    "cbeta_collection": "I",
+    "cbeta_canon": "北朝佛拓百品"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 1159,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

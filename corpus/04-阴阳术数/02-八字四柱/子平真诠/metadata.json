@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-21986dca78d8",
+  "title": "子平真诠",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "八字四柱"
+  ],
+  "topics": [
+    "子平",
+    "用神",
+    "格局",
+    "行运"
+  ],
+  "text_type": "mixed_classical_commentary",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/子平真诠/000子平真诠评注序.md",
+      "docs/子平真诠/001凡例.md",
+      "docs/子平真诠/002第01章 论十干十二支.md",
+      "docs/子平真诠/003第02章 论阴阳生克.md",
+      "docs/子平真诠/004第03章 论阴阳生死.md",
+      "docs/子平真诠/005第04章 论十干配合性情.md",
+      "docs/子平真诠/006第05章 论十干合而不合.md",
+      "docs/子平真诠/007第06章 论十干得时不旺失时不弱.md",
+      "docs/子平真诠/008第07章 论刑冲会合解法.md",
+      "docs/子平真诠/009第08章 论用神.md",
+      "docs/子平真诠/010第09章 论用神成败救应.md",
+      "docs/子平真诠/011第10章 论用神变化.md",
+      "docs/子平真诠/012第11章 论用神纯杂.md",
+      "docs/子平真诠/013第12章 论用神格局高低.md",
+      "docs/子平真诠/014第13章 论用神因成得败因败得成.md",
+      "docs/子平真诠/015第14章 论用神配气候得失.md",
+      "docs/子平真诠/016第15章 论相神紧要.md",
+      "docs/子平真诠/017第16章 论杂气如何取用.md",
+      "docs/子平真诠/018第17章 论墓库刑冲之说.md",
+      "docs/子平真诠/019第18章 论四吉神能破格.md",
+      "docs/子平真诠/020第19章 论四凶神能成格.md",
+      "docs/子平真诠/021第20章 论生克先后分吉凶.md",
+      "docs/子平真诠/022第21章 论星辰无关格局.md",
+      "docs/子平真诠/023第22章 论外格用舍.md",
+      "docs/子平真诠/024第23章 论宫分用神配六亲.md",
+      "docs/子平真诠/025第24章 论妻子.md",
+      "docs/子平真诠/026第25章 论行运.md",
+      "docs/子平真诠/027第26章 论行运成格变格.md",
+      "docs/子平真诠/028第27章 论喜忌干支有别.md",
+      "docs/子平真诠/029第28章 论支中喜忌逢运透清.md",
+      "docs/子平真诠/030第29章 论时说拘泥格局.md",
+      "docs/子平真诠/031第30章 论时说以讹传讹.md",
+      "docs/子平真诠/032第31章 论正官.md",
+      "docs/子平真诠/033第32章 论正官取运.md",
+      "docs/子平真诠/034第33章 论财.md",
+      "docs/子平真诠/035第35章 论印绶.md",
+      "docs/子平真诠/036第36章 论印绶取运.md",
+      "docs/子平真诠/037第38章 论食神取运.md",
+      "docs/子平真诠/038第39章 论偏官.md",
+      "docs/子平真诠/039第40章 论偏官取运.md",
+      "docs/子平真诠/040第42章 论伤官取运.md",
+      "docs/子平真诠/041第43章 论阳刃.md",
+      "docs/子平真诠/042第44章 论阳刃取运.md",
+      "docs/子平真诠/043第45章 论建禄月劫.md",
+      "docs/子平真诠/044第47章 论杂格.md",
+      "docs/子平真诠/045第48章 附论杂格取运.md",
+      "docs/子平真诠/046后记 命理书籍点评.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 96833,
+    "chapters": 47
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理",
+      "上游含评注性内容，按来源保留"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

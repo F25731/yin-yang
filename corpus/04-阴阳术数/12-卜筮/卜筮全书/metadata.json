@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-da463d891017",
+  "title": "卜筮全书",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "卜筮",
+    "六爻"
+  ],
+  "topics": [
+    "六爻",
+    "纳甲",
+    "黄金策"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/卜筮全书/000卜筮全书细目.md",
+      "docs/卜筮全书/001校对前记.md",
+      "docs/卜筮全书/002谈易斋重订.md",
+      "docs/卜筮全书/003叙.md",
+      "docs/卜筮全书/004卜筮全书凡例.md",
+      "docs/卜筮全书/005八卦方位之图.md",
+      "docs/卜筮全书/006卷之一 启蒙节要.md",
+      "docs/卜筮全书/007卷之二 卦爻呈象.md",
+      "docs/卜筮全书/008卷之三 通玄妙论.md",
+      "docs/卜筮全书/009卷之四 阐奥歌章 上.md",
+      "docs/卜筮全书/010卷之五 阐奥歌章 下.md",
+      "docs/卜筮全书/011卷之六 天玄赋 上.md",
+      "docs/卜筮全书/012卷之七 天玄赋 下.md",
+      "docs/卜筮全书/013卷之八 黄金策 一.md",
+      "docs/卜筮全书/014卷之九 黄金策 二.md",
+      "docs/卜筮全书/015卷之十 黄金策 三.md",
+      "docs/卜筮全书/016卷之十一 黄金策 四.md",
+      "docs/卜筮全书/017卷之十二 黄金策 五.md",
+      "docs/卜筮全书/018卷之十三 黄金策 六.md",
+      "docs/卜筮全书/019卷之十四 神煞歌例.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 279690,
+    "chapters": 20
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

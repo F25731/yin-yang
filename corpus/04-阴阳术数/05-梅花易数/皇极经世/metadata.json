@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-b810034c9ca1",
+  "title": "皇极经世",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "梅花易数",
+    "周易"
+  ],
+  "topics": [
+    "邵雍",
+    "象数",
+    "皇极"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/皇极经世/000《邵子全书·皇极经世上》.md",
+      "docs/皇极经世/000皇极经世：观物篇五十一.md",
+      "docs/皇极经世/001《邵子全书·皇极经世中》.md",
+      "docs/皇极经世/001皇极经世： 观物篇五十二.md",
+      "docs/皇极经世/002《邵子全书·皇极经世下》.md",
+      "docs/皇极经世/002皇极经世：观物篇五十三.md",
+      "docs/皇极经世/003皇极经世：观物篇五十四.md",
+      "docs/皇极经世/004皇极经世：观物篇五十五.md",
+      "docs/皇极经世/005皇极经世：观物篇五十六.md",
+      "docs/皇极经世/006皇极经世：观物篇五十七.md",
+      "docs/皇极经世/007皇极经世：观物篇五十八.md",
+      "docs/皇极经世/008皇极经世：观物篇五十九.md",
+      "docs/皇极经世/009皇极经世：观物篇六十.md",
+      "docs/皇极经世/010皇极经世：观物篇六十一.md",
+      "docs/皇极经世/011皇极经世：观物篇六十二.md",
+      "docs/皇极经世/012皇极经世：观物外篇河图天地全数第一.md",
+      "docs/皇极经世/013皇极经世：观物外篇衍义卷一.md",
+      "docs/皇极经世/014皇极经世：观物外篇衍义卷二.md",
+      "docs/皇极经世/015皇极经世：观物外篇衍义卷三.md",
+      "docs/皇极经世/016皇极经世：观物外篇衍义卷四.md",
+      "docs/皇极经世/017皇极经世：观物外篇衍义卷五.md",
+      "docs/皇极经世/018皇极经世：观物外篇衍义卷六.md",
+      "docs/皇极经世/019皇极经世：观物外篇衍义卷七.md",
+      "docs/皇极经世/020皇极经世：观物外篇衍义卷八.md",
+      "docs/皇极经世/021皇极经世：观物外篇衍义卷九.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 122688,
+    "chapters": 25
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

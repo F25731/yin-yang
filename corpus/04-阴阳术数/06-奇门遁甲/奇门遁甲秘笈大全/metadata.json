@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-8cddb06d2a97",
+  "title": "奇门遁甲秘笈大全",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "奇门遁甲"
+  ],
+  "topics": [
+    "九宫",
+    "八门",
+    "九星",
+    "三奇六仪"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/奇门遁甲秘笈大全/000《奇门遁甲秘笈大全》总序.md",
+      "docs/奇门遁甲秘笈大全/001《奇门遁甲秘笈大全》卷一.md",
+      "docs/奇门遁甲秘笈大全/002《奇门遁甲秘笈大全》卷二.md",
+      "docs/奇门遁甲秘笈大全/003《奇门遁甲秘笈大全》卷四.md",
+      "docs/奇门遁甲秘笈大全/004《奇门遁甲秘笈大全》卷五.md",
+      "docs/奇门遁甲秘笈大全/005《奇门遁甲秘笈大全》卷六.md",
+      "docs/奇门遁甲秘笈大全/006《奇门遁甲秘笈大全》卷七.md",
+      "docs/奇门遁甲秘笈大全/007《奇门遁甲秘笈大全》卷八.md",
+      "docs/奇门遁甲秘笈大全/008《奇门遁甲秘笈大全》卷九.md",
+      "docs/奇门遁甲秘笈大全/009《奇门遁甲秘笈大全》卷十.md",
+      "docs/奇门遁甲秘笈大全/010《奇门遁甲秘笈大全》卷十一.md",
+      "docs/奇门遁甲秘笈大全/011《奇门遁甲秘笈大全》卷十二.md",
+      "docs/奇门遁甲秘笈大全/012《奇门遁甲秘笈大全》卷十三.md",
+      "docs/奇门遁甲秘笈大全/013《奇门遁甲秘笈大全》卷十四.md",
+      "docs/奇门遁甲秘笈大全/014《奇门遁甲秘笈大全》卷十五.md",
+      "docs/奇门遁甲秘笈大全/015《奇门遁甲秘笈大全》卷十六.md",
+      "docs/奇门遁甲秘笈大全/016《奇门遁甲秘笈大全》卷十七.md",
+      "docs/奇门遁甲秘笈大全/017《奇门遁甲秘笈大全》卷十八.md",
+      "docs/奇门遁甲秘笈大全/018《奇门遁甲秘笈大全》卷十九.md",
+      "docs/奇门遁甲秘笈大全/019《奇门遁甲秘笈大全》卷二十.md",
+      "docs/奇门遁甲秘笈大全/020《奇门遁甲秘笈大全》卷二十一.md",
+      "docs/奇门遁甲秘笈大全/021《奇门遁甲秘笈大全》卷二十二.md",
+      "docs/奇门遁甲秘笈大全/022《奇门遁甲秘笈大全》卷二十三.md",
+      "docs/奇门遁甲秘笈大全/023《奇门遁甲秘笈大全》卷二十四.md",
+      "docs/奇门遁甲秘笈大全/024《奇门遁甲秘笈大全》卷二十五.md",
+      "docs/奇门遁甲秘笈大全/025《奇门遁甲秘笈大全》卷二十六.md",
+      "docs/奇门遁甲秘笈大全/026《奇门遁甲秘笈大全》卷二十七.md",
+      "docs/奇门遁甲秘笈大全/027《奇门遁甲秘笈大全》卷二十八.md",
+      "docs/奇门遁甲秘笈大全/028《奇门遁甲秘笈大全》卷二十九.md",
+      "docs/奇门遁甲秘笈大全/029《奇门遁甲秘笈大全》卷三十.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 126048,
+    "chapters": 30
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "id": "xuanxue-ea16c8ea9a82",
+  "title": "大六壬心镜",
+  "aliases": [
+    "大六壬心境"
+  ],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "大六壬"
+  ],
+  "topics": [
+    "六壬"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": null,
+    "base_text": null,
+    "volume_count": null
+  },
+  "source": {
+    "source_id": "xuanxue",
+    "repository": "https://github.com/youngzs/xuanxue",
+    "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+    "original_path": [
+      "docs/大六壬心境/000书籍相关.md",
+      "docs/大六壬心境/001序.md",
+      "docs/大六壬心境/002卷01.md",
+      "docs/大六壬心境/003卷02.md",
+      "docs/大六壬心境/004卷03.md",
+      "docs/大六壬心境/005卷04.md",
+      "docs/大六壬心境/006卷05.md",
+      "docs/大六壬心境/007卷06.md",
+      "docs/大六壬心境/008卷07.md",
+      "docs/大六壬心境/009卷08.md"
+    ],
+    "upstream_url": "https://github.com/youngzs/xuanxue"
+  },
+  "license": {
+    "status": "SOURCE_TERMS_UNCLEAR",
+    "name": "Source terms not declared; classical/public-domain works imported with provenance",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed site-only image/navigation markup; preserved wording and source glyphs"
+  },
+  "statistics": {
+    "characters": 59308,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "未与纸本或影印本逐字校勘",
+      "来源为公开 GitHub Markdown 整理",
+      "上游目录作“大六壬心境”，按通行题名建立别名"
+    ]
+  },
+  "original_format": "Markdown",
+  "current_format": "text/markdown; charset=utf-8"
+}

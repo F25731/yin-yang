@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-L158n1652",
+  "title": "明覺聰禪師語錄",
+  "aliases": [],
+  "author": "清 性聰撰述 寂空．方醒等編次",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [
+    "乾隆藏",
+    "CBETA",
+    "L"
+  ],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "乾隆大藏經（新文豐版）",
+    "base_text": "乾隆大藏經（新文豐版）",
+    "canonical_id": "L158n1652",
+    "collection": "L",
+    "volume_count": 20
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml",
+      "L/L158/L158n1652.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/L158n1652-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/L158n1652-notes.jsonl",
+    "note_count": 425,
+    "cbeta_collection": "L",
+    "cbeta_canon": "乾隆藏"
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Parsed TEI structure; preserved source glyphs; notes/header retained in provenance"
+  },
+  "statistics": {
+    "characters": 151403,
+    "chapters": 20
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes retained in provenance; text not independently collated by this project"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}
