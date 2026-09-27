@@ -3,14 +3,14 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "validate"))
-from checks import (validate_corpus, validate_duplicates, validate_encoding,
+from checks import (validate_corpus, validate_coverage, validate_duplicates, validate_encoding,
                     validate_indexes, validate_links, validate_metadata)
 
 
 def run():
     results = {}
     for name, check in [("encoding", validate_encoding), ("metadata", validate_metadata),
-                        ("corpus", validate_corpus), ("duplicates", validate_duplicates),
+                        ("corpus", validate_corpus), ("coverage", validate_coverage), ("duplicates", validate_duplicates),
                         ("indexes", validate_indexes), ("links", validate_links)]:
         results[name] = check()
         print(f"{name}: {'PASS' if not results[name] else 'FAIL'} ({len(results[name])} issues)")
