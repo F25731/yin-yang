@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "id": "cbeta-T16n0671",
+  "title": "入楞伽經",
+  "aliases": [],
+  "author": "元魏 菩提流支譯",
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "佛藏",
+    "其他"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "大正新脩大藏經數位版",
+    "base_text": "大正新脩大藏經",
+    "canonical_id": "T16n0671",
+    "volume_count": 10
+  },
+  "source": {
+    "source_id": "cbeta-xml-p5",
+    "repository": "https://github.com/cbeta-org/xml-p5",
+    "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+    "original_path": [
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml",
+      "T/T16/T16n0671.xml"
+    ],
+    "upstream_url": "https://github.com/cbeta-org/xml-p5",
+    "tei_header": "sources/provenance/cbeta/T16n0671-teiHeader.xml",
+    "notes": "sources/provenance/cbeta/T16n0671-notes.jsonl",
+    "note_count": 1497
+  },
+  "license": {
+    "status": "NONCOMMERCIAL_OR_RESTRICTED",
+    "name": "CC BY-NC-SA 4.0; T file headers require noncommercial use and intact header",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 109786,
+    "chapters": 10
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Apparatus notes are in provenance; converted reading selects lemma/correction"
+    ]
+  },
+  "original_format": "TEI P5 XML",
+  "current_format": "text/markdown; charset=utf-8"
+}

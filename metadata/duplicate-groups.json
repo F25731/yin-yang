@@ -1,6 +1,16 @@
 {
   "exact_groups": [],
-  "near_candidates": [],
+  "near_candidates": [
+    {
+      "books": [
+        "cbeta-T03n0175b",
+        "cbeta-T03n0175c"
+      ],
+      "length_ratio": 0.998,
+      "sampled_5gram_jaccard": 0.873,
+      "status": "review"
+    }
+  ],
   "edition_groups": [
     {
       "canonical_work": "高上玉皇心印經",
@@ -56,6 +66,13 @@
       "editions": [
         "KR5b0279",
         "KR5b0280"
+      ]
+    },
+    {
+      "canonical_work": "南嶽總勝集",
+      "editions": [
+        "KR5b0311",
+        "cbeta-T51n2097"
       ]
     },
     {
@@ -133,6 +150,517 @@
       "editions": [
         "KR5i0001",
         "KR5i0003"
+      ]
+    },
+    {
+      "canonical_work": "大般涅槃經",
+      "editions": [
+        "cbeta-T01n0007",
+        "cbeta-T12n0374",
+        "cbeta-T12n0375"
+      ]
+    },
+    {
+      "canonical_work": "雜阿含經",
+      "editions": [
+        "cbeta-T02n0099",
+        "cbeta-T02n0101"
+      ]
+    },
+    {
+      "canonical_work": "須摩提女經",
+      "editions": [
+        "cbeta-T02n0128a",
+        "cbeta-T02n0128b"
+      ]
+    },
+    {
+      "canonical_work": "佛說睒子經",
+      "editions": [
+        "cbeta-T03n0175b",
+        "cbeta-T03n0175c"
+      ]
+    },
+    {
+      "canonical_work": "雜譬喻經",
+      "editions": [
+        "cbeta-T04n0204",
+        "cbeta-T04n0205",
+        "cbeta-T04n0207"
+      ]
+    },
+    {
+      "canonical_work": "法句經",
+      "editions": [
+        "cbeta-T04n0210",
+        "cbeta-T85n2901"
+      ]
+    },
+    {
+      "canonical_work": "金剛般若波羅蜜經",
+      "editions": [
+        "cbeta-T08n0235",
+        "cbeta-T08n0236a",
+        "cbeta-T08n0236b",
+        "cbeta-T08n0237"
+      ]
+    },
+    {
+      "canonical_work": "般若波羅蜜多心經",
+      "editions": [
+        "cbeta-T08n0251",
+        "cbeta-T08n0253",
+        "cbeta-T08n0254",
+        "cbeta-T08n0255"
+      ]
+    },
+    {
+      "canonical_work": "大方廣佛華嚴經",
+      "editions": [
+        "cbeta-T09n0278",
+        "cbeta-T10n0279",
+        "cbeta-T10n0293"
+      ]
+    },
+    {
+      "canonical_work": "佛說普門品經",
+      "editions": [
+        "cbeta-T11n0315a",
+        "cbeta-T11n0315b"
+      ]
+    },
+    {
+      "canonical_work": "佛說須賴經",
+      "editions": [
+        "cbeta-T12n0328",
+        "cbeta-T12n0329"
+      ]
+    },
+    {
+      "canonical_work": "佛說須摩提菩薩經",
+      "editions": [
+        "cbeta-T12n0334",
+        "cbeta-T12n0335"
+      ]
+    },
+    {
+      "canonical_work": "虛空藏菩薩神呪經",
+      "editions": [
+        "cbeta-T13n0406",
+        "cbeta-T13n0407"
+      ]
+    },
+    {
+      "canonical_work": "佛說佛名經",
+      "editions": [
+        "cbeta-T14n0440",
+        "cbeta-T14n0441"
+      ]
+    },
+    {
+      "canonical_work": "過去莊嚴劫千佛名經",
+      "editions": [
+        "cbeta-T14n0446a",
+        "cbeta-T14n0446b"
+      ]
+    },
+    {
+      "canonical_work": "現在賢劫千佛名經",
+      "editions": [
+        "cbeta-T14n0447a",
+        "cbeta-T14n0447b"
+      ]
+    },
+    {
+      "canonical_work": "未來星宿劫千佛名經",
+      "editions": [
+        "cbeta-T14n0448a",
+        "cbeta-T14n0448b"
+      ]
+    },
+    {
+      "canonical_work": "佛說彌勒下生成佛經",
+      "editions": [
+        "cbeta-T14n0454",
+        "cbeta-T14n0455"
+      ]
+    },
+    {
+      "canonical_work": "佛說樹提伽經",
+      "editions": [
+        "cbeta-T14n0540a",
+        "cbeta-T14n0540b"
+      ]
+    },
+    {
+      "canonical_work": "五母子經",
+      "editions": [
+        "cbeta-T14n0555a",
+        "cbeta-T14n0555b"
+      ]
+    },
+    {
+      "canonical_work": "佛說月燈三昧經",
+      "editions": [
+        "cbeta-T15n0640",
+        "cbeta-T15n0641"
+      ]
+    },
+    {
+      "canonical_work": "大乘密嚴經",
+      "editions": [
+        "cbeta-T16n0681",
+        "cbeta-T16n0682"
+      ]
+    },
+    {
+      "canonical_work": "佛說五無返復經",
+      "editions": [
+        "cbeta-T17n0751b",
+        "cbeta-T17n0752"
+      ]
+    },
+    {
+      "canonical_work": "大乘四法經",
+      "editions": [
+        "cbeta-T17n0772",
+        "cbeta-T17n0774"
+      ]
+    },
+    {
+      "canonical_work": "佛說時非時經",
+      "editions": [
+        "cbeta-T17n0794a",
+        "cbeta-T17n0794b"
+      ]
+    },
+    {
+      "canonical_work": "佛說貧窮老公經",
+      "editions": [
+        "cbeta-T17n0797a",
+        "cbeta-T17n0797b"
+      ]
+    },
+    {
+      "canonical_work": "金剛頂一切如來真實攝大乘現證大教王經",
+      "editions": [
+        "cbeta-T18n0865",
+        "cbeta-T18n0874"
+      ]
+    },
+    {
+      "canonical_work": "蘇悉地羯羅經",
+      "editions": [
+        "cbeta-T18n0893a",
+        "cbeta-T18n0893b",
+        "cbeta-T18n0893c"
+      ]
+    },
+    {
+      "canonical_work": "蘇悉地羯羅供養法",
+      "editions": [
+        "cbeta-T18n0894a",
+        "cbeta-T18n0894b"
+      ]
+    },
+    {
+      "canonical_work": "蘇婆呼童子請問經",
+      "editions": [
+        "cbeta-T18n0895a",
+        "cbeta-T18n0895b"
+      ]
+    },
+    {
+      "canonical_work": "金剛頂瑜伽護摩儀軌",
+      "editions": [
+        "cbeta-T18n0908",
+        "cbeta-T18n0909"
+      ]
+    },
+    {
+      "canonical_work": "藥師如來念誦儀軌",
+      "editions": [
+        "cbeta-T19n0924A",
+        "cbeta-T19n0924B"
+      ]
+    },
+    {
+      "canonical_work": "一字頂輪王念誦儀軌",
+      "editions": [
+        "cbeta-T19n0954A",
+        "cbeta-T19n0954B"
+      ]
+    },
+    {
+      "canonical_work": "佛頂尊勝陀羅尼經",
+      "editions": [
+        "cbeta-T19n0967",
+        "cbeta-T19n0968"
+      ]
+    },
+    {
+      "canonical_work": "孔雀王呪經",
+      "editions": [
+        "cbeta-T19n0984",
+        "cbeta-T19n0988"
+      ]
+    },
+    {
+      "canonical_work": "大雲輪請雨經",
+      "editions": [
+        "cbeta-T19n0989",
+        "cbeta-T19n0991"
+      ]
+    },
+    {
+      "canonical_work": "出生無邊門陀羅尼經",
+      "editions": [
+        "cbeta-T19n1009",
+        "cbeta-T19n1018"
+      ]
+    },
+    {
+      "canonical_work": "一切如來心祕密全身舍利寶篋印陀羅尼經",
+      "editions": [
+        "cbeta-T19n1022A",
+        "cbeta-T19n1022B"
+      ]
+    },
+    {
+      "canonical_work": "金剛光焰止風雨陀羅尼經",
+      "editions": [
+        "cbeta-T19n1027a",
+        "cbeta-T19n1027b"
+      ]
+    },
+    {
+      "canonical_work": "千眼千臂觀世音菩薩陀羅尼神呪經",
+      "editions": [
+        "cbeta-T20n1057a",
+        "cbeta-T20n1057b"
+      ]
+    },
+    {
+      "canonical_work": "佛說大吉祥天女十二名號經",
+      "editions": [
+        "cbeta-T21n1252a",
+        "cbeta-T21n1252b"
+      ]
+    },
+    {
+      "canonical_work": "百千印陀羅尼經",
+      "editions": [
+        "cbeta-T21n1369a",
+        "cbeta-T21n1369b"
+      ]
+    },
+    {
+      "canonical_work": "佛說犯戒罪報輕重經",
+      "editions": [
+        "cbeta-T24n1467a",
+        "cbeta-T24n1467b"
+      ]
+    },
+    {
+      "canonical_work": "菩薩戒本",
+      "editions": [
+        "cbeta-T24n1500",
+        "cbeta-T24n1501"
+      ]
+    },
+    {
+      "canonical_work": "金剛般若波羅蜜經論",
+      "editions": [
+        "cbeta-T25n1510b",
+        "cbeta-T25n1511"
+      ]
+    },
+    {
+      "canonical_work": "菩薩善戒經",
+      "editions": [
+        "cbeta-T30n1582",
+        "cbeta-T30n1583"
+      ]
+    },
+    {
+      "canonical_work": "攝大乘論",
+      "editions": [
+        "cbeta-T31n1592",
+        "cbeta-T31n1593"
+      ]
+    },
+    {
+      "canonical_work": "攝大乘論釋",
+      "editions": [
+        "cbeta-T31n1595",
+        "cbeta-T31n1597",
+        "cbeta-T31n1598"
+      ]
+    },
+    {
+      "canonical_work": "大乘法界無差別論",
+      "editions": [
+        "cbeta-T31n1626",
+        "cbeta-T31n1627"
+      ]
+    },
+    {
+      "canonical_work": "大乘起信論",
+      "editions": [
+        "cbeta-T32n1666",
+        "cbeta-T32n1667"
+      ]
+    },
+    {
+      "canonical_work": "那先比丘經",
+      "editions": [
+        "cbeta-T32n1670A",
+        "cbeta-T32n1670B"
+      ]
+    },
+    {
+      "canonical_work": "金剛般若經疏",
+      "editions": [
+        "cbeta-T33n1698",
+        "cbeta-T85n2741"
+      ]
+    },
+    {
+      "canonical_work": "仁王經疏",
+      "editions": [
+        "cbeta-T33n1708",
+        "cbeta-T85n2745"
+      ]
+    },
+    {
+      "canonical_work": "無量壽經義疏",
+      "editions": [
+        "cbeta-T37n1745",
+        "cbeta-T37n1746"
+      ]
+    },
+    {
+      "canonical_work": "觀無量壽經義疏",
+      "editions": [
+        "cbeta-T37n1749",
+        "cbeta-T37n1752"
+      ]
+    },
+    {
+      "canonical_work": "觀無量壽佛經疏",
+      "editions": [
+        "cbeta-T37n1750",
+        "cbeta-T37n1753"
+      ]
+    },
+    {
+      "canonical_work": "阿彌陀經疏",
+      "editions": [
+        "cbeta-T37n1757",
+        "cbeta-T37n1759",
+        "cbeta-T37n1760"
+      ]
+    },
+    {
+      "canonical_work": "維摩義記",
+      "editions": [
+        "cbeta-T38n1776",
+        "cbeta-T85n2768"
+      ]
+    },
+    {
+      "canonical_work": "觀心論",
+      "editions": [
+        "cbeta-T46n1920",
+        "cbeta-T85n2833"
+      ]
+    },
+    {
+      "canonical_work": "龍樹菩薩傳",
+      "editions": [
+        "cbeta-T50n2047a",
+        "cbeta-T50n2047b"
+      ]
+    },
+    {
+      "canonical_work": "梵語千字文",
+      "editions": [
+        "cbeta-T54n2133A",
+        "cbeta-T54n2133B"
+      ]
+    },
+    {
+      "canonical_work": "眾經目錄",
+      "editions": [
+        "cbeta-T55n2146",
+        "cbeta-T55n2147",
+        "cbeta-T55n2148"
+      ]
+    },
+    {
+      "canonical_work": "金剛經疏",
+      "editions": [
+        "cbeta-T85n2737",
+        "cbeta-T85n2738"
+      ]
+    },
+    {
+      "canonical_work": "法華經疏",
+      "editions": [
+        "cbeta-T85n2749",
+        "cbeta-T85n2750",
+        "cbeta-T85n2751"
+      ]
+    },
+    {
+      "canonical_work": "藥師經疏",
+      "editions": [
+        "cbeta-T85n2766",
+        "cbeta-T85n2767"
+      ]
+    },
+    {
+      "canonical_work": "維摩經疏",
+      "editions": [
+        "cbeta-T85n2770",
+        "cbeta-T85n2771",
+        "cbeta-T85n2774"
+      ]
+    },
+    {
+      "canonical_work": "律戒本疏",
+      "editions": [
+        "cbeta-T85n2788",
+        "cbeta-T85n2789"
+      ]
+    },
+    {
+      "canonical_work": "祈願文",
+      "editions": [
+        "cbeta-T85n2846",
+        "cbeta-T85n2847"
+      ]
+    },
+    {
+      "canonical_work": "禮懺文",
+      "editions": [
+        "cbeta-T85n2854",
+        "cbeta-T85n2855",
+        "cbeta-T85n2856"
+      ]
+    },
+    {
+      "canonical_work": "護身命經",
+      "editions": [
+        "cbeta-T85n2865",
+        "cbeta-T85n2866"
+      ]
+    },
+    {
+      "canonical_work": "新菩薩經",
+      "editions": [
+        "cbeta-T85n2917A",
+        "cbeta-T85n2917B"
       ]
     }
   ],

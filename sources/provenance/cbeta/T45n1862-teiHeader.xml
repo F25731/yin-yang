@@ -1,0 +1,182 @@
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">勸發菩提心集</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 1862 勸發菩提心集</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1862 勸發菩提心集</title>
+      <author>唐 慧沼撰</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5</edition>
+      <respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+      <respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+      <respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.ting</name></respStmt>
+      <respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.liyi</name></respStmt>
+      <respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+      <respStmt xml:id="resp6"><resp>corrections</resp><name>CBETA.poyung</name></respStmt>
+    </editionStmt>
+    <extent>3卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">45</idno>.<idno type="no">1862</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-05-19 17:41:09 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Gao-Meng</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，高萌大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="#resp1"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit1">【原】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00178">
+        <charName>CBETA CHARACTER CB00178</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[木*奈]</value>
+        </charProp>
+        <mapping type="unicode">U+3B88</mapping>
+        <mapping cb:dec="983218" type="PUA">U+F00B2</mapping>
+      </char>
+      <char xml:id="CB00592">
+        <charName>CBETA CHARACTER CB00592</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[穀-禾+卵]</value>
+        </charProp>
+        <mapping type="unicode">U+3C89</mapping>
+        <mapping cb:dec="983632" type="PUA">U+F0250</mapping>
+      </char>
+      <char xml:id="CB00727">
+        <charName>CBETA CHARACTER CB00727</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[將/廾]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>獎</value>
+        </charProp>
+        <mapping type="unicode">U+38A1</mapping>
+        <mapping cb:dec="983767" type="PUA">U+F02D7</mapping>
+      </char>
+      <char xml:id="CB00830">
+        <charName>CBETA CHARACTER CB00830</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[門@報]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>闕</value>
+        </charProp>
+        <mapping type="unicode">U+28DC2</mapping>
+        <mapping cb:dec="983870" type="PUA">U+F033E</mapping>
+      </char>
+      <char xml:id="CB01854">
+        <charName>CBETA CHARACTER CB01854</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[牛*秦]</value>
+        </charProp>
+        <mapping type="unicode">U+246A9</mapping>
+        <mapping cb:dec="984894" type="PUA">U+F073E</mapping>
+      </char>
+      <char xml:id="CB02370">
+        <charName>CBETA CHARACTER CB02370</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[(嫡-女)/衣]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>裔</value>
+        </charProp>
+        <mapping type="unicode">U+2E5AD</mapping>
+        <mapping cb:dec="985410" type="PUA">U+F0942</mapping>
+      </char>
+      <char xml:id="CB02510">
+        <charName>CBETA CHARACTER CB02510</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[盻-八]</value>
+        </charProp>
+        <mapping type="unicode">U+400E</mapping>
+        <mapping cb:dec="985550" type="PUA">U+F09CE</mapping>
+      </char>
+      <char xml:id="CB05078">
+        <charName>CBETA CHARACTER CB05078</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[殊/木]</value>
+        </charProp>
+        <mapping type="unicode">U+2DAD4</mapping>
+        <mapping cb:dec="988118" type="PUA">U+F13D6</mapping>
+      </char>
+      <char xml:id="CB05094">
+        <charName>CBETA CHARACTER CB05094</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[狂-王+离]</value>
+        </charProp>
+        <mapping type="unicode">U+24862</mapping>
+        <mapping cb:dec="988134" type="PUA">U+F13E6</mapping>
+      </char>
+      <char xml:id="CB05106">
+        <charName>CBETA CHARACTER CB05106</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[留-田+車]</value>
+        </charProp>
+        <mapping type="unicode">U+2E749</mapping>
+        <mapping cb:dec="988146" type="PUA">U+F13F2</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="2000-08-01T15:06:59">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)
+    </change>
+  </revisionDesc>
+</teiHeader>

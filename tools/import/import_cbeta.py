@@ -1,17 +1,31 @@
-"""TEI P5 parser for an explicitly selected CBETA volume (noncommercial license)."""
+"""TEI P5 parser for the CBETA Taisho collection (noncommercial license)."""
 import argparse
 import json
 import re
+import shutil
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from common import ROOT, chunks, read_manifest, write_book, write_json
+from common import ROOT, chunks, clean_path_part, read_manifest, write_book, write_json
 
 TEI = "{http://www.tei-c.org/ns/1.0}"
 XML = "{http://www.w3.org/XML/1998/namespace}"
 CB = "{http://www.cbeta.org/ns/1.0}"
+VOLUME_CATEGORY = {
+    **{n: "阿含" for n in (1, 2)},
+    **{n: "本缘" for n in (3, 4)},
+    **{n: "般若" for n in range(5, 9)},
+    9: "法华", 10: "华严", 11: "宝积", 12: "涅槃",
+    **{n: "密教" for n in range(18, 22)},
+    **{n: "律部" for n in range(22, 25)},
+    **{n: "论部" for n in range(25, 33)},
+    **{n: "诸宗" for n in range(33, 47)},
+    47: "禅宗", 48: "禅宗",
+    **{n: "史传" for n in range(49, 53)},
+    85: "藏外",
+}
 
 
 def local(element):
@@ -109,13 +123,25 @@ def import_file(path, source):
                   if node.get("level") == "m"), None)
     if not title:
         raise ValueError(f"{path}: missing work title")
+    volume_no = int(path.parent.name[1:])
+    subcategory = VOLUME_CATEGORY.get(volume_no, "其他")
+    canonical_no = int(re.search(r"n(\d+)", path.stem).group(1))
+    # T09, T12 and T47 cross divisions within a single printed volume.
+    if volume_no == 9 and canonical_no >= 278:
+        subcategory = "华严"
+    elif volume_no == 12:
+        subcategory = "宝积" if canonical_no < 360 else "净土" if canonical_no < 374 else "涅槃"
+    elif volume_no == 47 and canonical_no <= 1984:
+        subcategory = "净土"
     author = next(("".join(node.itertext()).strip() for node in header.iter(TEI + "author")), None)
     body = root.find(TEI + "text/" + TEI + "body")
     if body is None:
         raise ValueError(f"{path}: missing body")
     sections = parse_body(body)
     book_id = path.stem
-    source_path = "T/T01/" + path.name
+    dirname = clean_path_part(title + "（" + book_id + "）")
+    prior = list((ROOT / "corpus/03-佛藏").glob(f"*/{dirname}/metadata.json"))
+    source_path = f"T/{path.parent.name}/{path.name}"
     units = []
     for volume, text, loc in sections:
         for segment, chunk in enumerate(chunks(text), 1):
@@ -123,8 +149,8 @@ def import_file(path, source):
                           chunk, dict(loc, volume=volume, editorial_segment=len(text) > 120_000)))
     if not units:
         raise ValueError(f"{path}: no body text")
-    metadata = write_book("cbeta-" + book_id, title, "03-佛藏/阿含", source, units,
-                          categories=["佛藏", "阿含"], author=author, original_format="TEI P5 XML",
+    metadata = write_book("cbeta-" + book_id, title, "03-佛藏/" + subcategory, source, units,
+                          categories=["佛藏", subcategory], author=author, original_format="TEI P5 XML",
                           edition={"name": "大正新脩大藏經數位版", "base_text": "大正新脩大藏經",
                                    "canonical_id": book_id, "volume_count": len(set(s[0] for s in sections))},
                           quality={"grade": "B", "ocr": False,
@@ -146,27 +172,37 @@ def import_file(path, source):
     metadata["source"]["tei_header"] = f"sources/provenance/cbeta/{book_id}-teiHeader.xml"
     metadata["source"]["notes"] = f"sources/provenance/cbeta/{book_id}-notes.jsonl" if notes else None
     metadata["source"]["note_count"] = len(notes)
-    out = next((ROOT / "corpus/03-佛藏/阿含").glob("*（" + book_id + "）/metadata.json"))
+    out = ROOT / "corpus/03-佛藏" / subcategory / dirname / "metadata.json"
     write_json(out, metadata)
+    for old in prior:
+        if old != out:
+            shutil.rmtree(old.parent)
     return metadata
 
 
-def run(source_root=None, limit=None):
+def run(source_root=None, limit=None, volumes=None):
     source = read_manifest()["cbeta-xml-p5"]
-    base = Path(source_root) if source_root else ROOT / ".work/xml-p5/T/T01"
-    paths = sorted(base.glob("T01n*.xml"))
+    base = Path(source_root) if source_root else ROOT / ".work/xml-p5/T"
+    paths = sorted(base.rglob("T*n*.xml"))
+    if volumes:
+        paths = [p for p in paths if p.parent.name in volumes]
     if not paths:
-        raise FileNotFoundError(f"no T01 XML in {base}")
-    failures, count = [], 0
+        raise FileNotFoundError(f"no T XML in {base}")
+    failures, withheld, count = [], [], 0
     for path in paths[:limit]:
         try:
             meta = import_file(path, source)
             count += 1
-            print(f"IMPORTED CBETA {path.name} {meta['statistics']['chapters']}", flush=True)
-        except (ET.ParseError, UnicodeError, OSError, ValueError) as exc:
-            failures.append(f"{path.name}: {exc}")
+            if count % 50 == 0:
+                print(f"IMPORTED CBETA {count}", flush=True)
+        except Exception as exc:
+            if "availability differs" in str(exc):
+                withheld.append(f"{path.name}: {exc}")
+            else:
+                failures.append(f"{path.name}: {exc}")
     (ROOT / "reports/CBETA_FAILED_ITEMS.txt").write_text("\n".join(failures) + ("\n" if failures else ""), encoding="utf-8")
-    print(f"CBETA T01 imported={count} failed={len(failures)}")
+    (ROOT / "reports/CBETA_WITHHELD_LICENSE.txt").write_text("\n".join(withheld) + ("\n" if withheld else ""), encoding="utf-8")
+    print(f"CBETA T imported={count} withheld={len(withheld)} failed={len(failures)}")
     if failures:
         raise SystemExit(1)
 
@@ -175,5 +211,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-root")
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--volumes", nargs="+", help="T volume directories, e.g. T09 T12")
     args = parser.parse_args()
-    run(args.source_root, args.limit)
+    run(args.source_root, args.limit, args.volumes)

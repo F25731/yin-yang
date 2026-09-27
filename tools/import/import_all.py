@@ -25,7 +25,7 @@ def fetch(source):
     subprocess.run(["git", "-C", str(path), "fetch", "--depth", "1", "origin", source["imported_commit"]], check=True)
     if sid == "cbeta-xml-p5":
         subprocess.run(["git", "-C", str(path), "sparse-checkout", "init", "--cone"], check=True)
-        subprocess.run(["git", "-C", str(path), "sparse-checkout", "set", "T/T01"], check=True)
+        subprocess.run(["git", "-C", str(path), "sparse-checkout", "set", "T"], check=True)
     subprocess.run(["git", "-C", str(path), "checkout", "--detach", source["imported_commit"]], check=True)
 
 
