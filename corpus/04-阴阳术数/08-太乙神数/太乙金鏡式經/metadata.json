@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0047",
+  "title": "太乙金鏡式經",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": "唐",
+  "categories": [
+    "阴阳术数",
+    "太乙神数"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "四庫全書・文淵閣",
+    "base_text": "四庫全書・文淵閣",
+    "volume_count": 10
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0047",
+    "repository": "https://github.com/kanripo/KR3g0047",
+    "commit": "e3264da2c9f556225e056abe7eade01903b4543e",
+    "original_path": [
+      "KR3g0047_000.txt",
+      "KR3g0047_001.txt",
+      "KR3g0047_002.txt",
+      "KR3g0047_003.txt",
+      "KR3g0047_004.txt",
+      "KR3g0047_005.txt",
+      "KR3g0047_006.txt",
+      "KR3g0047_007.txt",
+      "KR3g0047_008.txt",
+      "KR3g0047_009.txt",
+      "KR3g0047_010.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0047"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 37830,
+    "chapters": 11
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Source transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3g0051",
+  "title": "欽定協紀辨方書",
+  "aliases": [],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": "清",
+  "categories": [
+    "阴阳术数",
+    "择日"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "四庫全書・文淵閣",
+    "base_text": "四庫全書・文淵閣",
+    "volume_count": 35
+  },
+  "source": {
+    "source_id": "kanripo-KR3g0051",
+    "repository": "https://github.com/kanripo/KR3g0051",
+    "commit": "8b5522eb0299afbd575f1cb556e972c71c40c42a",
+    "original_path": [
+      "KR3g0051_000.txt",
+      "KR3g0051_001.txt",
+      "KR3g0051_002.txt",
+      "KR3g0051_003.txt",
+      "KR3g0051_004.txt",
+      "KR3g0051_005.txt",
+      "KR3g0051_006.txt",
+      "KR3g0051_007.txt",
+      "KR3g0051_008.txt",
+      "KR3g0051_009.txt",
+      "KR3g0051_010.txt",
+      "KR3g0051_011.txt",
+      "KR3g0051_012.txt",
+      "KR3g0051_013.txt",
+      "KR3g0051_014.txt",
+      "KR3g0051_015.txt",
+      "KR3g0051_016.txt",
+      "KR3g0051_017.txt",
+      "KR3g0051_018.txt",
+      "KR3g0051_019.txt",
+      "KR3g0051_020.txt",
+      "KR3g0051_021.txt",
+      "KR3g0051_022.txt",
+      "KR3g0051_023.txt",
+      "KR3g0051_024.txt",
+      "KR3g0051_025.txt",
+      "KR3g0051_026.txt",
+      "KR3g0051_027.txt",
+      "KR3g0051_028.txt",
+      "KR3g0051_029.txt",
+      "KR3g0051_030.txt",
+      "KR3g0051_031.txt",
+      "KR3g0051_032.txt",
+      "KR3g0051_033.txt",
+      "KR3g0051_034.txt",
+      "KR3g0051_035.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3g0051"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 279091,
+    "chapters": 36
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Source transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}
