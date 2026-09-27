@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "id": "kanripo-KR3l0099",
+  "title": "搜神記",
+  "aliases": [],
+  "author": "干寶",
+  "author_dynasty": "東晉",
+  "work_dynasty": "東晉",
+  "categories": [
+    "志怪神异"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "四庫全書・文淵閣",
+    "base_text": "四庫全書・文淵閣",
+    "volume_count": 20
+  },
+  "source": {
+    "source_id": "kanripo-KR3l0099",
+    "repository": "https://github.com/kanripo/KR3l0099",
+    "commit": "9959e70d799062d8dc3872225ce9a5b429ec5cac",
+    "original_path": [
+      "KR3l0099_000.txt",
+      "KR3l0099_001.txt",
+      "KR3l0099_002.txt",
+      "KR3l0099_003.txt",
+      "KR3l0099_004.txt",
+      "KR3l0099_005.txt",
+      "KR3l0099_006.txt",
+      "KR3l0099_007.txt",
+      "KR3l0099_008.txt",
+      "KR3l0099_009.txt",
+      "KR3l0099_010.txt",
+      "KR3l0099_011.txt",
+      "KR3l0099_012.txt",
+      "KR3l0099_013.txt",
+      "KR3l0099_014.txt",
+      "KR3l0099_015.txt",
+      "KR3l0099_016.txt",
+      "KR3l0099_017.txt",
+      "KR3l0099_018.txt",
+      "KR3l0099_019.txt",
+      "KR3l0099_020.txt"
+    ],
+    "upstream_url": "https://github.com/kanripo/KR3l0099"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-27",
+    "changes": "Removed source format directives and page markers; preserved source glyphs"
+  },
+  "statistics": {
+    "characters": 63013,
+    "chapters": 21
+  },
+  "quality": {
+    "grade": "B",
+    "ocr": false,
+    "known_issues": [
+      "Source transcription has not been collated by this project"
+    ]
+  },
+  "original_format": "mandoku text",
+  "current_format": "text/markdown; charset=utf-8"
+}
