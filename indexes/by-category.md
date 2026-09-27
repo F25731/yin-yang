@@ -3546,6 +3546,7 @@
 
 ## 奇门遁甲
 
+- [奇门宝鉴御定](<../corpus/04-阴阳术数/06-奇门遁甲/奇门宝鉴御定/README.md>) — `wikisource-qimenbaojian`
 - [遁甲演義](<../corpus/04-阴阳术数/06-奇门遁甲/遁甲演義/README.md>) — `kanripo-KR3g0048`
 
 ## 宝积
@@ -8226,6 +8227,7 @@
 - [天玉經](<../corpus/04-阴阳术数/09-风水堪舆/天玉經/README.md>) — `kanripo-KR3g0024`
 - [太乙金鏡式經](<../corpus/04-阴阳术数/08-太乙神数/太乙金鏡式經/README.md>) — `kanripo-KR3g0047`
 - [太清神鑑](<../corpus/04-阴阳术数/11-相术/太清神鑑/README.md>) — `kanripo-KR3g0045`
+- [奇门宝鉴御定](<../corpus/04-阴阳术数/06-奇门遁甲/奇门宝鉴御定/README.md>) — `wikisource-qimenbaojian`
 - [宅經](<../corpus/04-阴阳术数/09-风水堪舆/宅經/README.md>) — `kanripo-KR3g0019`
 - [撼龍經](<../corpus/04-阴阳术数/09-风水堪舆/撼龍經/README.md>) — `kanripo-KR3g0021`
 - [星命溯源](<../corpus/04-阴阳术数/02-八字四柱/星命溯源/README.md>) — `kanripo-KR3g0035`

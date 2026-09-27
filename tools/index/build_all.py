@@ -179,7 +179,7 @@ def build():
     (ROOT / "reports/QUALITY_REPORT.md").write_text(
         "# 质量报告\n\n" + "\n".join(f"- {k}：{v} 部" for k, v in sorted(grades.items()))
         + f"\n\n缺失 metadata {stats['missing_metadata']}；编码异常 {stats['encoding_errors']}；空正文文件 {stats['empty_files']}；转换失败 {stats['conversion_failures']}；精确重复组 {stats['exact_duplicate_groups']}；近重复候选 {stats['near_duplicate_candidates']}；授权未确认来源 {stats['unverified_license_sources']}。\n"
-        + "\nB 表示来源明确但本项目未逐字校勘；D 表示书目信息或转录质量较低。道藏 D 多因书目机器生成，《增刪卜易》D 因维基文库主页面标注 25% 校对程度。详见各书 `metadata.json`。\n",
+        + "\nB 表示来源明确但本项目未逐字校勘；D 表示书目信息或转录质量较低。道藏 D 多因书目机器生成，《增刪卜易》D 因维基文库主页面标注 25% 校对程度；《奇门宝鉴御定》D 因来源署名与正文年代矛盾且底本、完整性未核。详见各书 `metadata.json`。\n",
         encoding="utf-8")
     print(f"INDEXED {len(books)} books, {len(search)} units")
 

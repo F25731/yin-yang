@@ -1268,5 +1268,28 @@
     "imported_commit": "b2ef3b2acb29a427ed9090d402e5cbd935f4e878",
     "importer": "tools/import/import_kanripo.py",
     "enabled": true
+  },
+  {
+    "id": "wikisource-qimenbaojian",
+    "name": "维基文库 奇门宝鉴御定",
+    "url": "https://zh.wikisource.org/wiki/奇门宝鉴御定",
+    "type": "mediawiki",
+    "categories": [
+      "阴阳术数",
+      "奇门遁甲"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "e0d83a1ecffb2dd1f274bfd2b3416dc24925ce1c",
+    "revision": {
+      "id": 2353651,
+      "sha1": "e0d83a1ecffb2dd1f274bfd2b3416dc24925ce1c",
+      "title": "奇门宝鉴御定"
+    },
+    "importer": "tools/import/import_qimenbaojian.py",
+    "enabled": true
   }
 ]

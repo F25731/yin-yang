@@ -1,12 +1,12 @@
 {
-  "books": 4151,
-  "chapters": 12160,
-  "characters": 130879751,
+  "books": 4152,
+  "chapters": 12161,
+  "characters": 130917813,
   "major_categories": {
     "志怪神异": 9,
     "道藏": 1650,
     "佛藏": 2459,
-    "阴阳术数": 34
+    "阴阳术数": 35
   },
   "categories": {
     "佛藏": 2459,
@@ -23,7 +23,7 @@
     "太平部": 68,
     "太清部": 25,
     "太玄部": 120,
-    "奇门遁甲": 1,
+    "奇门遁甲": 2,
     "宝积": 51,
     "密教": 614,
     "律部": 87,
@@ -46,7 +46,7 @@
     "论部": 190,
     "诸宗": 266,
     "道藏": 1650,
-    "阴阳术数": 34,
+    "阴阳术数": 35,
     "阿含": 155,
     "风水堪舆": 9
   },
@@ -93,13 +93,14 @@
     "wikisource-huangjince": 1,
     "wikisource-liaozhai": 1,
     "wikisource-meihua": 1,
+    "wikisource-qimenbaojian": 1,
     "wikisource-yuewei": 1,
     "wikisource-zengshan": 1
   },
   "quality_grades": {
     "B": 2496,
     "C": 4,
-    "D": 1651
+    "D": 1652
   },
   "exact_duplicate_groups": 0,
   "duplicate_texts": 0,

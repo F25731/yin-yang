@@ -2393,6 +2393,7 @@
 - [太虛心淵篇](<../corpus/02-道藏/太玄部/太虛心淵篇/README.md>) — `KR5d0070`
 - [央掘魔羅經](<../corpus/03-佛藏/阿含/央掘魔羅經（T02n0120）/README.md>) — `cbeta-T02n0120`
 - [奇特最勝金輪佛頂念誦儀軌法要](<../corpus/03-佛藏/密教/奇特最勝金輪佛頂念誦儀軌法要（T19n0949）/README.md>) — `cbeta-T19n0949`
+- [奇门宝鉴御定](<../corpus/04-阴阳术数/06-奇门遁甲/奇门宝鉴御定/README.md>) — `wikisource-qimenbaojian`
 - [奮迅王問經](<../corpus/03-佛藏/其他/奮迅王問經（T13n0421）/README.md>) — `cbeta-T13n0421`
 - [女丹合編](<../corpus/02-道藏/其他/女丹合編/README.md>) — `KR5i0109`
 - [女青鬼律](<../corpus/02-道藏/洞神部/女青鬼律/README.md>) — `KR5c0187`

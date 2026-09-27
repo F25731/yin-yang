@@ -12,7 +12,7 @@ def fetch(source):
     sid = source["id"]
     if source["type"] == "mediawiki":
         command = [sys.executable, str(ROOT / source["importer"]), "--fetch"]
-        if sid not in ("wikisource-yuewei", "wikisource-liaozhai", "wikisource-zengshan"):
+        if sid not in ("wikisource-yuewei", "wikisource-liaozhai", "wikisource-zengshan", "wikisource-qimenbaojian"):
             command += ["--work", "meihua" if sid.endswith("meihua") else "huangjince"]
         subprocess.run(command, check=True)
         return
@@ -61,6 +61,8 @@ def main():
                 command = [sys.executable, str(ROOT / "tools/import/import_liaozhai.py")]
             elif sid == "wikisource-zengshan":
                 command = [sys.executable, str(ROOT / "tools/import/import_zengshan.py")]
+            elif sid == "wikisource-qimenbaojian":
+                command = [sys.executable, str(ROOT / "tools/import/import_qimenbaojian.py")]
             else:
                 continue  # MediaWiki works share one pinned importer, called below.
             subprocess.run(command, check=True)

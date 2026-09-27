@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "id": "wikisource-qimenbaojian",
+  "title": "奇门宝鉴御定",
+  "aliases": [
+    "奇門寶鑑御定"
+  ],
+  "author": null,
+  "author_dynasty": null,
+  "work_dynasty": null,
+  "categories": [
+    "阴阳术数",
+    "奇门遁甲"
+  ],
+  "topics": [],
+  "text_type": "classical_text",
+  "language": "classical_chinese",
+  "script": "source_preserved",
+  "edition": {
+    "name": "维基文库单页转录版",
+    "base_text": null,
+    "volume_count": null,
+    "revision": {
+      "id": 2353651,
+      "sha1": "e0d83a1ecffb2dd1f274bfd2b3416dc24925ce1c",
+      "title": "奇门宝鉴御定"
+    },
+    "upstream_attribution": "唐 徐道符（与正文提及明代人物矛盾，未经证实）"
+  },
+  "source": {
+    "source_id": "wikisource-qimenbaojian",
+    "repository": "https://zh.wikisource.org/wiki/奇门宝鉴御定",
+    "commit": "e0d83a1ecffb2dd1f274bfd2b3416dc24925ce1c",
+    "original_path": [
+      "奇门宝鉴御定"
+    ],
+    "upstream_url": "https://zh.wikisource.org/wiki/奇门宝鉴御定"
+  },
+  "license": {
+    "status": "ATTRIBUTION_REQUIRED",
+    "name": "CC BY-SA 4.0 / GFDL; underlying premodern work public domain",
+    "notice": "See LICENSES.md and reports/LICENSE_REPORT.md"
+  },
+  "processing": {
+    "importer_version": "1.0",
+    "normalized": true,
+    "ai_modified_text": false,
+    "import_date": "2026-09-28",
+    "changes": "Removed page header and title markup; preserved source text and glyphs without modernization"
+  },
+  "statistics": {
+    "characters": 38062,
+    "chapters": 1
+  },
+  "quality": {
+    "grade": "D",
+    "ocr": false,
+    "known_issues": [
+      "Upstream attributes this work to Tang Xu Daofu, but the text discusses Ming figures; attribution is inconsistent",
+      "No identified print base or independent collation; edition completeness outside this page is unverified"
+    ]
+  },
+  "original_format": "MediaWiki wikitext",
+  "current_format": "text/markdown; charset=utf-8"
+}

@@ -4275,6 +4275,10 @@
 
 - [梅花易數](<../corpus/04-阴阳术数/05-梅花易数/梅花易數/README.md>) — `wikisource-meihua`
 
+## wikisource-qimenbaojian
+
+- [奇门宝鉴御定](<../corpus/04-阴阳术数/06-奇门遁甲/奇门宝鉴御定/README.md>) — `wikisource-qimenbaojian`
+
 ## wikisource-yuewei
 
 - [閱微草堂筆記](<../corpus/01-志怪神异/閱微草堂筆記/README.md>) — `wikisource-yuewei`
