@@ -1328,5 +1328,23 @@
     "importer": "tools/import/import_modern_folklore.py",
     "enabled": true,
     "scope": "Episode-title index only; large MP3 files are not mirrored"
+  },
+  {
+    "id": "wikisource-zhiguai-bulk",
+    "name": "中文维基文库志怪补充集",
+    "url": "https://zh.wikisource.org/",
+    "type": "mediawiki",
+    "categories": [
+      "志怪神异"
+    ],
+    "license": {
+      "name": "CC BY-SA 4.0 / GFDL; underlying public-domain works",
+      "verified": true,
+      "status": "ATTRIBUTION_REQUIRED"
+    },
+    "imported_commit": "0000000000000000000000000000000000000000",
+    "importer": "tools/import/import_zhiguai_wikisource.py",
+    "enabled": true,
+    "scope": "Selected premodern zhiguai works; manifest hash is refreshed from revision SHA1 values at import time"
   }
 ]
