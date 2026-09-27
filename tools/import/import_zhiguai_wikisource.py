@@ -13,6 +13,8 @@ import shutil
 import sys
 import urllib.parse
 import urllib.request
+import urllib.error
+import time
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -48,11 +50,27 @@ WORKS = {
 
 def api(params):
     params = dict(params)
-    params.update({"format": "json", "formatversion": "2"})
+    params.update({"format": "json", "formatversion": "2", "maxlag": "5"})
     url = API + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "YinYangCorpus/2.0 (F25731/yin-yang)"})
-    with urllib.request.urlopen(req, timeout=90) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    req = urllib.request.Request(url, headers={"User-Agent": "YinYangCorpus/2.1 (F25731/yin-yang; batch importer)"})
+    last = None
+    for attempt in range(8):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                payload = json.loads(resp.read().decode("utf-8"))
+            time.sleep(0.18)
+            return payload
+        except urllib.error.HTTPError as exc:
+            last = exc
+            if exc.code not in (429, 500, 502, 503, 504):
+                raise
+            retry = exc.headers.get("Retry-After")
+            delay = float(retry) if retry and retry.isdigit() else min(60, 2 ** attempt)
+            time.sleep(delay)
+        except urllib.error.URLError as exc:
+            last = exc
+            time.sleep(min(30, 2 ** attempt))
+    raise last
 
 
 def list_subpages(title):
@@ -69,16 +87,22 @@ def list_subpages(title):
     return result
 
 
-def revision(title):
-    data = api({"action":"query","prop":"revisions","titles":title,"rvprop":"ids|sha1","rvslots":"main"})
-    pages = data.get("query", {}).get("pages", [])
-    if not pages or pages[0].get("missing"):
-        return None
-    revs = pages[0].get("revisions", [])
-    if not revs:
-        return None
-    rev = revs[0]
-    return {"title": title, "revid": rev.get("revid"), "sha1": rev.get("sha1")}
+def revisions(titles):
+    result = {}
+    for offset in range(0, len(titles), 40):
+        batch = titles[offset:offset + 40]
+        data = api({
+            "action": "query", "prop": "revisions", "titles": "|".join(batch),
+            "rvprop": "ids|sha1", "rvslots": "main",
+        })
+        for page in data.get("query", {}).get("pages", []):
+            if page.get("missing") or not page.get("revisions"):
+                continue
+            rev = page["revisions"][0]
+            result[page["title"]] = {
+                "title": page["title"], "revid": rev.get("revid"), "sha1": rev.get("sha1")
+            }
+    return [result[t] for t in titles if t in result]
 
 
 def rendered_text(title):
@@ -131,12 +155,8 @@ def run():
         pages = list_subpages(work)
         if not pages:
             pages = [work]
-        revs = []
-        for page in pages:
-            info = revision(page)
-            if info:
-                revs.append(info)
-                lock.append(info)
+        revs = revisions(pages)
+        lock.extend(revs)
         if revs:
             plan[work] = revs
         else:
