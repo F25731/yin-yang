@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "id", "title", "categories", "source", "license", "processing", "statistics", "quality"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "categories": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "source": {"type": "object", "required": ["source_id", "repository", "commit", "original_path"]},
+    "license": {"type": "object", "required": ["status", "name", "notice"]},
+    "statistics": {"type": "object", "required": ["characters", "chapters"]},
+    "quality": {"type": "object", "required": ["grade", "ocr", "known_issues"]}
+  }
+}
