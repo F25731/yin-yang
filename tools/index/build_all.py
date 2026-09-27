@@ -171,11 +171,14 @@ def build():
         encoding="utf-8")
     (ROOT / "reports/DUPLICATE_REPORT.md").write_text(
         "# 重复与版本报告\n\n" + f"完全相同组 {len(duplicates['exact_groups'])}；同题名版本组 {len(duplicates['edition_groups'])}；近似候选 {len(duplicates['near_candidates'])}。\n\n"
-        + "详情见 `metadata/duplicate-groups.json`。近似候选仅供人工判断，不自动删除正文。\n",
+        + "近似候选仅供人工判断，不自动删除正文。详情见 `metadata/duplicate-groups.json`。\n\n"
+        + "## 同题名版本示例\n\n"
+        + "\n".join("- " + group["canonical_work"] + "：" + "、".join(group["editions"])
+                    for group in duplicates["edition_groups"][:30]) + "\n",
         encoding="utf-8")
     (ROOT / "reports/QUALITY_REPORT.md").write_text(
         "# 质量报告\n\n" + "\n".join(f"- {k}：{v} 部" for k, v in sorted(grades.items()))
-        + f"\n\n转换失败 {stats['conversion_failures']}；精确重复组 {stats['exact_duplicate_groups']}；近重复候选 {stats['near_duplicate_candidates']}。\n"
+        + f"\n\n缺失 metadata {stats['missing_metadata']}；编码异常 {stats['encoding_errors']}；空正文文件 {stats['empty_files']}；转换失败 {stats['conversion_failures']}；精确重复组 {stats['exact_duplicate_groups']}；近重复候选 {stats['near_duplicate_candidates']}；授权未确认来源 {stats['unverified_license_sources']}。\n"
         + "\nB 表示来源明确但本项目未逐字校勘；D 表示来源书目信息或版本仍待核验。详见各书 `metadata.json`。\n",
         encoding="utf-8")
     print(f"INDEXED {len(books)} books, {len(search)} units")
